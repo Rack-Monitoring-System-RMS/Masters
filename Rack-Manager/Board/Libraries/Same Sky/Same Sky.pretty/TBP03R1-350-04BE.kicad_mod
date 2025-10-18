@@ -1,0 +1,152 @@
+(footprint "TBP03R1-350-04BE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4 pins terminal block, 3.50mm pitch.")
+	(tags "SameSky Same Sky TBP TBP03 TBP03R1 TBP03R1-350 TBP03R1-350-04 TBP03R1-350-04BE terminal block 4 3.5")
+	(property "Reference" "REF**"
+		(at 5.3 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d42fa1eb-22fc-41c6-9896-4e1adedc7223")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "TBP03R1-350-04BE"
+		(at 5.25 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7e40432a-685b-4d01-8459-8c2631525e04")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp03r1-350.pdf"
+		(at 0 -10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41c78357-9651-4f79-bb5b-af013f01d12f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "4 pins terminal block, 3.50mm pitch."
+		(at 0 -10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f33e2bc1-f802-482c-a7cd-fbd06b25f9aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.15 -1.4)
+		(end 12.65 8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3543b5fd-2b4a-4b76-9152-b4b8a5c0f487")
+	)
+	(fp_rect
+		(start -3 -2)
+		(end 14 9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f6e40b95-6b58-4546-beef-a696472a439b")
+	)
+	(fp_rect
+		(start -2.15 -1.2)
+		(end 12.65 8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fd338252-689f-44bd-83e0-b298dbc68f5f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.25 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "49d26220-d03d-46b8-b175-d5f0210a2310")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1312335958)
+		(uuid "97e96863-8167-4644-bbba-1db99939881d")
+	)
+	(pad "2" thru_hole circle
+		(at 3.5 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "ec3d4594-4d75-4eea-bfd1-1266129d5dd5")
+	)
+	(pad "3" thru_hole circle
+		(at 7 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "e0a5aa04-3352-4ed8-b748-887f6f5a92f5")
+	)
+	(pad "4" thru_hole circle
+		(at 10.5 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "580187e5-aed3-4a4b-aaf5-3de5be636967")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Same Sky/3D models/TBP03R1-350-04BE.step"
+		(offset
+			(xyz -2.15 -2.25 -2.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

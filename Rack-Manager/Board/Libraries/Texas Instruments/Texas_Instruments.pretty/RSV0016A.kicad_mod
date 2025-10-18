@@ -1,0 +1,307 @@
+(footprint "RSV0016A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "UQFN 16 pads, 0.55mm max height")
+	(tags "Texas Instruments UQFN 16 RSV RSV0016A")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "529cd01f-7a69-4027-b5da-95edd5fce5bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RSV0016A"
+		(at 0 2.6 0)
+		(layer "F.Fab")
+		(uuid "a50622ee-26a6-4eab-bdc1-c0b82507c025")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ml/qfnd836/qfnd836.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ce854eb-534e-4b0f-95a8-c56c611a93ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "UQFN-16, 0.55mm max height"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf3605fe-afb9-419c-8bcb-3d413cdc5494")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.07)
+	(clearance 0.1)
+	(attr smd)
+	(fp_line
+		(start -1 -1.4)
+		(end -0.85 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f8668eb-3441-4b61-bcfc-873f01830fb5")
+	)
+	(fp_line
+		(start -1 -0.9)
+		(end -1 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "618606f4-03b4-45ab-bbb3-131538c483d9")
+	)
+	(fp_line
+		(start -1 1.4)
+		(end -1 0.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4579cab0-1bfa-49a8-8626-986c1f05835f")
+	)
+	(fp_line
+		(start -1 1.4)
+		(end -0.85 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58a9e9e0-dc4f-44ed-a3ae-1290c96e1891")
+	)
+	(fp_line
+		(start 0.85 -1.4)
+		(end 1 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7473f066-14ff-440a-90a3-a31c4035f3e0")
+	)
+	(fp_line
+		(start 0.85 1.4)
+		(end 1 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2dd3a3fd-e26e-41c6-9d61-03a1a9bcebb4")
+	)
+	(fp_line
+		(start 1 -1.4)
+		(end 1 -0.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0f29596-3bdc-479e-ba67-239ca8301aa5")
+	)
+	(fp_line
+		(start 1 1.4)
+		(end 1 0.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fff5f0c-7921-4a06-bd94-b6c26f54dedb")
+	)
+	(fp_poly
+		(pts
+			(xy -1.75 -0.4) (xy -1.75 -0.8) (xy -1.5 -0.6)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "39d5c62a-828d-4f58-9622-8f317ff43908")
+	)
+	(fp_rect
+		(start -1.25 -1.65)
+		(end 1.25 1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6ddd3a9d-17eb-4476-ac5b-4da11740b537")
+	)
+	(fp_poly
+		(pts
+			(xy -0.9 -0.85) (xy -0.9 1.3) (xy 0.9 1.3) (xy 0.9 -1.3) (xy -0.45 -1.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "24902e9e-e61a-47ce-bf2c-255398740b39")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "3121245f-64bd-4f53-a210-b8b102f5bdce")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.75 -0.6)
+		(size 0.7 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7af07183-e3e3-4d0e-baf2-8212dc6326a3")
+	)
+	(pad "2" smd roundrect
+		(at -0.8 -0.2)
+		(size 0.6 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3393b7ee-6c03-46fd-8319-87e2db28cf89")
+	)
+	(pad "3" smd roundrect
+		(at -0.8 0.2)
+		(size 0.6 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "efee57ff-3d0f-4187-b76a-622fe008bc18")
+	)
+	(pad "4" smd roundrect
+		(at -0.8 0.6)
+		(size 0.6 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "cff35266-0dad-4516-8677-b9ed6f414876")
+	)
+	(pad "5" smd roundrect
+		(at -0.6 1.2)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1de1b59e-2b03-4b9a-b0a7-bffc5fc2fde4")
+	)
+	(pad "6" smd roundrect
+		(at -0.2 1.2)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c6d14072-d3c7-449b-9559-52d5213fb57e")
+	)
+	(pad "7" smd roundrect
+		(at 0.2 1.2)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c3fcb6fe-d4bb-431c-9bbb-8efad66b9064")
+	)
+	(pad "8" smd roundrect
+		(at 0.6 1.2)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c0efa31b-97be-407f-b0c6-c137130dcb36")
+	)
+	(pad "9" smd roundrect
+		(at 0.8 0.6)
+		(size 0.6 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9f49fb36-7854-4634-b65a-abc4c7ad03fb")
+	)
+	(pad "10" smd roundrect
+		(at 0.8 0.2)
+		(size 0.6 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e828372c-81d0-4f05-8b7d-99a503d9c3cf")
+	)
+	(pad "11" smd roundrect
+		(at 0.8 -0.2)
+		(size 0.6 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "5992d31d-14d0-4d7a-8b1a-7894056baa49")
+	)
+	(pad "12" smd roundrect
+		(at 0.8 -0.6)
+		(size 0.6 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3dddf478-f585-4118-8cb1-ecdf410b3497")
+	)
+	(pad "13" smd roundrect
+		(at 0.6 -1.2)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8c4e5a7f-d13f-4803-ac15-32c300e8b042")
+	)
+	(pad "14" smd roundrect
+		(at 0.2 -1.2)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "745b80b2-4d58-48a2-94e8-770cbcc22ce3")
+	)
+	(pad "15" smd roundrect
+		(at -0.2 -1.2)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9d29bf31-2465-4243-b796-e2a2064ac96a")
+	)
+	(pad "16" smd roundrect
+		(at -0.6 -1.2)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "079fb89e-5ea1-4fce-9058-65a76a501b1f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Texas Instruments/3D models/RSV0016A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

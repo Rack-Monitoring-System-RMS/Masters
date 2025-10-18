@@ -1,0 +1,232 @@
+(footprint "DGK0008A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "VSSOP 8 pins, 1.1mm max height")
+	(tags "Texas Instruments SOP VSSOP DG DGK DGK00 DGK0008A")
+	(property "Reference" "REF**"
+		(at 0 -2.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "078b8fe8-b3e5-484f-a813-f1b1ef3b0fb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DGK0008A"
+		(at 0 2.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "169960c6-f635-4b25-b870-b02199068207")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ml/mpds028e/mpds028e.pdf"
+		(at -2.2 -10.975 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c5ad7ed-9982-4136-9a9b-027d1d56fc4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "VSSOP 8 pins, 1.1mm max height"
+		(at -2.2 -10.975 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e170a412-2ac7-4099-9fcf-5f56e8fd707a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.07)
+	(attr smd)
+	(fp_rect
+		(start -3.2 -1.5)
+		(end 3.2 1.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "36a69c96-883c-498a-93b8-168dddd93425")
+	)
+	(fp_poly
+		(pts
+			(xy -3.643363 -1) (xy -4.043363 -1.35) (xy -4.043363 -0.65)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3023850b-20f1-4a96-91fc-d519f5c88132")
+	)
+	(fp_rect
+		(start -3.45 -1.75)
+		(end 3.45 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "520b2f51-7da1-42a5-aff7-815d7163cef4")
+	)
+	(fp_line
+		(start -2.45 -0.75)
+		(end -2.45 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "971b2a72-fbb4-41e3-8a93-8518517c8cc5")
+	)
+	(fp_line
+		(start -2.45 -0.75)
+		(end -1.7 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "52b17821-e0f1-4905-9a14-ad00f10f60d0")
+	)
+	(fp_line
+		(start 2.45 -1.5)
+		(end -1.7 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3fc8ff53-a47b-48b8-91dc-b4a686e5a037")
+	)
+	(fp_line
+		(start 2.45 -1.5)
+		(end 2.45 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3aadd7fd-b6f8-4435-8687-ba8dcd90e867")
+	)
+	(fp_line
+		(start 2.45 1.5)
+		(end -2.45 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9dd94a26-42c5-4d5c-9bbc-f8d5670f72de")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "492faa9c-3bf5-4e3a-be7d-7b52f0d26a44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.2 -0.975)
+		(size 1.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(thermal_bridge_angle 45)
+		(uuid "1aab0bb1-9bca-4806-91d4-ea2244e7906b")
+	)
+	(pad "1" smd roundrect
+		(at -2.2 -0.325)
+		(size 1.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(thermal_bridge_angle 45)
+		(uuid "f83794c8-b450-4939-b3bc-6fbec993ba4a")
+	)
+	(pad "1" smd roundrect
+		(at -2.2 0.325)
+		(size 1.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(thermal_bridge_angle 45)
+		(uuid "e353127c-94a8-42b2-a845-3f6cff961e2e")
+	)
+	(pad "1" smd roundrect
+		(at -2.2 0.975)
+		(size 1.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(thermal_bridge_angle 45)
+		(uuid "f71e687e-17fd-4575-a68c-480c86e0a705")
+	)
+	(pad "1" smd roundrect
+		(at 2.2 -0.975)
+		(size 1.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(thermal_bridge_angle 45)
+		(uuid "af096ac7-25f1-45bc-b023-3ea109226bd5")
+	)
+	(pad "1" smd roundrect
+		(at 2.2 -0.325)
+		(size 1.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(thermal_bridge_angle 45)
+		(uuid "51b0a4a5-b238-4af1-9c74-930f914e5c50")
+	)
+	(pad "1" smd roundrect
+		(at 2.2 0.325)
+		(size 1.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(thermal_bridge_angle 45)
+		(uuid "86276798-f385-41b3-90d4-ff4a6e485eb3")
+	)
+	(pad "1" smd roundrect
+		(at 2.2 0.975)
+		(size 1.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(thermal_bridge_angle 45)
+		(uuid "d49521cf-4ea8-419e-ae73-3caf5a544dfb")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Texas Instruments/3D models/DGK0008A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

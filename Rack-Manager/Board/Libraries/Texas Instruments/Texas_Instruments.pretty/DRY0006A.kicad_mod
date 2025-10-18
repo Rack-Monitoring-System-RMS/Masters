@@ -1,0 +1,216 @@
+(footprint "DRY0006A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Texas Instruments USON-6, 0.6mm max height")
+	(tags "Texas Instruments USON 6 DRY DRY0006A")
+	(property "Reference" "Ref**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e7f30fd6-211e-42b2-8b1b-d954db52d166")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DRY0006A"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "277825a2-f2b0-44e0-83a1-dea91ba613c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ml/qfnd138e/qfnd138e.pdf"
+		(at -0.3 -7.45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8630e19a-bea0-4595-a323-c3ed1ff73388")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Texas Instruments USON-6, 0.6mm max height"
+		(at -0.3 -7.45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f01dc6b2-64e1-4772-8935-314fc3f4d6c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.07)
+	(clearance 0.1)
+	(attr smd)
+	(fp_rect
+		(start -0.7 -0.8)
+		(end 0.7 0.8)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8a91b97c-3fb0-41c9-80b3-82942b15b568")
+	)
+	(fp_circle
+		(center -0.95 -1.05)
+		(end -0.85 -1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2fbfe0f2-d8e7-4d1b-8bc2-454fabbf53f3")
+	)
+	(fp_rect
+		(start -0.9 -1)
+		(end 0.9 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "56a3e769-7eb0-4232-8b9a-dfb98f2f50c8")
+	)
+	(fp_line
+		(start -0.7 -0.45)
+		(end -0.7 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "26ee052e-273b-4ffa-ba90-a909fed41278")
+	)
+	(fp_line
+		(start -0.7 0.8)
+		(end 0.7 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c7bbcd09-8e4a-42dd-a7f6-20816770cd85")
+	)
+	(fp_line
+		(start -0.35 -0.8)
+		(end -0.7 -0.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fe5b4457-82a5-41bb-b593-3bf9229a4928")
+	)
+	(fp_line
+		(start 0.7 -0.8)
+		(end -0.35 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "dbb7e376-0ee7-45d9-9b6a-58d7736caa2c")
+	)
+	(fp_line
+		(start 0.7 0.8)
+		(end 0.7 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "18e99acd-9069-4a78-aac6-c0e39fcc9b2a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fc325015-f90d-489d-b400-22b52573490e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.3 -0.5)
+		(size 0.35 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "8767085f-287a-4c76-9bb9-053427e73972")
+	)
+	(pad "2" smd roundrect
+		(at -0.3 0)
+		(size 0.35 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "039d3a8e-80a2-4510-a568-4a286adeca0b")
+	)
+	(pad "3" smd roundrect
+		(at -0.3 0.5)
+		(size 0.35 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "cc1678bb-c51e-49f9-8e31-1d22fa87276d")
+	)
+	(pad "4" smd roundrect
+		(at 0.3 0.5)
+		(size 0.35 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "78a73594-0b27-4391-a6c5-876800056f44")
+	)
+	(pad "5" smd roundrect
+		(at 0.3 0)
+		(size 0.35 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "64a6c53f-0514-4f11-9b60-3824d485e42a")
+	)
+	(pad "6" smd roundrect
+		(at 0.3 -0.5)
+		(size 0.35 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "85ea20d7-39cf-4777-a6a2-28fc99535c13")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Texas Instruments/3D models/DRY0006A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

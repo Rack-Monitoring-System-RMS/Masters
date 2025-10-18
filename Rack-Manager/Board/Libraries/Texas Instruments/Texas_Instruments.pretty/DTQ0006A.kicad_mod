@@ -1,0 +1,335 @@
+(footprint "DTQ0006A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Texas Instruments X2SON-6 0.4mm max height")
+	(tags "Texas Instruments X2SON 6 DT DTQ DTQ0006A")
+	(property "Reference" "Ref**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8ec05d17-a5b0-4f97-82fc-624ae3c518a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DTQ0006A"
+		(at 0 1.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ba324828-52ff-4dc3-82bc-314dfb3ec1e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ml/muss003a/muss003a.pdf"
+		(at -1.8 -7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39a50d16-04ed-4b68-8638-d220169fd0b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Texas Instruments X2SON-6 0.4mm max height"
+		(at -1.8 -7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce757caf-a8f6-46fb-a0d6-a283a50bfaff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.07)
+	(clearance 0.1)
+	(attr smd)
+	(fp_line
+		(start -0.55 -0.35)
+		(end -0.55 0.35)
+		(stroke
+			(width 0.13)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f194d887-cf3d-445d-84f8-8f1cb4b4aa13")
+	)
+	(fp_line
+		(start 0.55 -0.35)
+		(end 0.55 0.35)
+		(stroke
+			(width 0.13)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dec0dd43-cbc9-4ab2-ab67-46e14dd7406f")
+	)
+	(fp_circle
+		(center -0.7 -0.65)
+		(end -0.6 -0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "fd4d748d-53bc-4fc5-96fa-daf2af2109d9")
+	)
+	(fp_rect
+		(start -0.75 -0.8)
+		(end 0.75 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "360c047a-bb11-47b4-ac57-e603fb79de22")
+	)
+	(fp_line
+		(start -0.55 -0.2)
+		(end -0.3 -0.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fd4cfc2d-2c6a-4cfc-ae56-24b6b6dcdbc2")
+	)
+	(fp_line
+		(start -0.55 0.45)
+		(end -0.55 -0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "88894d04-7e70-482d-b416-6c537d3e0daa")
+	)
+	(fp_line
+		(start -0.3 -0.45)
+		(end 0.55 -0.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a69f34b2-26b3-402f-93ff-128027dc04f6")
+	)
+	(fp_line
+		(start 0.55 -0.45)
+		(end 0.55 0.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5d6fa9f6-6fc6-4ca1-a5cb-e5ab1c3ba14b")
+	)
+	(fp_line
+		(start 0.55 0.45)
+		(end -0.55 0.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1ad7f3c3-8eaa-411e-b038-09403741b5cf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fc325015-f90d-489d-b400-22b52573490e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -0.3 -0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.125 -0.1105) (xy 0.121194 -0.129634) (xy 0.110355 -0.145855) (xy 0.094134 -0.156694) (xy 0.075 -0.1605)
+					(xy -0.075 -0.1605) (xy -0.094134 -0.156694) (xy -0.110355 -0.145855) (xy -0.121194 -0.129634)
+					(xy -0.125 -0.1105) (xy -0.125 0.1105) (xy -0.121194 0.129634) (xy -0.110355 0.145855) (xy -0.094134 0.156694)
+					(xy -0.075 0.1605) (xy 0.075 0.1605) (xy 0.094134 0.156694) (xy 0.110355 0.145855) (xy 0.121194 0.129634)
+					(xy 0.125 0.1105)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.125 0.3105) (xy -0.125 0.07) (xy 0.125 0.07) (xy 0.125 0.1815) (xy -0.098 0.3105)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "e9a80aa6-a75a-4c98-b60f-2eb48f87128f")
+	)
+	(pad "2" smd custom
+		(at -0.2 0 180)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.144 0) (xy -0.072 -0.125) (xy -0.072 0.125)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "64c8918e-fe7d-47e2-a0c1-0b7e3b60b43d")
+	)
+	(pad "3" smd custom
+		(at -0.3 0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.125 0.1105) (xy 0.121194 0.129634) (xy 0.110355 0.145855) (xy 0.094134 0.156694) (xy 0.075 0.1605)
+					(xy -0.075 0.1605) (xy -0.094134 0.156694) (xy -0.110355 0.145855) (xy -0.121194 0.129634) (xy -0.125 0.1105)
+					(xy -0.125 -0.1105) (xy -0.121194 -0.129634) (xy -0.110355 -0.145855) (xy -0.094134 -0.156694)
+					(xy -0.075 -0.1605) (xy 0.075 -0.1605) (xy 0.094134 -0.156694) (xy 0.110355 -0.145855) (xy 0.121194 -0.129634)
+					(xy 0.125 -0.1105)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.125 -0.3105) (xy -0.125 -0.07) (xy 0.125 -0.07) (xy 0.125 -0.1815) (xy -0.098 -0.3105)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "eaa7c7b4-1d36-46ad-8e00-b90fbde41121")
+	)
+	(pad "4" smd custom
+		(at 0.3 0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.125 0.1105) (xy -0.121194 0.129634) (xy -0.110355 0.145855) (xy -0.094134 0.156694) (xy -0.075 0.1605)
+					(xy 0.075 0.1605) (xy 0.094134 0.156694) (xy 0.110355 0.145855) (xy 0.121194 0.129634) (xy 0.125 0.1105)
+					(xy 0.125 -0.1105) (xy 0.121194 -0.129634) (xy 0.110355 -0.145855) (xy 0.094134 -0.156694) (xy 0.075 -0.1605)
+					(xy -0.075 -0.1605) (xy -0.094134 -0.156694) (xy -0.110355 -0.145855) (xy -0.121194 -0.129634)
+					(xy -0.125 -0.1105)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 0.125 -0.3105) (xy 0.125 -0.07) (xy -0.125 -0.07) (xy -0.125 -0.1815) (xy 0.098 -0.3105)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "225f1be9-81a0-477e-a5e4-90232b5a95e2")
+	)
+	(pad "5" smd custom
+		(at 0.2 0)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.144 0) (xy -0.072 -0.125) (xy -0.072 0.125)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "be5a788e-02a9-4af7-9aff-f6837ae02a1e")
+	)
+	(pad "6" smd custom
+		(at 0.3 -0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.125 -0.1105) (xy -0.121194 -0.129634) (xy -0.110355 -0.145855) (xy -0.094134 -0.156694)
+					(xy -0.075 -0.1605) (xy 0.075 -0.1605) (xy 0.094134 -0.156694) (xy 0.110355 -0.145855) (xy 0.121194 -0.129634)
+					(xy 0.125 -0.1105) (xy 0.125 0.1105) (xy 0.121194 0.129634) (xy 0.110355 0.145855) (xy 0.094134 0.156694)
+					(xy 0.075 0.1605) (xy -0.075 0.1605) (xy -0.094134 0.156694) (xy -0.110355 0.145855) (xy -0.121194 0.129634)
+					(xy -0.125 0.1105)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 0.125 0.3105) (xy 0.125 0.07) (xy -0.125 0.07) (xy -0.125 0.1815) (xy 0.098 0.3105)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "f4639f6e-ac53-4d65-adba-14331363602b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Texas Instruments/3D models/DTQ0006A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
