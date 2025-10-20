@@ -1,4 +1,4 @@
-26479681163559647
+26387907608823063
 Abracon
 ARJM11 - Package C
 RJ45 Connector
@@ -1303,8 +1303,8 @@ CK C&K SPST
 2
 Button_Switch_SMD
 SW_Push_1P1T_NO_CK_KSC6xxJ
-Tactile switch, 6.2x6.25 mm, H7.68 mm, J leads, https://www.ckswitches.com/media/1972/ksc6.pdf
-CK C&K SPST
+CK components KSC6 tactile switch https://www.ckswitches.com/media/1972/ksc6.pdf
+tactile switch ksc6
 0
 4
 2
@@ -1317,8 +1317,8 @@ tactile switch ksc7
 2
 Button_Switch_SMD
 SW_Push_1P1T_NO_CK_KSC9xxG
-Tactile switch, 6.2x6.2mm, H7.7mm, compatible with button, gullwing leads, https://www.ckswitches.com/media/1975/ksc9.pdf
-CK C&K SPST
+Tactile switch, 6.2x6.2mm, height=7.7mm, compatible with button, gullwing pins, https://www.ckswitches.com/media/1975/ksc9.pdf
+tactile switch ksc9
 0
 4
 2
@@ -55084,8 +55084,8 @@ MeasurementPoint Square SMDPad 1.5mmx3mm
 1
 Connector_Wire
 SolderWirePad_1x01_SMD_1x2mm
-Wire Pad, Square, SMD Pad,  1mm x 2mm
-MeasurementPoint Square SMDPad 1mmx2mm 
+Wire Pad, Square, SMD Pad,  1mm x 2mm,
+MesurementPoint Square SMDPad 1mmx2mm 
 0
 1
 1
@@ -55112,8 +55112,8 @@ MeasurementPoint Square SMDPad 4mmx8mm
 1
 Connector_Wire
 SolderWirePad_1x01_SMD_5x10mm
-Wire Pad, Square, SMD Pad,  5mm x 10mm
-MeasurementPoint Square SMDPad 5mmx10mm 
+Wire Pad, Square, SMD Pad,  5mm x 10mm,
+MesurementPoint Square SMDPad 5mmx10mm 
 0
 1
 1
@@ -59921,63 +59921,63 @@ Ferrite vertical LairdTech 28C0236-0JW-10
 2
 Fiducial
 Fiducial_0.5mm_Mask1.5mm
-Fiducial, circular marking, 0.5mm bare copper, 1.5mm soldermask opening
+Circular Fiducial, 0.5mm bare copper, 1.5mm soldermask opening
 fiducial
 0
 1
 0
 Fiducial
 Fiducial_0.5mm_Mask1mm
-Fiducial, circular marking, 0.5mm bare copper, 1mm soldermask opening (Level C)
+Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)
 fiducial
 0
 1
 0
 Fiducial
 Fiducial_0.5mm_Mask2mm
-Fiducial, circular marking, 0.5mm bare copper, 2mm soldermask opening
+Circular Fiducial, 0.5mm bare copper, 2mm soldermask opening
 fiducial
 0
 1
 0
 Fiducial
 Fiducial_0.75mm_Mask1.5mm
-Fiducial, circular marking, 0.75mm bare copper, 1.5mm soldermask opening (Level B)
+Circular Fiducial, 0.75mm bare copper, 1.5mm soldermask opening (Level B)
 fiducial
 0
 1
 0
 Fiducial
 Fiducial_0.75mm_Mask2.25mm
-Fiducial, circular marking, 0.75mm bare copper, 2.25mm soldermask opening
+Circular Fiducial, 0.75mm bare copper, 2.25mm soldermask opening
 fiducial
 0
 1
 0
 Fiducial
 Fiducial_1.5mm_Mask3mm
-Fiducial, circular marking, 1.5mm bare copper, 3mm soldermask opening
+Circular Fiducial, 1.5mm bare copper, 3mm soldermask opening
 fiducial
 0
 1
 0
 Fiducial
 Fiducial_1.5mm_Mask4.5mm
-Fiducial, circular marking, 1.5mm bare copper, 4.5mm soldermask opening
+Circular Fiducial, 1.5mm bare copper, 4.5mm soldermask opening
 fiducial
 0
 1
 0
 Fiducial
 Fiducial_1mm_Mask2mm
-Fiducial, circular marking, 1mm bare copper, 2mm soldermask opening (Level A)
+Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)
 fiducial
 0
 1
 0
 Fiducial
 Fiducial_1mm_Mask3mm
-Fiducial, circular marking, 1mm bare copper, 3mm soldermask opening (recommended)
+Circular Fiducial, 1mm bare copper, 3mm soldermask opening (recommended)
 fiducial
 0
 1
@@ -61741,8 +61741,8 @@ molded power shielded
 2
 Inductor_SMD
 L_AVX_LMLP07A7
-Inductor, AVX, LMLP07A7, LMLP series, Style D, 7.3x6.6x3.0mm, (https://datasheets.avx.com/LMLPD.pdf), generated with kicad-footprint-generator gen_inductor.py
-AVX-Kyocera power shielded low-profile
+Inductor, AVX Kyocera, LMLP Series, style D, 6.6mmx7.3mm, 3.0mm height., https://datasheets.avx.com/LMLPD.pdf, generated with kicad-footprint-generator StandardBox_generator.py
+Inductor LMLP
 0
 2
 2
@@ -77406,6 +77406,13 @@ Maxim TDFN NoLead
 11
 7
 Package_DFN_QFN
+Maxim_TDFN-10-1EP_3x3mm_P0.5mm_EP1.58x2.35mm
+Maxim  TDFN, 10 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfn/21-0137.pdf and https://www.analog.com/media/en/package-pcb-resources/land-pattern/tdfn-ep/90-0003.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Maxim TDFN NoLead T1033-2 MO229/WEED-3
+0
+15
+11
+Package_DFN_QFN
 Maxim_TDFN-12-1EP_3x3mm_P0.5mm_EP1.7x2.5mm
 Maxim TDFN, 12 Pin (https://www.analog.com/media/en/package-pcb-resources/land-pattern/tdfn/90-0397.pdf)
 DFN NoLead
@@ -81228,6 +81235,20 @@ VQFN NoLead
 75
 49
 Package_DFN_QFN
+VQFN-48-1EP_7x7mm_P0.5mm_EP4.2x4.2mm
+VQFN, 48 Pin (Based on JEDEC MO-220 variation VKKD-2 (using Figure 1), custom Exposed Pad from NXP, https://www.jedec.org/document_search?search_api_views_fulltext=MO-220, https://www.nxp.com/docs/en/package-information/SOT619-28.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead NXP_SOT619-28
+0
+53
+49
+Package_DFN_QFN
+VQFN-48-1EP_7x7mm_P0.5mm_EP4.2x4.2mm_ThermalVias
+VQFN, 48 Pin (Based on JEDEC MO-220 variation VKKD-2 (using Figure 1), custom Exposed Pad from NXP, https://www.jedec.org/document_search?search_api_views_fulltext=MO-220, https://www.nxp.com/docs/en/package-information/SOT619-28.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead NXP_SOT619-28
+0
+70
+49
+Package_DFN_QFN
 VQFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm
 VQFN, 48 Pin (http://www.ti.com/lit/ds/symlink/cc1312r.pdf#page=48), generated with kicad-footprint-generator ipc_noLead_generator.py
 VQFN NoLead
@@ -84071,7 +84092,7 @@ PG-TSNP-6-10 TSNP
 6
 Package_LGA
 Kionix_LGA-12_2x2mm_P0.5mm_LayoutBorder2x4y
-Kionix  LGA, 12 Pin (https://www.digikey.com/Site/Global/Layouts/DownloadPdf.ashx?pdfUrl=3557DE8B1578472CBA17FB72BE0052DC#page=4), generated with kicad-footprint-generator ipc_noLead_generator.py
+Kionix  LGA, 12 Pin (http://kionixfs.kionix.com/en/document/TN008-PCB-Design-Guidelines-for-2x2-LGA-Sensors.pdf#page=4), generated with kicad-footprint-generator ipc_noLead_generator.py
 Kionix LGA NoLead
 0
 12
@@ -84876,8 +84897,8 @@ TQFP QFP SU-64-1 CASE-932BH
 64
 Package_QFP
 TQFP-64_10x10mm_P0.5mm
-TQFP, 64 Pin (JEITA/EIAJ ED-7311A (variation 64-001-TCA) / JEDEC MS-026 (variation ACD), 1.00mm body thickness, https://www.jeita.or.jp/japanese/standard/book/ED-7311A/#target/page_no=30, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026), generated with kicad-footprint-generator ipc_gullwing_generator.py
-TQFP QFP P-TQFP064-10.00x10.00-0.50 P-TQFP064-1010-0.50
+TQFP, 64 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TQFP QFP
 0
 64
 64
@@ -85324,17 +85345,17 @@ SSOP 0.65
 17
 Package_SO
 HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm
-HTSSOP, 16 Pin (Texas Instruments PWP0016C, based on JEDEC MO-153 variation ABT, 1.00mm body thickness, https://www.ti.com/lit/ml/pptd023ac/pptd023ac.pdf, https://www.ti.com/lit/ds/symlink/drv8833.pdf#page=27, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO Texas_PWP0016C Texas_PowerPAD-TSSOP
+HTSSOP, 16 Pin (http://www.analog.com/media/en/technical-documentation/data-sheets/LTC7810.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+HTSSOP SO
 0
 20
 17
 Package_SO
 HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias
-HTSSOP, 16 Pin (Texas Instruments PWP0016C, based on JEDEC MO-153 variation ABT, 1.00mm body thickness, https://www.ti.com/lit/ml/pptd023ac/pptd023ac.pdf, https://www.ti.com/lit/ds/symlink/drv8833.pdf#page=27, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO Texas_PWP0016C Texas_PowerPAD-TSSOP
+HTSSOP, 16 Pin (http://www.analog.com/media/en/technical-documentation/data-sheets/LTC7810.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+HTSSOP SO
 0
-33
+27
 17
 Package_SO
 HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm
@@ -86878,8 +86899,8 @@ SSOP 3.9 4.9 1.00
 10
 Package_SO
 SSOP-14_5.3x6.2mm_P0.65mm
-SSOP, 14 Pin (JEDEC MO-150 variation AB, 1.75mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-150), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SSOP SO
+SSOP14: plastic shrink small outline package; 14 leads; body width 5.3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot337-1_po.pdf)
+SSOP 0.65
 0
 14
 14
@@ -86927,7 +86948,7 @@ SSOP SO JEDEC-MO-152-AC SOT266-1 Nisshinbo-PI-SSOP20-E-A Rohm-SSOP-B20
 20
 Package_SO
 SSOP-20_5.3x7.2mm_P0.65mm
-SSOP, 20 Pin (JEDEC MO-150 variation AE, 1.75mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-150, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=396), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SSOP, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/40001800C.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SSOP SO
 0
 20
@@ -86941,8 +86962,8 @@ SSOP 0.635
 24
 Package_SO
 SSOP-24_5.3x8.2mm_P0.65mm
-SSOP, 24 Pin (JEDEC MO-150 variation AG, 1.75mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-150, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=398, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-ssop/ssop_24_05-08-1640.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SSOP SO
+24-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
 0
 24
 24
@@ -86955,8 +86976,8 @@ SSOP 0.635
 28
 Package_SO
 SSOP-28_5.3x10.2mm_P0.65mm
-SSOP, 28 Pin (JEDEC MO-150 variation AH, 1.75mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-150, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=400), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SSOP SO
+28-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
 0
 28
 28
@@ -103698,6 +103719,13 @@ Texas Instruments B0QFN RDJ RDJ0023A
 35
 23
 Texas Instruments
+RDX0007A
+Texas Instruments QFN-FCMOD 7 pads, 2.1mm max height
+Texas Instruments QFN FCMOD QFN-FCMOD 7 RD RDX RDX0007 RDX0007A
+0
+19
+7
+Texas Instruments
 RGE0024M
 VQFN 26 pads, 1.0mm max height
 Texas Instruments VQFN 26 RGE RGE0024M
@@ -103747,6 +103775,13 @@ Texas Instruments UQFN 16 RSV RSV0016A
 16
 16
 Texas Instruments
+RUX0012A
+Texas Instruments VQFN-HR 12 pads, 1mm max height.
+Texas Instruments VQFN VQFN-HF 12 
+0
+16
+12
+Texas Instruments
 SIS0011A
 Texas Instruments MicroSiP 10 pads with Thermal Pad, 1.6 mm max height
 Texas Instruments MicroSiP uSiP 10 SIS0011A
@@ -103760,6 +103795,13 @@ Texas Instruments DSBGA BGA 16 YB YBJ YBJ0 YBJ0016
 0
 16
 16
+Texas Instruments
+YFP0020
+Texas Instruments DSBGA 20 pads, 0.5mm max height.
+Texas Instruments YFP YFP00 YFP0020
+0
+0
+0
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
