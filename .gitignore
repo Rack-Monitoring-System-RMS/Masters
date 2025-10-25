@@ -3,5 +3,5 @@ Rack-Manager/Board/Rack-Manager-backups/**/*.zip
 Debug-Dongle/Board/Debug-Dongle-backups/**/*.zip
 
 # Avoid uploading the backup file for the symbol libraries, KiCAD makes.
-Rack-Manager/Board/Libraries/**/.bak
-Debug-Dongle/Board/Libraries/**/.bak
+Rack-Manager/Board/Libraries/**/*.bak
+Debug-Dongle/Board/Libraries/**/*.bak
