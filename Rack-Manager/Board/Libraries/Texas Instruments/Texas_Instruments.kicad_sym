@@ -16826,8 +16826,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 3.81 0)
+		(property "Reference" "U3"
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16835,7 +16835,7 @@
 			)
 		)
 		(property "Value" "TPS259470A"
-			(at 0 1.27 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16916,7 +16916,7 @@
 		(symbol "TPS259470A_1_1"
 			(rectangle
 				(start -12.7 0)
-				(end 12.7 -11.43)
+				(end 12.7 -27.94)
 				(stroke
 					(width 0)
 					(type solid)
@@ -16927,7 +16927,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -5.08) (xy 12.7 -5.08)
+					(xy -12.7 -6.35) (xy 12.7 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -16939,7 +16939,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 0 0)
+					(xy -12.7 -21.59) (xy 12.7 -21.59)
 				)
 				(stroke
 					(width 0)
@@ -16947,6 +16947,42 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy 3.81 -2.54)
+				)
+				(stroke
+					(width 0.1778)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -1.524) (xy 0.508 -3.556)
+				)
+				(stroke
+					(width 0.1778)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -2.54) (xy -0.762 -1.524) (xy -0.762 -3.556) (xy 0.508 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(pin power_in line
@@ -16967,8 +17003,45 @@
 					)
 				)
 			)
+			(pin input line
+				(at -16.51 -10.16 0)
+				(length 3.81)
+				(name "ENABLE"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(alternate "UVLO" input line)
+			)
+			(pin input line
+				(at -16.51 -17.78 0)
+				(length 3.81)
+				(name "OVLO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at 0 -15.24 90)
+				(at 0 -31.75 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -17018,7 +17091,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -7.62) (xy 0 -7.62)
+					(xy -12.7 -5.08) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -17030,7 +17103,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 12.7 -5.08)
+					(xy -12.7 -10.16) (xy 0 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -17042,7 +17115,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -10.16) (xy 12.7 -10.16)
+					(xy 0 -7.62) (xy 12.7 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -17067,44 +17140,7 @@
 			(pin input line
 				(at -16.51 -2.54 0)
 				(length 3.81)
-				(name "ENABLE"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-				(alternate "UVLO" input line)
-			)
-			(pin input line
-				(at -16.51 -12.7 0)
-				(length 3.81)
-				(name "OVLO"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 16.51 -2.54 180)
-				(length 3.81)
-				(name "ITIMER"
+				(name "I_{TIMER}"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -17120,9 +17156,9 @@
 				)
 			)
 			(pin input line
-				(at 16.51 -7.62 180)
+				(at -16.51 -7.62 0)
 				(length 3.81)
-				(name "ILIM"
+				(name "I_{LIM}"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -17138,9 +17174,9 @@
 				)
 			)
 			(pin input line
-				(at 16.51 -12.7 180)
+				(at -16.51 -12.7 0)
 				(length 3.81)
-				(name "DVDT"
+				(name "dV/dT"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -17155,33 +17191,8 @@
 					)
 				)
 			)
-		)
-		(symbol "TPS259470A_3_1"
-			(rectangle
-				(start -12.7 0)
-				(end 12.7 -12.7)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 -6.35) (xy 12.7 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin output line
-				(at -16.51 -2.54 0)
+				(at 16.51 -2.54 180)
 				(length 3.81)
 				(name "~{FLT}"
 					(effects
@@ -17199,7 +17210,7 @@
 				)
 			)
 			(pin output line
-				(at -16.51 -10.16 0)
+				(at 16.51 -12.7 180)
 				(length 3.81)
 				(name "AUXOFF"
 					(effects
