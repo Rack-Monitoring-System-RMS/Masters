@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "TSSOP-16, 1.2mm max height")
-	(tags "Texas Instruments TSSOP 16 PW PW0016A")
+	(descr "Texas Instruments TSSOP-16, 1.2mm max height")
+	(tags "Texas Instruments TSSOP 16 PW PW00 PW0016A")
 	(property "Reference" "REF**"
 		(at 0 -3.55 0)
 		(layer "F.SilkS")
@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Description" "TSSOP-16, 1.2mm max height"
+	(property "Description" "Texas Instruments TSSOP-16, 1.2mm max height"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

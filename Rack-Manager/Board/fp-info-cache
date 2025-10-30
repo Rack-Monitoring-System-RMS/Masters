@@ -1,4 +1,4 @@
-26484841745500250
+26527263192892491
 Abracon
 ARJM11 - Package C
 RJ45 Connector
@@ -73621,7 +73621,7 @@ BGA-48
 Package_BGA
 BGA-63_9x11mm_Layout10x12_P0.8mm
 BGA-63, 9.0x11.0mm, 63 Ball, 10x12 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.jedec.org/system/files/docs/MO-207N.pdf
-BGA 63 0.8
+BGA 63 0.8 JEDEC MO-207N DH-z
 0
 63
 63
@@ -73677,14 +73677,14 @@ BGA-100
 Package_BGA
 BGA-100_12x18mm_Layout10x17_P1mm
 BGA-100, 12x18mm, 100 Ball, 10x17 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.jedec.org/system/files/docs/MO-304D.pdf
-BGA 100 1
+BGA 100 1 JEDEC MO-304D P18.0x12.0-EJ-100A
 0
 100
 100
 Package_BGA
 BGA-100_14x18mm_Layout10x17_P1mm
 BGA-100, 14x18mm, 100 Ball, 10x17 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.jedec.org/system/files/docs/MO-304D.pdf
-BGA 100 1
+BGA 100 1 JEDEC MO-304D P18.0x14.0-EJ-100A
 0
 100
 100
@@ -73705,7 +73705,7 @@ BGA-132
 Package_BGA
 BGA-132_12x18mm_Layout11x17_P1mm
 BGA-132, 12x18mm, 132 Ball, 11x17 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.jedec.org/system/files/docs/MO-304D.pdf
-BGA 132 1
+BGA 132 1 JEDEC MO-304D P18.0x12.0-EJ-132B
 0
 132
 132
@@ -73733,7 +73733,7 @@ VBGA-152
 Package_BGA
 BGA-152_14x18mm_Layout13x17_P1mm
 BGA-152, 14x18mm, 152 Ball, 13x17 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.jedec.org/system/files/docs/MO-304D.pdf
-BGA 152 1
+BGA 152 1 JEDEC MO-304D P18.0x14.0-EJ-152D
 0
 152
 152
@@ -75230,7 +75230,7 @@ CSP 80 0.4 80-ball WLCSP
 80
 Package_CSP
 LFCSP-6-1EP_2x2mm_P0.65mm_EP1x1.6mm
-LFCSP, 6 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_6_3.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LFCSP, 6 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-6/cp_6_3.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 LFCSP NoLead
 0
 11
@@ -77405,6 +77405,13 @@ Maxim TDFN NoLead
 0
 11
 7
+Package_DFN_QFN
+Maxim_TDFN-10-1EP_3x3mm_P0.5mm_EP1.58x2.35mm
+Maxim  TDFN, 10 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfn/21-0137.pdf and https://www.analog.com/media/en/package-pcb-resources/land-pattern/tdfn-ep/90-0003.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Maxim TDFN NoLead T1033-2 MO229/WEED-3
+0
+15
+11
 Package_DFN_QFN
 Maxim_TDFN-12-1EP_3x3mm_P0.5mm_EP1.7x2.5mm
 Maxim TDFN, 12 Pin (https://www.analog.com/media/en/package-pcb-resources/land-pattern/tdfn/90-0397.pdf)
@@ -81228,6 +81235,20 @@ VQFN NoLead
 75
 49
 Package_DFN_QFN
+VQFN-48-1EP_7x7mm_P0.5mm_EP4.2x4.2mm
+VQFN, 48 Pin (Based on JEDEC MO-220 variation VKKD-2 (using Figure 1), custom Exposed Pad from NXP, https://www.jedec.org/document_search?search_api_views_fulltext=MO-220, https://www.nxp.com/docs/en/package-information/SOT619-28.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead NXP_SOT619-28
+0
+53
+49
+Package_DFN_QFN
+VQFN-48-1EP_7x7mm_P0.5mm_EP4.2x4.2mm_ThermalVias
+VQFN, 48 Pin (Based on JEDEC MO-220 variation VKKD-2 (using Figure 1), custom Exposed Pad from NXP, https://www.jedec.org/document_search?search_api_views_fulltext=MO-220, https://www.nxp.com/docs/en/package-information/SOT619-28.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead NXP_SOT619-28
+0
+70
+49
+Package_DFN_QFN
 VQFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm
 VQFN, 48 Pin (http://www.ti.com/lit/ds/symlink/cc1312r.pdf#page=48), generated with kicad-footprint-generator ipc_noLead_generator.py
 VQFN NoLead
@@ -84470,14 +84491,14 @@ LQFP QFP
 65
 Package_QFP
 LQFP-64-1EP_10x10mm_P0.5mm_EP6.5x6.5mm
-LQFP, 64 Pin (https://www.nxp.com/files-static/shared/doc/package_info/98ARH98426A.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP, 64 Pin (https://www.nxp.com/docs/en/package-information/98ARH98426A.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 LQFP QFP
 0
 90
 65
 Package_QFP
 LQFP-64-1EP_10x10mm_P0.5mm_EP6.5x6.5mm_ThermalVias
-LQFP, 64 Pin (https://www.nxp.com/files-static/shared/doc/package_info/98ARH98426A.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP, 64 Pin (https://www.nxp.com/docs/en/package-information/98ARH98426A.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 LQFP QFP
 0
 116
@@ -86542,7 +86563,7 @@ SOIC SO
 28
 Package_SO
 SOIC-28W_7.5x18.7mm_P1.27mm
-SOIC, 28 Pin (https://www.akm.com/akm/en/file/datasheet/AK5394AVS.pdf#page=23), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC, 28 Pin (https://www.es.co.th/Schemetic/PDF/AK5394A.PDF#page=23), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
 0
 28
@@ -103594,190 +103615,197 @@ test point THT pad
 1
 Texas Instruments
 D0008A
-SOIC 8 pin, 1.75mm amx height
-Texas Instruments SOIC D00 D0008A
+Texas Isntruments SOIC 8 pin, 1.75mm amx height
+Texas Instruments SOIC D0 D00 D0008A
 0
 8
 8
 Texas Instruments
 D0014A
-SOIC 14 pin, 1.75mm amx height
-Texas Instruments SOIC D00 D0014A
+Texas Isntruments SOIC 14 pin, 1.75mm amx height
+Texas Instruments SOIC D0 D00 D0014A
 0
 14
 14
 Texas Instruments
 DBV0005A
 Texas Instruments SOT-23-5, 1.45mm max height
-Texas Instruments SOT-23 5 DBV DBV0005A
+Texas Instruments SOT-23 5 DB DBV DBV00 DBV0005A
 0
 5
 5
 Texas Instruments
 DBV0006A
-SOT-23-6, 1.45mm max height
-Texas Instruments SOT-23 6 DBV DBV0006A
+Texas Isntruments SOT-23-6, 1.45mm max height
+Texas Instruments SOT-23 6 DB DBV DBV00 DBV0006A
 0
 6
 6
 Texas Instruments
 DCK0006A
 Texas Instruments SOT-6, 1.1max height
-Texas Instruments SOT 6 DCK DCK0006A
+Texas Instruments SOT 6 DC DCK DCK00 DCK0006A
 0
 6
 6
 Texas Instruments
 DGK0008A
-VSSOP 8 pins, 1.1mm max height
-Texas Instruments SOP VSSOP DG DGK DGK00 DGK0008A
+Texas Isntruments VSSOP 8 pins, 1.1mm max height
+Texas Instruments SOP VSSOP DG DGK DGK00 DGK00 DGK0008A
 0
 8
 1
 Texas Instruments
 DGS0010A
-VSSOP 10 pins, 1.1mm max height
+Texas Isntruments VSSOP 10 pins, 1.1mm max height
 Texas Instruments SOP VSSOP DG DGS DGS00 DGS0010A
 0
 10
 10
 Texas Instruments
 DRB0008F
-VSON 8 pads with thermal pads, 1.0mm max height
-Texas Instruments SON VSON DR DRB DRB00 DRB008
+Texas Isntruments VSON 8 pads with thermal pads, 1.0mm max height
+Texas Instruments SON VSON DR DRB DRB00 DRB0008 DRB0008F
 0
 13
 10
 Texas Instruments
 DRY0006A
 Texas Instruments USON-6, 0.6mm max height
-Texas Instruments USON 6 DRY DRY0006A
+Texas Instruments USON 6 DR DRY DRY00 DRY0006A
 0
 6
 6
 Texas Instruments
 DTQ0006A
 Texas Instruments X2SON-6 0.4mm max height
-Texas Instruments X2SON 6 DT DTQ DTQ0006A
+Texas Instruments X2SON 6 DT DTQ DTQ00 DTQ0006A
 0
 6
 6
 Texas Instruments
 DTU0016A
-X2QFN 16 pads, 0.4mm max height
-Texas Instruments X2QFN 16 DT DTU DTU0016A
+Texas Instruments X2QFN 16 pads, 0.4mm max height
+Texas Instruments X2QFN 16 DT DTU DTU00 DTU0016A
 0
 16
 16
 Texas Instruments
 PW0016A
-TSSOP-16, 1.2mm max height
-Texas Instruments TSSOP 16 PW PW0016A
+Texas Instruments TSSOP-16, 1.2mm max height
+Texas Instruments TSSOP 16 PW PW00 PW0016A
 0
 16
 16
 Texas Instruments
 RCF0015A
 Texas Instruments QFN-FCMOD 15 pads, 2.0mm max height
-Texas Instruments QFN QFN-FCMOD RCF RCF0015A
+Texas Instruments QFN QFN-FCMOD RC RCF RCF00 RCF0015A
 0
 23
 15
 Texas Instruments
 RDH0030A
 Texas Instruments B0QFN 30 pads, 1.9mm max height
-Texas Instruments B0QFN RDH RDH0030A
+Texas Instruments QFN B0QFN RD RDH RDH00 RDH0030A
 0
 44
 30
 Texas Instruments
 RDJ0023A
 Texas Instruments B0QFN 23 pads, 1.45mm max height
-Texas Instruments B0QFN RDJ RDJ0023A
+Texas Instruments QFN B0QFN RD RDJ RDJ00 RDJ0023A
 0
 35
 23
 Texas Instruments
+RDN0011A
+Texas Instruments QFN-FCMOD 11 pads, 2.1mm max height.
+Texas Instrumnts QFN FCMOD QFN-FCMOD 11 RD RDN RDN00 RDN0011 RDN0011A
+0
+25
+11
+Texas Instruments
 RDX0007A
 Texas Instruments QFN-FCMOD 7 pads, 2.1mm max height
-Texas Instruments QFN FCMOD QFN-FCMOD 7 RD RDX RDX0007 RDX0007A
+Texas Instruments QFN FCMOD QFN-FCMOD 7 RD RDX RDX00 RDX0007 RDX0007A
 0
 19
 7
 Texas Instruments
 RGE0024M
-VQFN 26 pads, 1.0mm max height
-Texas Instruments VQFN 26 RGE RGE0024M
+Texas Instruments VQFN 26 pads, 1.0mm max height
+Texas Instruments VQFN 26 RG RGE RGE00 RGE0024M
 0
 35
 26
 Texas Instruments
 RGT0016A
-VQFN-16 with Thermal Pad, 1.0mm max height
-Texas Instruments VQFN RGT RGT0016A VQFN 16 
+Texas Instruments VQFN-16 with Thermal Pad, 1.0mm max height
+Texas Instruments VQFN RG RGT RGT00 RGT0016A VQFN 16 
 0
 22
 17
 Texas Instruments
 RGY0014A
-VQFN-13 with Thermal Pad, 1.0mm max height
-Texas Instruments VQFN RGY RGY0014A
+Texas Instruments VQFN-13 with Thermal Pad, 1.0mm max height
+Texas Instruments VQFN RG RGY RGY00 RGY0014A
 0
 24
 15
 Texas Instruments
 RGY0024F
-VQFN-24 with Thermal Pad, 1.0mm max height
-Texas Instruments VQFN 24 RGY RGY0024F
+Texas Instruments VQFN-24 with Thermal Pad, 1.0mm max height
+Texas Instruments VQFN 24 RG RGY RGY00 RGY0024F
 0
 33
 25
 Texas Instruments
 RKH0009A
-QFN 9 pads, 2.1mm max height
-Texas Instruments QFN RK RKH RKH0009A
+Texas Instruments QFN 9 pads, 2.1mm max height
+Texas Instruments QFN RK RKH RKH00 RKH0009A
 0
 20
 1
 Texas Instruments
 RPW0010A
-VQFN-HR 10 pads, 1.0mm max height
+Texas Instruments VQFN-HR 10 pads, 1.0mm max height
 Texas Instruments QFN VQFN VQFN-HR RP RPW RPW00 RPW0010A
 0
 14
 10
 Texas Instruments
 RSV0016A
-UQFN 16 pads, 0.55mm max height
-Texas Instruments UQFN 16 RSV RSV0016A
+Texas Instruments UQFN 16 pads, 0.55mm max height
+Texas Instruments UQFN 16 RS RSV RSV00 RSV0016A
 0
 16
 16
 Texas Instruments
 RUX0012A
 Texas Instruments VQFN-HR 12 pads, 1mm max height.
-Texas Instruments VQFN VQFN-HF 12 
+Texas Instruments VQFN VQFN-HF 12  RU RUX RUX00 RUX0012 RUX0012A
 0
 16
 12
 Texas Instruments
 SIS0011A
 Texas Instruments MicroSiP 10 pads with Thermal Pad, 1.6 mm max height
-Texas Instruments MicroSiP uSiP 10 SIS0011A
+Texas Instruments MicroSiP uSiP 10 SI SIS SIS00 SIS0011 SIS0011A
 0
 14
 11
 Texas Instruments
 YBJ0016
-DSBGA 16 pads, 0.35mm max height.
-Texas Instruments DSBGA BGA 16 YB YBJ YBJ0 YBJ0016
+Texas Instruments DSBGA 16 pads, 0.35mm max height.
+Texas Instruments BGA DSBGA 16 YB YBJ YBJ00 YBJ0016
 0
 16
 16
 Texas Instruments
 YFP0020
 Texas Instruments DSBGA 20 pads, 0.5mm max height.
-Texas Instruments YFP YFP00 YFP0020
+Texas Instruments BGA DSBGA YF YFP YFP00 YFP0020
 0
 20
 20

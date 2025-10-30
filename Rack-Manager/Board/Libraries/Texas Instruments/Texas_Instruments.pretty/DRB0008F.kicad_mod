@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "VSON 8 pads with thermal pads, 1.0mm max height")
-	(tags "Texas Instruments SON VSON DR DRB DRB00 DRB008")
+	(descr "Texas Isntruments VSON 8 pads with thermal pads, 1.0mm max height")
+	(tags "Texas Instruments SON VSON DR DRB DRB00 DRB0008 DRB0008F")
 	(property "Reference" "REF**"
 		(at 0 -2.75 0)
 		(unlocked yes)
@@ -42,7 +42,7 @@
 			)
 		)
 	)
-	(property "Description" "VSON 8 pads with thermal pads, 1.0mm max height"
+	(property "Description" "Texas Isntruments VSON 8 pads with thermal pads, 1.0mm max height"
 		(at -1.4 -10.975 0)
 		(unlocked yes)
 		(layer "F.Fab")

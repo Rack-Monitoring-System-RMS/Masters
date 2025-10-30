@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "SOIC 14 pin, 1.75mm amx height")
-	(tags "Texas Instruments SOIC D00 D0014A")
+	(descr "Texas Isntruments SOIC 14 pin, 1.75mm amx height")
+	(tags "Texas Instruments SOIC D0 D00 D0014A")
 	(property "Reference" "REF**"
 		(at 0 -6.5 0)
 		(unlocked yes)
@@ -42,7 +42,7 @@
 			)
 		)
 	)
-	(property "Description" "SOIC 14 pin, 1.75mm amx height"
+	(property "Description" "Texas Isntruments SOIC 14 pin, 1.75mm amx height"
 		(at -2.7 -13.97 0)
 		(unlocked yes)
 		(layer "F.Fab")

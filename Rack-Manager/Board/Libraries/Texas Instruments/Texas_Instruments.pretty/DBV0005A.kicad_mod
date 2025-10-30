@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments SOT-23-5, 1.45mm max height")
-	(tags "Texas Instruments SOT-23 5 DBV DBV0005A")
+	(tags "Texas Instruments SOT-23 5 DB DBV DBV00 DBV0005A")
 	(property "Reference" "REF**"
 		(at 0 -2.4 0)
 		(layer "F.SilkS")

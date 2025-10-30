@@ -15334,6 +15334,748 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "TLVM23615"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLVM23615"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Texas Instruments:RDN0011A"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/snvsci2b/snvsci2b.pdf"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "The TLVM23615 is a 1.5A, 36V input synchronous step-down DC/DC power module that combines flip chip on lead (FCOL) packaging, power MOSFETs, integrated inductor and boot capacitor in a compact and easy-to-use 3.5mm x 4.5mm x 2mm, 11-pin QFN package."
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/595-TLVM23615RDNR"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C19274388"
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Texas Instruments TL TLV TLVM TLVM32 TLVM326 TLVM362x5 TLVM23615 Buck DCDC DC-DC DC/DC DC step-down step down QFN 1.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TLVM23615_0_1"
+			(rectangle
+				(start -12.7 0)
+				(end 12.7 -40.64)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -6.35) (xy 12.7 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -13.97) (xy 12.7 -13.97)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -21.59) (xy 12.7 -21.59)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -34.29) (xy 12.7 -34.29)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -34.29)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -29.21) (xy 0 -29.21)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TLVM23615_1_1"
+			(pin power_in line
+				(at -16.51 -2.54 0)
+				(length 3.81)
+				(name "V_{IN}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -16.51 -10.16 0)
+				(length 3.81)
+				(name "EN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -16.51 -17.78 0)
+				(length 3.81)
+				(name "RT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(alternate "MODE/SYNC" input line)
+			)
+			(pin power_out line
+				(at -16.51 -27.94 0)
+				(length 3.81)
+				(name "V_{CC}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -44.45 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 16.51 -2.54 180)
+				(length 3.81)
+				(name "V_{OUT}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 16.51 -10.16 180)
+				(length 3.81)
+				(name "FB"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 16.51 -17.78 180)
+				(length 3.81)
+				(name "P_{GOOD}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -24.13 180)
+				(length 3.81)
+				(name "SW_{[1]}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -26.67 180)
+				(length 3.81)
+				(name "SW_{[2]}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -31.75 180)
+				(length 3.81)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TLVM23625"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLVM23625"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Texas Instruments:RDN0011A"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/snvsci2b/snvsci2b.pdf"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "The TLVM23625 is a 2.5A, 36V input synchronous step-down DC/DC power module that combines flip chip on lead (FCOL) packaging, power MOSFETs, integrated inductor and boot capacitor in a compact and easy-to-use 3.5mm x 4.5mm x 2mm, 11-pin QFN package."
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/595-TLVM23625RDNR"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C7588165"
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Texas Instruments TL TLV TLVM TLVM32 TLVM326 TLVM362x5 TLVM23625 Buck DCDC DC-DC DC/DC DC step-down step down QFN 2.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TLVM23625_0_1"
+			(rectangle
+				(start -12.7 0)
+				(end 12.7 -40.64)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -6.35) (xy 12.7 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -13.97) (xy 12.7 -13.97)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -21.59) (xy 12.7 -21.59)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -34.29) (xy 12.7 -34.29)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -34.29)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -29.21) (xy 0 -29.21)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TLVM23625_1_1"
+			(pin power_in line
+				(at -16.51 -2.54 0)
+				(length 3.81)
+				(name "V_{IN}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -16.51 -10.16 0)
+				(length 3.81)
+				(name "EN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -16.51 -17.78 0)
+				(length 3.81)
+				(name "RT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(alternate "MODE/SYNC" input line)
+			)
+			(pin power_out line
+				(at -16.51 -27.94 0)
+				(length 3.81)
+				(name "V_{CC}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -44.45 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 16.51 -2.54 180)
+				(length 3.81)
+				(name "V_{OUT}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 16.51 -10.16 180)
+				(length 3.81)
+				(name "FB"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 16.51 -17.78 180)
+				(length 3.81)
+				(name "P_{GOOD}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -24.13 180)
+				(length 3.81)
+				(name "SW_{[1]}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -26.67 180)
+				(length 3.81)
+				(name "SW_{[2]}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -31.75 180)
+				(length 3.81)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "TPS2120YFPR"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17324,7 +18066,7 @@
 		(symbol "TPS259470L_1_1"
 			(rectangle
 				(start -12.7 0)
-				(end 12.7 -11.43)
+				(end 12.7 -27.94)
 				(stroke
 					(width 0)
 					(type solid)
@@ -17335,7 +18077,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -5.08) (xy 12.7 -5.08)
+					(xy -12.7 -6.35) (xy 12.7 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -17347,7 +18089,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 0 0)
+					(xy -12.7 -21.59) (xy 12.7 -21.59)
 				)
 				(stroke
 					(width 0)
@@ -17355,6 +18097,42 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy 3.81 -2.54)
+				)
+				(stroke
+					(width 0.1778)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -1.524) (xy 0.508 -3.556)
+				)
+				(stroke
+					(width 0.1778)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -2.54) (xy -0.762 -1.524) (xy -0.762 -3.556) (xy 0.508 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(pin power_in line
@@ -17375,8 +18153,45 @@
 					)
 				)
 			)
+			(pin input line
+				(at -16.51 -10.16 0)
+				(length 3.81)
+				(name "ENABLE"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(alternate "UVLO" input line)
+			)
+			(pin input line
+				(at -16.51 -17.78 0)
+				(length 3.81)
+				(name "OVLO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at 0 -15.24 90)
+				(at 0 -31.75 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -17426,7 +18241,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -7.62) (xy 0 -7.62)
+					(xy -12.7 -5.08) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -17438,7 +18253,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 12.7 -5.08)
+					(xy -12.7 -10.16) (xy 0 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -17450,7 +18265,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -10.16) (xy 12.7 -10.16)
+					(xy 0 -7.62) (xy 12.7 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -17475,44 +18290,7 @@
 			(pin input line
 				(at -16.51 -2.54 0)
 				(length 3.81)
-				(name "ENABLE"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-				(alternate "UVLO" input line)
-			)
-			(pin input line
-				(at -16.51 -12.7 0)
-				(length 3.81)
-				(name "OVLO"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 16.51 -2.54 180)
-				(length 3.81)
-				(name "ITIMER"
+				(name "I_{TIMER}"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -17528,9 +18306,9 @@
 				)
 			)
 			(pin input line
-				(at 16.51 -7.62 180)
+				(at -16.51 -7.62 0)
 				(length 3.81)
-				(name "ILIM"
+				(name "I_{LIM}"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -17546,9 +18324,9 @@
 				)
 			)
 			(pin input line
-				(at 16.51 -12.7 180)
+				(at -16.51 -12.7 0)
 				(length 3.81)
-				(name "DVDT"
+				(name "dV/dT"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -17563,33 +18341,8 @@
 					)
 				)
 			)
-		)
-		(symbol "TPS259470L_3_1"
-			(rectangle
-				(start -12.7 0)
-				(end 12.7 -12.7)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 -6.35) (xy 12.7 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin output line
-				(at -16.51 -2.54 0)
+				(at 16.51 -2.54 180)
 				(length 3.81)
 				(name "~{FLT}"
 					(effects
@@ -17607,7 +18360,7 @@
 				)
 			)
 			(pin output line
-				(at -16.51 -10.16 0)
+				(at 16.51 -12.7 180)
 				(length 3.81)
 				(name "AUXOFF"
 					(effects
@@ -17721,7 +18474,7 @@
 		(symbol "TPS259472A_1_1"
 			(rectangle
 				(start -12.7 0)
-				(end 12.7 -11.43)
+				(end 12.7 -27.94)
 				(stroke
 					(width 0)
 					(type solid)
@@ -17732,7 +18485,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -5.08) (xy 12.7 -5.08)
+					(xy -12.7 -6.35) (xy 12.7 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -17744,7 +18497,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 0 0)
+					(xy -12.7 -21.59) (xy 12.7 -21.59)
 				)
 				(stroke
 					(width 0)
@@ -17752,6 +18505,54 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy 3.81 -2.54)
+				)
+				(stroke
+					(width 0.1778)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -6.35) (xy 0 -21.59)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -1.524) (xy 0.508 -3.556)
+				)
+				(stroke
+					(width 0.1778)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -2.54) (xy -0.762 -1.524) (xy -0.762 -3.556) (xy 0.508 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(pin power_in line
@@ -17772,8 +18573,45 @@
 					)
 				)
 			)
+			(pin input line
+				(at -16.51 -10.16 0)
+				(length 3.81)
+				(name "ENABLE"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(alternate "UVLO" input line)
+			)
+			(pin input line
+				(at -16.51 -17.78 0)
+				(length 3.81)
+				(name "OVCSEL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at 0 -15.24 90)
+				(at 0 -31.75 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -17808,6 +18646,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at 16.51 -10.16 180)
+				(length 3.81)
+				(name "PGTH"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
 		)
 		(symbol "TPS259472A_2_1"
 			(rectangle
@@ -17823,7 +18679,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -7.62) (xy 0 -7.62)
+					(xy -12.7 -5.08) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -17835,19 +18691,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 12.7 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -10.16) (xy 12.7 -10.16)
+					(xy -12.7 -10.16) (xy 0 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -17872,44 +18716,7 @@
 			(pin input line
 				(at -16.51 -2.54 0)
 				(length 3.81)
-				(name "ENABLE"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-				(alternate "UVLO" input line)
-			)
-			(pin input line
-				(at -16.51 -12.7 0)
-				(length 3.81)
-				(name "OVCSEL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 16.51 -2.54 180)
-				(length 3.81)
-				(name "ITIMER"
+				(name "I_{TIMER}"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -17925,9 +18732,9 @@
 				)
 			)
 			(pin input line
-				(at 16.51 -7.62 180)
+				(at -16.51 -7.62 0)
 				(length 3.81)
-				(name "ILIM"
+				(name "I_{LIM}"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -17943,9 +18750,9 @@
 				)
 			)
 			(pin input line
-				(at 16.51 -12.7 180)
+				(at -16.51 -12.7 0)
 				(length 3.81)
-				(name "DVDT"
+				(name "dV/dT"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -17960,51 +18767,8 @@
 					)
 				)
 			)
-		)
-		(symbol "TPS259472A_3_1"
-			(rectangle
-				(start -12.7 0)
-				(end 12.7 -12.7)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 -6.35) (xy 12.7 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -16.51 -2.54 0)
-				(length 3.81)
-				(name "PGTH"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at -16.51 -10.16 0)
+				(at 16.51 -2.54 180)
 				(length 3.81)
 				(name "PG"
 					(effects
@@ -18118,7 +18882,7 @@
 		(symbol "TPS259472L_1_1"
 			(rectangle
 				(start -12.7 0)
-				(end 12.7 -11.43)
+				(end 12.7 -27.94)
 				(stroke
 					(width 0)
 					(type solid)
@@ -18129,7 +18893,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -5.08) (xy 12.7 -5.08)
+					(xy -12.7 -6.35) (xy 12.7 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -18141,7 +18905,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 0 0)
+					(xy -12.7 -21.59) (xy 12.7 -21.59)
 				)
 				(stroke
 					(width 0)
@@ -18149,6 +18913,54 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy 3.81 -2.54)
+				)
+				(stroke
+					(width 0.1778)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -6.35) (xy 0 -21.59)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -1.524) (xy 0.508 -3.556)
+				)
+				(stroke
+					(width 0.1778)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -2.54) (xy -0.762 -1.524) (xy -0.762 -3.556) (xy 0.508 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(pin power_in line
@@ -18169,8 +18981,45 @@
 					)
 				)
 			)
+			(pin input line
+				(at -16.51 -10.16 0)
+				(length 3.81)
+				(name "ENABLE"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(alternate "UVLO" input line)
+			)
+			(pin input line
+				(at -16.51 -17.78 0)
+				(length 3.81)
+				(name "OVCSEL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at 0 -15.24 90)
+				(at 0 -31.75 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -18205,6 +19054,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at 16.51 -10.16 180)
+				(length 3.81)
+				(name "PGTH"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
 		)
 		(symbol "TPS259472L_2_1"
 			(rectangle
@@ -18220,7 +19087,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -7.62) (xy 0 -7.62)
+					(xy -12.7 -5.08) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -18232,19 +19099,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 12.7 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -10.16) (xy 12.7 -10.16)
+					(xy -12.7 -10.16) (xy 0 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -18269,44 +19124,7 @@
 			(pin input line
 				(at -16.51 -2.54 0)
 				(length 3.81)
-				(name "ENABLE"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-				(alternate "UVLO" input line)
-			)
-			(pin input line
-				(at -16.51 -12.7 0)
-				(length 3.81)
-				(name "OVCSEL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 16.51 -2.54 180)
-				(length 3.81)
-				(name "ITIMER"
+				(name "I_{TIMER}"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -18322,9 +19140,9 @@
 				)
 			)
 			(pin input line
-				(at 16.51 -7.62 180)
+				(at -16.51 -7.62 0)
 				(length 3.81)
-				(name "ILIM"
+				(name "I_{LIM}"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -18340,9 +19158,9 @@
 				)
 			)
 			(pin input line
-				(at 16.51 -12.7 180)
+				(at -16.51 -12.7 0)
 				(length 3.81)
-				(name "DVDT"
+				(name "dV/dT"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -18357,51 +19175,8 @@
 					)
 				)
 			)
-		)
-		(symbol "TPS259472L_3_1"
-			(rectangle
-				(start -12.7 0)
-				(end 12.7 -12.7)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 -6.35) (xy 12.7 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -16.51 -2.54 0)
-				(length 3.81)
-				(name "PGTH"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at -16.51 -10.16 0)
+				(at 16.51 -2.54 180)
 				(length 3.81)
 				(name "PG"
 					(effects
@@ -18515,7 +19290,7 @@
 		(symbol "TPS259474A_1_1"
 			(rectangle
 				(start -12.7 0)
-				(end 12.7 -11.43)
+				(end 12.7 -27.94)
 				(stroke
 					(width 0)
 					(type solid)
@@ -18526,7 +19301,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -5.08) (xy 12.7 -5.08)
+					(xy -12.7 -6.35) (xy 12.7 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -18538,7 +19313,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 0 0)
+					(xy -12.7 -21.59) (xy 12.7 -21.59)
 				)
 				(stroke
 					(width 0)
@@ -18546,6 +19321,54 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy 3.81 -2.54)
+				)
+				(stroke
+					(width 0.1778)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -6.35) (xy 0 -21.59)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -1.524) (xy 0.508 -3.556)
+				)
+				(stroke
+					(width 0.1778)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -2.54) (xy -0.762 -1.524) (xy -0.762 -3.556) (xy 0.508 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(pin power_in line
@@ -18566,8 +19389,45 @@
 					)
 				)
 			)
+			(pin input line
+				(at -16.51 -10.16 0)
+				(length 3.81)
+				(name "ENABLE"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(alternate "UVLO" input line)
+			)
+			(pin input line
+				(at -16.51 -17.78 0)
+				(length 3.81)
+				(name "OVLO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at 0 -15.24 90)
+				(at 0 -31.75 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -18602,6 +19462,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at 16.51 -10.16 180)
+				(length 3.81)
+				(name "PGTH"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
 		)
 		(symbol "TPS259474A_2_1"
 			(rectangle
@@ -18617,7 +19495,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -7.62) (xy 0 -7.62)
+					(xy -12.7 -5.08) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -18629,19 +19507,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 12.7 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -10.16) (xy 12.7 -10.16)
+					(xy -12.7 -10.16) (xy 0 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -18666,44 +19532,7 @@
 			(pin input line
 				(at -16.51 -2.54 0)
 				(length 3.81)
-				(name "ENABLE"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-				(alternate "UVLO" input line)
-			)
-			(pin input line
-				(at -16.51 -12.7 0)
-				(length 3.81)
-				(name "OVLO"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 16.51 -2.54 180)
-				(length 3.81)
-				(name "ITIMER"
+				(name "I_{TIMER}"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -18719,9 +19548,9 @@
 				)
 			)
 			(pin input line
-				(at 16.51 -7.62 180)
+				(at -16.51 -7.62 0)
 				(length 3.81)
-				(name "ILIM"
+				(name "I_{LIM}"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -18737,9 +19566,9 @@
 				)
 			)
 			(pin input line
-				(at 16.51 -12.7 180)
+				(at -16.51 -12.7 0)
 				(length 3.81)
-				(name "DVDT"
+				(name "dV/dT"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -18754,51 +19583,8 @@
 					)
 				)
 			)
-		)
-		(symbol "TPS259474A_3_1"
-			(rectangle
-				(start -12.7 0)
-				(end 12.7 -12.7)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 -6.35) (xy 12.7 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -16.51 -2.54 0)
-				(length 3.81)
-				(name "PGTH"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at -16.51 -10.16 0)
+				(at 16.51 -2.54 180)
 				(length 3.81)
 				(name "PG"
 					(effects
@@ -18912,7 +19698,7 @@
 		(symbol "TPS259474L_1_1"
 			(rectangle
 				(start -12.7 0)
-				(end 12.7 -11.43)
+				(end 12.7 -27.94)
 				(stroke
 					(width 0)
 					(type solid)
@@ -18923,7 +19709,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -5.08) (xy 12.7 -5.08)
+					(xy -12.7 -6.35) (xy 12.7 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -18935,7 +19721,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 0 0)
+					(xy -12.7 -21.59) (xy 12.7 -21.59)
 				)
 				(stroke
 					(width 0)
@@ -18943,6 +19729,54 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy 3.81 -2.54)
+				)
+				(stroke
+					(width 0.1778)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -6.35) (xy 0 -21.59)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -1.524) (xy 0.508 -3.556)
+				)
+				(stroke
+					(width 0.1778)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -2.54) (xy -0.762 -1.524) (xy -0.762 -3.556) (xy 0.508 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(pin power_in line
@@ -18963,8 +19797,45 @@
 					)
 				)
 			)
+			(pin input line
+				(at -16.51 -10.16 0)
+				(length 3.81)
+				(name "ENABLE"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(alternate "UVLO" input line)
+			)
+			(pin input line
+				(at -16.51 -17.78 0)
+				(length 3.81)
+				(name "OVLO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at 0 -15.24 90)
+				(at 0 -31.75 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -18999,6 +19870,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at 16.51 -10.16 180)
+				(length 3.81)
+				(name "PGTH"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
 		)
 		(symbol "TPS259474L_2_1"
 			(rectangle
@@ -19014,7 +19903,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -7.62) (xy 0 -7.62)
+					(xy -12.7 -5.08) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -19026,19 +19915,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 12.7 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -10.16) (xy 12.7 -10.16)
+					(xy -12.7 -10.16) (xy 0 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -19063,44 +19940,7 @@
 			(pin input line
 				(at -16.51 -2.54 0)
 				(length 3.81)
-				(name "ENABLE"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-				(alternate "UVLO" input line)
-			)
-			(pin input line
-				(at -16.51 -12.7 0)
-				(length 3.81)
-				(name "OVLO"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 16.51 -2.54 180)
-				(length 3.81)
-				(name "ITIMER"
+				(name "I_{TIMER}"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -19116,9 +19956,9 @@
 				)
 			)
 			(pin input line
-				(at 16.51 -7.62 180)
+				(at -16.51 -7.62 0)
 				(length 3.81)
-				(name "ILIM"
+				(name "I_{LIM}"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -19134,9 +19974,9 @@
 				)
 			)
 			(pin input line
-				(at 16.51 -12.7 180)
+				(at -16.51 -12.7 0)
 				(length 3.81)
-				(name "DVDT"
+				(name "dV/dT"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -19151,51 +19991,8 @@
 					)
 				)
 			)
-		)
-		(symbol "TPS259474L_3_1"
-			(rectangle
-				(start -12.7 0)
-				(end 12.7 -12.7)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 -6.35) (xy 12.7 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -16.51 -2.54 0)
-				(length 3.81)
-				(name "PGTH"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at -16.51 -10.16 0)
+				(at 16.51 -2.54 180)
 				(length 3.81)
 				(name "PG"
 					(effects
@@ -19850,6 +20647,1490 @@
 				(at 29.21 -40.64 180)
 				(length 3.81)
 				(name "ITIMER"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPSM33615FRDNR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPSM33615FRDNR"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Texas Instruments:RDN0011A"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm33615.pdf"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "The TPSM33625 is a 1.5A, 36V input synchronous step-down DC/DC power module that combines flip chip on lead (FCOL) packaging, power MOSFETs, integrated inductor and boot capacitor in a compact and easy-to-use 3.5mm x 4.5mm x 2mm, 11-pin QFN package."
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/595-TPSM33615FRDNR"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "~"
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Texas Instruments TP TPS TPSM TPSM33 TPSM336 TPSM336x5 TPSM33615 TPSM33615FRDNR Buck DCDC DC-DC DC/DC DC step-down step down QFN 1.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPSM33615FRDNR_0_1"
+			(rectangle
+				(start -12.7 0)
+				(end 12.7 -40.64)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -6.35) (xy 12.7 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -13.97) (xy 12.7 -13.97)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -21.59) (xy 12.7 -21.59)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -34.29) (xy 12.7 -34.29)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -34.29)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -29.21) (xy 0 -29.21)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TPSM33615FRDNR_1_1"
+			(pin power_in line
+				(at -16.51 -2.54 0)
+				(length 3.81)
+				(name "V_{IN}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -16.51 -10.16 0)
+				(length 3.81)
+				(name "EN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -16.51 -17.78 0)
+				(length 3.81)
+				(name "RT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(alternate "MODE/SYNC" input line)
+			)
+			(pin power_out line
+				(at -16.51 -27.94 0)
+				(length 3.81)
+				(name "V_{CC}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -44.45 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 16.51 -2.54 180)
+				(length 3.81)
+				(name "V_{OUT}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 16.51 -10.16 180)
+				(length 3.81)
+				(name "FB"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 16.51 -17.78 180)
+				(length 3.81)
+				(name "P_{GOOD}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -24.13 180)
+				(length 3.81)
+				(name "SW_{[1]}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -26.67 180)
+				(length 3.81)
+				(name "SW_{[2]}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -31.75 180)
+				(length 3.81)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPSM33615RDNR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPSM33615RDNR"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Texas Instruments:RDN0011A"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm33615.pdf"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "The TPSM33625 is a 1.5A, 36V input synchronous step-down DC/DC power module that combines flip chip on lead (FCOL) packaging, power MOSFETs, integrated inductor and boot capacitor in a compact and easy-to-use 3.5mm x 4.5mm x 2mm, 11-pin QFN package."
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/595-TPSM33615RDNR"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C19274388"
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Texas Instruments TP TPS TPSM TPSM33 TPSM336 TPSM336x5 TPSM33615 TPSM33615RDNR Buck DCDC DC-DC DC/DC DC step-down step down QFN 1.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPSM33615RDNR_0_1"
+			(rectangle
+				(start -12.7 0)
+				(end 12.7 -40.64)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -6.35) (xy 12.7 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -13.97) (xy 12.7 -13.97)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -21.59) (xy 12.7 -21.59)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -34.29) (xy 12.7 -34.29)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -34.29)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -29.21) (xy 0 -29.21)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TPSM33615RDNR_1_1"
+			(pin power_in line
+				(at -16.51 -2.54 0)
+				(length 3.81)
+				(name "V_{IN}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -16.51 -10.16 0)
+				(length 3.81)
+				(name "EN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -16.51 -17.78 0)
+				(length 3.81)
+				(name "RT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(alternate "MODE/SYNC" input line)
+			)
+			(pin power_out line
+				(at -16.51 -27.94 0)
+				(length 3.81)
+				(name "V_{CC}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -44.45 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 16.51 -2.54 180)
+				(length 3.81)
+				(name "V_{OUT}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 16.51 -10.16 180)
+				(length 3.81)
+				(name "FB"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 16.51 -17.78 180)
+				(length 3.81)
+				(name "P_{GOOD}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -24.13 180)
+				(length 3.81)
+				(name "SW_{[1]}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -26.67 180)
+				(length 3.81)
+				(name "SW_{[2]}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -31.75 180)
+				(length 3.81)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPSM33625FRDNR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPSM33625FRDNR"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Texas Instruments:RDN0011A"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm33625.pdf"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "The TPSM33625 is a 2.5A, 36V input synchronous step-down DC/DC power module that combines flip chip on lead (FCOL) packaging, power MOSFETs, integrated inductor and boot capacitor in a compact and easy-to-use 3.5mm x 4.5mm x 2mm, 11-pin QFN package."
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/595-TPSM33625FRDNR"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "~"
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Texas Instruments TP TPS TPSM TPSM33 TPSM336 TPSM336x5 TPSM33625 TPSM33625FRDNR Buck DCDC DC-DC DC/DC DC step-down step down QFN 2.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPSM33625FRDNR_0_1"
+			(rectangle
+				(start -12.7 0)
+				(end 12.7 -40.64)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -6.35) (xy 12.7 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -13.97) (xy 12.7 -13.97)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -21.59) (xy 12.7 -21.59)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -34.29) (xy 12.7 -34.29)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -34.29)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -29.21) (xy 0 -29.21)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TPSM33625FRDNR_1_1"
+			(pin power_in line
+				(at -16.51 -2.54 0)
+				(length 3.81)
+				(name "V_{IN}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -16.51 -10.16 0)
+				(length 3.81)
+				(name "EN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -16.51 -17.78 0)
+				(length 3.81)
+				(name "RT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(alternate "MODE/SYNC" input line)
+			)
+			(pin power_out line
+				(at -16.51 -27.94 0)
+				(length 3.81)
+				(name "V_{CC}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -44.45 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 16.51 -2.54 180)
+				(length 3.81)
+				(name "V_{OUT}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 16.51 -10.16 180)
+				(length 3.81)
+				(name "FB"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 16.51 -17.78 180)
+				(length 3.81)
+				(name "P_{GOOD}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -24.13 180)
+				(length 3.81)
+				(name "SW_{[1]}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -26.67 180)
+				(length 3.81)
+				(name "SW_{[2]}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -31.75 180)
+				(length 3.81)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPSM33625RDNR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPSM33625RDNR"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Texas Instruments:RDN0011A"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm33625.pdf"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "The TPSM33625 is a 2.5A, 36V input synchronous step-down DC/DC power module that combines flip chip on lead (FCOL) packaging, power MOSFETs, integrated inductor and boot capacitor in a compact and easy-to-use 3.5mm x 4.5mm x 2mm, 11-pin QFN package."
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/595-TPSM33625RDNR"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C7588165"
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Texas Instruments TP TPS TPSM TPSM33 TPSM336 TPSM336x5 TPSM33625 TPSM33625RDNR Buck DCDC DC-DC DC/DC DC step-down step down QFN 2.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPSM33625RDNR_0_1"
+			(rectangle
+				(start -12.7 0)
+				(end 12.7 -40.64)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -6.35) (xy 12.7 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -13.97) (xy 12.7 -13.97)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -21.59) (xy 12.7 -21.59)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -34.29) (xy 12.7 -34.29)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -34.29)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -29.21) (xy 0 -29.21)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TPSM33625RDNR_1_1"
+			(pin power_in line
+				(at -16.51 -2.54 0)
+				(length 3.81)
+				(name "V_{IN}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -16.51 -10.16 0)
+				(length 3.81)
+				(name "EN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -16.51 -17.78 0)
+				(length 3.81)
+				(name "RT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(alternate "MODE/SYNC" input line)
+			)
+			(pin power_out line
+				(at -16.51 -27.94 0)
+				(length 3.81)
+				(name "V_{CC}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -44.45 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 16.51 -2.54 180)
+				(length 3.81)
+				(name "V_{OUT}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 16.51 -10.16 180)
+				(length 3.81)
+				(name "FB"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 16.51 -17.78 180)
+				(length 3.81)
+				(name "P_{GOOD}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -24.13 180)
+				(length 3.81)
+				(name "SW_{[1]}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -26.67 180)
+				(length 3.81)
+				(name "SW_{[2]}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -31.75 180)
+				(length 3.81)
+				(name "BOOT"
 					(effects
 						(font
 							(size 1.016 1.016)

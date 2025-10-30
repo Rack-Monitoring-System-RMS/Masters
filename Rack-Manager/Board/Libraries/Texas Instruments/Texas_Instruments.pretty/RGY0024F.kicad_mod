@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "VQFN-24 with Thermal Pad, 1.0mm max height")
-	(tags "Texas Instruments VQFN 24 RGY RGY0024F")
+	(descr "Texas Instruments VQFN-24 with Thermal Pad, 1.0mm max height")
+	(tags "Texas Instruments VQFN 24 RG RGY RGY00 RGY0024F")
 	(property "Reference" "Ref**"
 		(at 0 -4 0)
 		(unlocked yes)
@@ -42,7 +42,7 @@
 			)
 		)
 	)
-	(property "Description" "VQFN-24 with Thermal Pad, 1.0mm max height"
+	(property "Description" "Texas Instruments VQFN-24 with Thermal Pad, 1.0mm max height"
 		(at -1.65 -15.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -455,7 +455,7 @@
 		(size 2.1 4.1)
 		(property pad_prop_heatsink)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.024)
+		(roundrect_rratio 0.03333333333)
 		(thermal_bridge_angle 45)
 		(uuid "11f8622e-cd03-4d53-9949-ddb27c2a177c")
 	)

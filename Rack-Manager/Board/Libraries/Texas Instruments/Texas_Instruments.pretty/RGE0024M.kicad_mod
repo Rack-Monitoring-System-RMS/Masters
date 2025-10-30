@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "VQFN 26 pads, 1.0mm max height")
-	(tags "Texas Instruments VQFN 26 RGE RGE0024M")
+	(descr "Texas Instruments VQFN 26 pads, 1.0mm max height")
+	(tags "Texas Instruments VQFN 26 RG RGE RGE00 RGE0024M")
 	(property "Reference" "REF**"
 		(at 0 -3.5 0)
 		(unlocked yes)
@@ -43,7 +43,7 @@
 			)
 		)
 	)
-	(property "Description" "VQFN 26 pads, 1.0mm max height"
+	(property "Description" "Texas Instruments VQFN 26 pads, 1.0mm max height"
 		(at 0 -12.625 0)
 		(unlocked yes)
 		(layer "F.Fab")

@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "VQFN-HR 10 pads, 1.0mm max height")
+	(descr "Texas Instruments VQFN-HR 10 pads, 1.0mm max height")
 	(tags "Texas Instruments QFN VQFN VQFN-HR RP RPW RPW00 RPW0010A")
 	(property "Reference" "REF**"
 		(at 0 -2.7 0)
@@ -42,7 +42,7 @@
 			)
 		)
 	)
-	(property "Description" "VQFN-HR 10 pads, 1.0mm max height"
+	(property "Description" "Texas Instruments VQFN-HR 10 pads, 1.0mm max height"
 		(at -0.25 -10 0)
 		(unlocked yes)
 		(layer "F.Fab")

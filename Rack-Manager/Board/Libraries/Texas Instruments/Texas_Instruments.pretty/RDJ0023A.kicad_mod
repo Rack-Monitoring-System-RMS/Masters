@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments B0QFN 23 pads, 1.45mm max height")
-	(tags "Texas Instruments B0QFN RDJ RDJ0023A")
+	(tags "Texas Instruments QFN B0QFN RD RDJ RDJ00 RDJ0023A")
 	(property "Reference" "REF**"
 		(at 0 -4 0)
 		(unlocked yes)

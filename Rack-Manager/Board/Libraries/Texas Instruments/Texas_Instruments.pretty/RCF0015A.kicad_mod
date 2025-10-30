@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments QFN-FCMOD 15 pads, 2.0mm max height")
-	(tags "Texas Instruments QFN QFN-FCMOD RCF RCF0015A")
+	(tags "Texas Instruments QFN QFN-FCMOD RC RCF RCF00 RCF0015A")
 	(property "Reference" "REF**"
 		(at 0 -3.75 0)
 		(unlocked yes)

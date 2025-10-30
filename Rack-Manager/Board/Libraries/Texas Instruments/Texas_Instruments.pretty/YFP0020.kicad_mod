@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments DSBGA 20 pads, 0.5mm max height.")
-	(tags "Texas Instruments YFP YFP00 YFP0020")
+	(tags "Texas Instruments BGA DSBGA YF YFP YFP00 YFP0020")
 	(property "Reference" "REF**"
 		(at 0 -2.5 0)
 		(unlocked yes)

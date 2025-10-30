@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments X2SON-6 0.4mm max height")
-	(tags "Texas Instruments X2SON 6 DT DTQ DTQ0006A")
+	(tags "Texas Instruments X2SON 6 DT DTQ DTQ00 DTQ0006A")
 	(property "Reference" "Ref**"
 		(at 0 -2 0)
 		(unlocked yes)

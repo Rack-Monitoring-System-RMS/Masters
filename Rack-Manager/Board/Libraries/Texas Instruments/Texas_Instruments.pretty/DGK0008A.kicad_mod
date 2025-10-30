@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "VSSOP 8 pins, 1.1mm max height")
-	(tags "Texas Instruments SOP VSSOP DG DGK DGK00 DGK0008A")
+	(descr "Texas Isntruments VSSOP 8 pins, 1.1mm max height")
+	(tags "Texas Instruments SOP VSSOP DG DGK DGK00 DGK00 DGK0008A")
 	(property "Reference" "REF**"
 		(at 0 -2.7 0)
 		(unlocked yes)
@@ -42,7 +42,7 @@
 			)
 		)
 	)
-	(property "Description" "VSSOP 8 pins, 1.1mm max height"
+	(property "Description" "Texas Isntruments VSSOP 8 pins, 1.1mm max height"
 		(at -2.2 -10.975 0)
 		(unlocked yes)
 		(layer "F.Fab")

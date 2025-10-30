@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "UQFN 16 pads, 0.55mm max height")
-	(tags "Texas Instruments UQFN 16 RSV RSV0016A")
+	(descr "Texas Instruments UQFN 16 pads, 0.55mm max height")
+	(tags "Texas Instruments UQFN 16 RS RSV RSV00 RSV0016A")
 	(property "Reference" "REF**"
 		(at 0 -2.5 0)
 		(layer "F.SilkS")
@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Description" "UQFN-16, 0.55mm max height"
+	(property "Description" "Texas Instruments UQFN-16, 0.55mm max height"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

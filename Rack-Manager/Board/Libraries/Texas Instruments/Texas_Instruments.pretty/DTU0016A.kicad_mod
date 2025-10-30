@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "X2QFN 16 pads, 0.4mm max height")
-	(tags "Texas Instruments X2QFN 16 DT DTU DTU0016A")
+	(descr "Texas Instruments X2QFN 16 pads, 0.4mm max height")
+	(tags "Texas Instruments X2QFN 16 DT DTU DTU00 DTU0016A")
 	(property "Reference" "REF**"
 		(at 0 -2.5 0)
 		(unlocked yes)
@@ -42,7 +42,7 @@
 			)
 		)
 	)
-	(property "Description" "X2QFN 16 pads, 0.4mm max height"
+	(property "Description" "Texas Instruments X2QFN 16 pads, 0.4mm max height"
 		(at 0.4 -5.6 0)
 		(unlocked yes)
 		(layer "F.Fab")

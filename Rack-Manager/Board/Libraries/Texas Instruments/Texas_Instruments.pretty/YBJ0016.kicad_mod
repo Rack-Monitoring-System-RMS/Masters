@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "DSBGA 16 pads, 0.35mm max height.")
-	(tags "Texas Instruments DSBGA BGA 16 YB YBJ YBJ0 YBJ0016")
+	(descr "Texas Instruments DSBGA 16 pads, 0.35mm max height.")
+	(tags "Texas Instruments BGA DSBGA 16 YB YBJ YBJ00 YBJ0016")
 	(property "Reference" "REF**"
 		(at 0 -2.5 0)
 		(unlocked yes)
@@ -42,7 +42,7 @@
 			)
 		)
 	)
-	(property "Description" "DSBGA 16 pads, 0.35mm max height."
+	(property "Description" "Texas Instruments DSBGA 16 pads, 0.35mm max height."
 		(at -0.6 -10.6 0)
 		(unlocked yes)
 		(layer "F.Fab")

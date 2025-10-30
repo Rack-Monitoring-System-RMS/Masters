@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "SOT-23-6, 1.45mm max height")
-	(tags "Texas Instruments SOT-23 6 DBV DBV0006A")
+	(descr "Texas Isntruments SOT-23-6, 1.45mm max height")
+	(tags "Texas Instruments SOT-23 6 DB DBV DBV00 DBV0006A")
 	(property "Reference" "Ref**"
 		(at 0 -3 0)
 		(unlocked yes)
@@ -42,7 +42,7 @@
 			)
 		)
 	)
-	(property "Description" "SOT-23-6, 1.45mm max height"
+	(property "Description" "Texas Isntruments SOT-23-6, 1.45mm max height"
 		(at -1.1 -7.65 0)
 		(unlocked yes)
 		(layer "F.Fab")
