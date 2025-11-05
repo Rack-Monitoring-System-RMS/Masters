@@ -105,7 +105,7 @@
 			(symbol "ARJM11C7-114-BA-EW2_1_1"
 				(rectangle
 					(start -12.7 0)
-					(end 12.7 -22.86)
+					(end 12.7 -12.7)
 					(stroke
 						(width 0)
 						(type solid)
@@ -116,19 +116,7 @@
 				)
 				(polyline
 					(pts
-						(xy -12.7 -11.43) (xy 12.7 -11.43)
-					)
-					(stroke
-						(width 0)
-						(type dash)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -22.86)
+						(xy 0 -12.7) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -140,42 +128,6 @@
 				)
 				(pin bidirectional line
 					(at -16.51 -2.54 0)
-					(length 3.81)
-					(name "T_{D+}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 -7.62 0)
-					(length 3.81)
-					(name "T_{D-}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 -15.24 0)
 					(length 3.81)
 					(name "R_{D+}"
 						(effects
@@ -192,8 +144,26 @@
 						)
 					)
 				)
+				(pin output line
+					(at -16.51 -6.35 0)
+					(length 3.81)
+					(name "R_{CT}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
-					(at -16.51 -20.32 0)
+					(at -16.51 -10.16 0)
 					(length 3.81)
 					(name "R_{D-}"
 						(effects
@@ -210,8 +180,26 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 16.51 -2.54 180)
+					(length 3.81)
+					(name "T_{D+}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
 				(pin output line
-					(at 16.51 -5.08 180)
+					(at 16.51 -6.35 180)
 					(length 3.81)
 					(name "T_{CT}"
 						(effects
@@ -228,17 +216,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 16.51 -19.05 180)
+				(pin bidirectional line
+					(at 16.51 -10.16 180)
 					(length 3.81)
-					(name "R_{CT}"
+					(name "T_{D-}"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "4"
+					(number "8"
 						(effects
 							(font
 								(size 0.889 0.889)
@@ -6782,8 +6770,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
 				)
 			)
 		)
@@ -6791,7 +6777,7 @@
 			(at 76.2 137.16 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -6898,7 +6884,11 @@
 			(uuid "a4524f5f-9363-42ca-8ee3-7fd3c15d065a")
 		)
 		(instances
-			(project "Rack-Manager"
+			(project ""
+				(path "/5d42174d-da49-4bca-870b-353868af7168/781970e2-2116-4faf-b2d3-2243f6c2f5bb"
+					(reference "J1")
+					(unit 2)
+				)
 				(path "/5d42174d-da49-4bca-870b-353868af7168/b63ba99b-295c-4c28-a131-5e86bb9173d4"
 					(reference "J1")
 					(unit 2)
@@ -7253,34 +7243,34 @@
 			)
 		)
 		(pin "6"
-			(uuid "3ad63644-5388-40e4-a105-aa1a29bd12d2")
+			(uuid "3ad63644-5388-40e4-a105-aa1a29bd12d3")
 		)
 		(pin "3"
-			(uuid "ba5273e5-8c8e-42ad-9281-519765caa89d")
+			(uuid "ba5273e5-8c8e-42ad-9281-519765caa89e")
 		)
 		(pin "4"
-			(uuid "e2b318a9-2955-43f2-95b4-513b70cf241c")
+			(uuid "e2b318a9-2955-43f2-95b4-513b70cf241d")
 		)
 		(pin "2"
-			(uuid "b29c8637-834d-4562-98e6-7e8031842772")
+			(uuid "b29c8637-834d-4562-98e6-7e8031842773")
 		)
 		(pin "1"
-			(uuid "1650a7c0-f7bd-436b-b026-b1a070b3a3be")
+			(uuid "1650a7c0-f7bd-436b-b026-b1a070b3a3bf")
 		)
 		(pin "9"
-			(uuid "5d4ae68f-be0f-47b6-867b-2292fb8ff661")
+			(uuid "5d4ae68f-be0f-47b6-867b-2292fb8ff662")
 		)
 		(pin "5"
-			(uuid "b30271a3-cc95-493b-aece-a295b6ad66fc")
+			(uuid "b30271a3-cc95-493b-aece-a295b6ad66fd")
 		)
 		(pin "8"
-			(uuid "834f26df-1f4b-4c2d-8750-9fbfb138c4df")
+			(uuid "834f26df-1f4b-4c2d-8750-9fbfb138c4e0")
 		)
 		(pin "7"
-			(uuid "ccdd8e56-af3d-4b75-8353-b09b058d911d")
+			(uuid "ccdd8e56-af3d-4b75-8353-b09b058d911e")
 		)
 		(pin "10"
-			(uuid "59627b33-c27a-4c1a-ba1c-7cb6e8507eaf")
+			(uuid "59627b33-c27a-4c1a-ba1c-7cb6e8507eb0")
 		)
 		(instances
 			(project ""
@@ -7446,34 +7436,34 @@
 			)
 		)
 		(pin "10"
-			(uuid "cc07c4b2-778d-4fd3-8a3a-d04fddaf6d3e")
+			(uuid "cc07c4b2-778d-4fd3-8a3a-d04fddaf6d3f")
 		)
 		(pin "8"
-			(uuid "44c82a7b-c01d-4589-9572-8d8f63f3c284")
+			(uuid "44c82a7b-c01d-4589-9572-8d8f63f3c285")
 		)
 		(pin "6"
-			(uuid "3a0c5363-d349-4674-bd9c-d27b4a36939c")
+			(uuid "3a0c5363-d349-4674-bd9c-d27b4a36939d")
 		)
 		(pin "9"
-			(uuid "e78a364c-8f23-4fc5-b6e8-29640852d791")
+			(uuid "e78a364c-8f23-4fc5-b6e8-29640852d792")
 		)
 		(pin "3"
-			(uuid "5a446888-46ef-40a4-98df-64492f2f5b95")
+			(uuid "5a446888-46ef-40a4-98df-64492f2f5b96")
 		)
 		(pin "7"
-			(uuid "753e2bf1-ff89-4b55-962a-e31e8a8b9f29")
+			(uuid "753e2bf1-ff89-4b55-962a-e31e8a8b9f2a")
 		)
 		(pin "5"
-			(uuid "c96ddf75-fb84-4094-b155-206670ceb757")
+			(uuid "c96ddf75-fb84-4094-b155-206670ceb758")
 		)
 		(pin "2"
-			(uuid "ffbdb539-0eb4-4c8d-b8db-a3ea7fe31222")
+			(uuid "ffbdb539-0eb4-4c8d-b8db-a3ea7fe31223")
 		)
 		(pin "1"
-			(uuid "56afb952-e001-492a-8d6e-e899edd269fe")
+			(uuid "56afb952-e001-492a-8d6e-e899edd269ff")
 		)
 		(pin "4"
-			(uuid "9370cc47-ecc4-412e-bef2-53ddca8fcf92")
+			(uuid "9370cc47-ecc4-412e-bef2-53ddca8fcf93")
 		)
 		(instances
 			(project ""

@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "WIZnet:LQFP-48"
-			(at 0 12.7 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.wiznet.io/assets/files/W5500_ds_v110e-226ffec190c588b69f88d629789585e1.pdf"
-			(at 0 16.51 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,34 @@
 			)
 		)
 		(property "Description" "The W5500 chip is a Hardwired TCP/IP embedded Ethernet controller that provides easier Internet connection to embedded systems."
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WIZnet"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/950-W5500"
 			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C32843"
+			(at 0 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,7 +1263,7 @@
 			)
 		)
 		(property "Footprint" "WIZnet:QFN-68"
-			(at 0 12.7 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1272,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.wiznet.io/assets/files/W55RP20_ds_v100e-305d04360ccd4365749725f0d531515d.pdf"
-			(at 0 8.89 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1254,7 +1281,34 @@
 			)
 		)
 		(property "Description" "This chip is a System-in-Package (SiP) solution that integrates WIZnet's W5500 Ethernet controller with the RP2040 microcontroller from Raspberry Pi, providing networking and processing capabilities for IoT devices and smart applications."
-			(at 0 6.35 0)
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WIZnet"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/950-W55RP20"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C43229502"
+			(at 0 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +2871,7 @@
 			)
 		)
 		(property "Footprint" "WIZnet:QFN-48 (Thermal Pad)"
-			(at 0 8.89 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +2880,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.wiznet.io/assets/files/w6100_ds_v105e-80d78a133f56617f0fde12b69b1f4ca9.pdf"
-			(at 0 6.35 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +2889,34 @@
 			)
 		)
 		(property "Description" "W6100 is a hardwired Internet controller chip supporting IPv4/IPv6 dual stack by adding IPv6 functions on the basis of WIZnet’s patented hardwired TCP/IP core technology."
-			(at 0 11.43 0)
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WIZnet"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/950-W6100L"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C911393"
+			(at 0 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2934,7 +3015,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -12.7) (xy 12.7 -12.7)
+					(xy 0 -13.97) (xy 12.7 -13.97)
 				)
 				(stroke
 					(width 0)
@@ -3179,7 +3260,7 @@
 				)
 			)
 			(pin power_in line
-				(at 16.51 -17.78 180)
+				(at 16.51 -20.32 180)
 				(length 3.81)
 				(name "GND_{[1]}"
 					(effects
@@ -3197,7 +3278,7 @@
 				)
 			)
 			(pin power_in line
-				(at 16.51 -20.32 180)
+				(at 16.51 -22.86 180)
 				(length 3.81)
 				(name "GND_{[2]}"
 					(effects
@@ -3242,30 +3323,6 @@
 			(polyline
 				(pts
 					(xy 0 -13.97) (xy -12.7 -13.97)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -8.89) (xy 0 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -13.97) (xy 0 -13.97)
 				)
 				(stroke
 					(width 0)
@@ -3384,7 +3441,7 @@
 				)
 			)
 			(pin input clock
-				(at 16.51 -6.35 180)
+				(at 16.51 -17.78 180)
 				(length 3.81)
 				(name "XSCI"
 					(effects
@@ -3401,26 +3458,33 @@
 					)
 				)
 			)
-			(pin output line
-				(at 16.51 -11.43 180)
-				(length 3.81)
-				(name "~{INTn}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
+		)
+		(symbol "W6100L_3_1"
+			(rectangle
+				(start -12.7 0)
+				(end 12.7 -5.08)
+				(stroke
+					(width 0)
+					(type solid)
 				)
-				(number "47"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
+				(fill
+					(type background)
 				)
 			)
-			(pin output line
-				(at 16.51 -17.78 180)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -16.51 -2.54 0)
 				(length 3.81)
 				(name "~{RSTn}"
 					(effects
@@ -3437,11 +3501,29 @@
 					)
 				)
 			)
+			(pin output line
+				(at 16.51 -2.54 180)
+				(length 3.81)
+				(name "~{INTn}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
 		)
-		(symbol "W6100L_3_1"
+		(symbol "W6100L_4_1"
 			(rectangle
 				(start -12.7 0)
-				(end 12.7 -15.24)
+				(end 12.7 -33.02)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3452,7 +3534,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 -15.24)
+					(xy 0 0) (xy 0 -33.02)
 				)
 				(stroke
 					(width 0)
@@ -3489,32 +3571,14 @@
 			(pin input line
 				(at -16.51 -2.54 0)
 				(length 3.81)
-				(name "~{CSn}"
+				(name "~{RDn}"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "29"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin input clock
-				(at -16.51 -7.62 0)
-				(length 3.81)
-				(name "SCLK"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "30"
+				(number "34"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -3523,80 +3587,25 @@
 				)
 			)
 			(pin input line
-				(at -16.51 -12.7 0)
+				(at -16.51 -7.62 0)
 				(length 3.81)
-				(name "MOSI"
+				(name "~{WRn}"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "32"
+				(number "35"
 					(effects
 						(font
 							(size 0.889 0.889)
 						)
 					)
-				)
-			)
-			(pin output line
-				(at 16.51 -12.7 180)
-				(length 3.81)
-				(name "MISO"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-		)
-		(symbol "W6100L_4_1"
-			(rectangle
-				(start -12.7 0)
-				(end 12.7 -22.86)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 -22.86)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -11.43) (xy 0 -11.43)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -2.54 0)
+				(at -16.51 -12.7 0)
 				(length 3.81)
 				(name "DATA_{[0]}"
 					(effects
@@ -3614,7 +3623,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -5.08 0)
+				(at -16.51 -15.24 0)
 				(length 3.81)
 				(name "DATA_{[1]}"
 					(effects
@@ -3632,7 +3641,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -7.62 0)
+				(at -16.51 -17.78 0)
 				(length 3.81)
 				(name "DATA_{[2]}"
 					(effects
@@ -3650,7 +3659,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -10.16 0)
+				(at -16.51 -20.32 0)
 				(length 3.81)
 				(name "DATA_{[3]}"
 					(effects
@@ -3668,7 +3677,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -12.7 0)
+				(at -16.51 -22.86 0)
 				(length 3.81)
 				(name "DATA_{[4]}"
 					(effects
@@ -3686,7 +3695,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -15.24 0)
+				(at -16.51 -25.4 0)
 				(length 3.81)
 				(name "DATA_{[5]}"
 					(effects
@@ -3704,7 +3713,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -17.78 0)
+				(at -16.51 -27.94 0)
 				(length 3.81)
 				(name "DATA_{[6]}"
 					(effects
@@ -3722,7 +3731,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -20.32 0)
+				(at -16.51 -30.48 0)
 				(length 3.81)
 				(name "DATA_{[7]}"
 					(effects
@@ -3740,16 +3749,34 @@
 				)
 			)
 			(pin input line
-				(at 16.51 -6.35 180)
+				(at 16.51 -2.54 180)
 				(length 3.81)
-				(name "~{RDn}"
+				(name "~{CSn}"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "34"
+				(number "29"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at 16.51 -6.35 180)
+				(length 3.81)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "30"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -3758,16 +3785,34 @@
 				)
 			)
 			(pin input line
-				(at 16.51 -16.51 180)
+				(at 16.51 -10.16 180)
 				(length 3.81)
-				(name "~{WRn}"
+				(name "MOSI"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "35"
+				(number "32"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 16.51 -13.97 180)
+				(length 3.81)
+				(name "MISO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "33"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -4047,7 +4092,7 @@
 			)
 		)
 		(property "Footprint" "WIZnet:QFN-48 (Thermal Pad)"
-			(at 0 8.89 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,7 +4101,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.wiznet.io/assets/files/w6100_ds_v105e-80d78a133f56617f0fde12b69b1f4ca9.pdf"
-			(at 0 6.35 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,7 +4110,34 @@
 			)
 		)
 		(property "Description" "W6100 is a hardwired Internet controller chip supporting IPv4/IPv6 dual stack by adding IPv6 functions on the basis of WIZnet’s patented hardwired TCP/IP core technology."
-			(at 0 11.43 0)
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WIZnet"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/950-W6100Q"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "~"
+			(at 0 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4236,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -12.7) (xy 12.7 -12.7)
+					(xy 0 -13.97) (xy 12.7 -13.97)
 				)
 				(stroke
 					(width 0)
@@ -4176,7 +4248,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -25.4) (xy 12.7 -25.4)
+					(xy 0 -29.21) (xy 12.7 -29.21)
 				)
 				(stroke
 					(width 0)
@@ -4421,7 +4493,7 @@
 				)
 			)
 			(pin power_in line
-				(at 16.51 -17.78 180)
+				(at 16.51 -20.32 180)
 				(length 3.81)
 				(name "GND_{[1]}"
 					(effects
@@ -4439,7 +4511,7 @@
 				)
 			)
 			(pin power_in line
-				(at 16.51 -20.32 180)
+				(at 16.51 -22.86 180)
 				(length 3.81)
 				(name "GND_{[2]}"
 					(effects
@@ -4457,7 +4529,7 @@
 				)
 			)
 			(pin power_in line
-				(at 16.51 -30.48 180)
+				(at 16.51 -35.56 180)
 				(length 3.81)
 				(name "THERMAL_PAD"
 					(effects
@@ -4502,30 +4574,6 @@
 			(polyline
 				(pts
 					(xy 0 -13.97) (xy -12.7 -13.97)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -8.89) (xy 0 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -13.97) (xy 0 -13.97)
 				)
 				(stroke
 					(width 0)
@@ -4644,7 +4692,7 @@
 				)
 			)
 			(pin input clock
-				(at 16.51 -6.35 180)
+				(at 16.51 -17.78 180)
 				(length 3.81)
 				(name "XSCI"
 					(effects
@@ -4661,26 +4709,33 @@
 					)
 				)
 			)
-			(pin output line
-				(at 16.51 -11.43 180)
-				(length 3.81)
-				(name "~{INTn}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
+		)
+		(symbol "W6100Q_3_1"
+			(rectangle
+				(start -12.7 0)
+				(end 12.7 -5.08)
+				(stroke
+					(width 0)
+					(type solid)
 				)
-				(number "47"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
+				(fill
+					(type background)
 				)
 			)
-			(pin output line
-				(at 16.51 -17.78 180)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -16.51 -2.54 0)
 				(length 3.81)
 				(name "~{RSTn}"
 					(effects
@@ -4697,11 +4752,29 @@
 					)
 				)
 			)
+			(pin output line
+				(at 16.51 -2.54 180)
+				(length 3.81)
+				(name "~{INTn}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
 		)
-		(symbol "W6100Q_3_1"
+		(symbol "W6100Q_4_1"
 			(rectangle
 				(start -12.7 0)
-				(end 12.7 -15.24)
+				(end 12.7 -33.02)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4712,7 +4785,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 -15.24)
+					(xy 0 0) (xy 0 -33.02)
 				)
 				(stroke
 					(width 0)
@@ -4749,32 +4822,14 @@
 			(pin input line
 				(at -16.51 -2.54 0)
 				(length 3.81)
-				(name "~{CSn}"
+				(name "~{RDn}"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "29"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin input clock
-				(at -16.51 -7.62 0)
-				(length 3.81)
-				(name "SCLK"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "30"
+				(number "34"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -4783,80 +4838,25 @@
 				)
 			)
 			(pin input line
-				(at -16.51 -12.7 0)
+				(at -16.51 -7.62 0)
 				(length 3.81)
-				(name "MOSI"
+				(name "~{WRn}"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "32"
+				(number "35"
 					(effects
 						(font
 							(size 0.889 0.889)
 						)
 					)
-				)
-			)
-			(pin output line
-				(at 16.51 -12.7 180)
-				(length 3.81)
-				(name "MISO"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-		)
-		(symbol "W6100Q_4_1"
-			(rectangle
-				(start -12.7 0)
-				(end 12.7 -22.86)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 -22.86)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -11.43) (xy 0 -11.43)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -2.54 0)
+				(at -16.51 -12.7 0)
 				(length 3.81)
 				(name "DATA_{[0]}"
 					(effects
@@ -4874,7 +4874,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -5.08 0)
+				(at -16.51 -15.24 0)
 				(length 3.81)
 				(name "DATA_{[1]}"
 					(effects
@@ -4892,7 +4892,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -7.62 0)
+				(at -16.51 -17.78 0)
 				(length 3.81)
 				(name "DATA_{[2]}"
 					(effects
@@ -4910,7 +4910,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -10.16 0)
+				(at -16.51 -20.32 0)
 				(length 3.81)
 				(name "DATA_{[3]}"
 					(effects
@@ -4928,7 +4928,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -12.7 0)
+				(at -16.51 -22.86 0)
 				(length 3.81)
 				(name "DATA_{[4]}"
 					(effects
@@ -4946,7 +4946,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -15.24 0)
+				(at -16.51 -25.4 0)
 				(length 3.81)
 				(name "DATA_{[5]}"
 					(effects
@@ -4964,7 +4964,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -17.78 0)
+				(at -16.51 -27.94 0)
 				(length 3.81)
 				(name "DATA_{[6]}"
 					(effects
@@ -4982,7 +4982,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -20.32 0)
+				(at -16.51 -30.48 0)
 				(length 3.81)
 				(name "DATA_{[7]}"
 					(effects
@@ -5000,16 +5000,34 @@
 				)
 			)
 			(pin input line
-				(at 16.51 -6.35 180)
+				(at 16.51 -2.54 180)
 				(length 3.81)
-				(name "~{RDn}"
+				(name "~{CSn}"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "34"
+				(number "29"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at 16.51 -6.35 180)
+				(length 3.81)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "30"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -5018,16 +5036,34 @@
 				)
 			)
 			(pin input line
-				(at 16.51 -16.51 180)
+				(at 16.51 -10.16 180)
 				(length 3.81)
-				(name "~{WRn}"
+				(name "MOSI"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "35"
+				(number "32"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 16.51 -13.97 180)
+				(length 3.81)
+				(name "MISO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "33"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -5307,7 +5343,7 @@
 			)
 		)
 		(property "Footprint" "WIZnet:LQFP-48 (Thermal Pad)"
-			(at 0 8.89 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5352,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.wiznet.io/assets/files/w6100_ds_v105e-80d78a133f56617f0fde12b69b1f4ca9.pdf"
-			(at 0 6.35 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,7 +5361,34 @@
 			)
 		)
 		(property "Description" "W6300 is a Hardwired Internet Controller that supports Quad SPI, a high-speed synchronous interface that can maximize 100Mbps Ethernet communication speed, based on WIZnet's Hardware TCP/IP technology that supports IPv4/IPv6 Dual Stack."
-			(at 0 11.43 0)
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WIZnet"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/950-W6300-L"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C9900217075"
+			(at 0 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5903,26 +5966,33 @@
 					)
 				)
 			)
-			(pin output line
-				(at 16.51 -11.43 180)
-				(length 3.81)
-				(name "~{INTn}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
+		)
+		(symbol "W6300L_3_1"
+			(rectangle
+				(start -12.7 0)
+				(end 12.7 -5.08)
+				(stroke
+					(width 0)
+					(type solid)
 				)
-				(number "45"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
+				(fill
+					(type background)
 				)
 			)
-			(pin output line
-				(at 16.51 -17.78 180)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -16.51 -2.54 0)
 				(length 3.81)
 				(name "~{RSTn}"
 					(effects
@@ -5939,144 +6009,17 @@
 					)
 				)
 			)
-		)
-		(symbol "W6300L_3_1"
-			(rectangle
-				(start -12.7 0)
-				(end 12.7 -12.7)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 -12.7)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -6.35) (xy -12.7 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -16.51 -2.54 0)
-				(length 3.81)
-				(name "~{CSn}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin input clock
-				(at -16.51 -10.16 0)
-				(length 3.81)
-				(name "SCLK"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
+			(pin output line
 				(at 16.51 -2.54 180)
 				(length 3.81)
-				(name "QD_{0}"
+				(name "~{INTn}"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "32"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16.51 -5.08 180)
-				(length 3.81)
-				(name "QD_{1}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16.51 -7.62 180)
-				(length 3.81)
-				(name "QD_{2}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16.51 -10.16 180)
-				(length 3.81)
-				(name "QD_{3}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "35"
+				(number "45"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -6095,6 +6038,18 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -22.86)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin bidirectional line
@@ -6234,6 +6189,114 @@
 					)
 				)
 				(number "44"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 16.51 -2.54 180)
+				(length 3.81)
+				(name "~{CSn}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at 16.51 -6.35 180)
+				(length 3.81)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -12.7 180)
+				(length 3.81)
+				(name "QD_{0}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -15.24 180)
+				(length 3.81)
+				(name "QD_{1}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -17.78 180)
+				(length 3.81)
+				(name "QD_{2}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -20.32 180)
+				(length 3.81)
+				(name "QD_{3}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "35"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -6513,7 +6576,7 @@
 			)
 		)
 		(property "Footprint" "WIZnet:QFN-48 (Thermal Pad)"
-			(at 0 8.89 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6522,7 +6585,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.wiznet.io/assets/files/w6100_ds_v105e-80d78a133f56617f0fde12b69b1f4ca9.pdf"
-			(at 0 6.35 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6531,7 +6594,34 @@
 			)
 		)
 		(property "Description" "W6300 is a Hardwired Internet Controller that supports Quad SPI, a high-speed synchronous interface that can maximize 100Mbps Ethernet communication speed, based on WIZnet's Hardware TCP/IP technology that supports IPv4/IPv6 Dual Stack."
-			(at 0 11.43 0)
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WIZnet"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/950-W6300-Q"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C9900217074"
+			(at 0 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,7 +7269,7 @@
 		(symbol "W6300Q_3_1"
 			(rectangle
 				(start -12.7 0)
-				(end 12.7 -12.7)
+				(end 12.7 -5.08)
 				(stroke
 					(width 0)
 					(type solid)
@@ -7190,19 +7280,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 -12.7)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -6.35) (xy -12.7 -6.35)
+					(xy 0 0) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -7215,14 +7293,14 @@
 			(pin input line
 				(at -16.51 -2.54 0)
 				(length 3.81)
-				(name "~{CSn}"
+				(name "~{RSTn}"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "29"
+				(number "46"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -7230,89 +7308,17 @@
 					)
 				)
 			)
-			(pin input clock
-				(at -16.51 -10.16 0)
-				(length 3.81)
-				(name "SCLK"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
+			(pin output line
 				(at 16.51 -2.54 180)
 				(length 3.81)
-				(name "QD_{0}"
+				(name "~{INTn}"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "32"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16.51 -5.08 180)
-				(length 3.81)
-				(name "QD_{1}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16.51 -7.62 180)
-				(length 3.81)
-				(name "QD_{2}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16.51 -10.16 180)
-				(length 3.81)
-				(name "QD_{3}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "35"
+				(number "45"
 					(effects
 						(font
 							(size 0.889 0.889)
@@ -7331,6 +7337,18 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -22.86)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin bidirectional line
@@ -7470,6 +7488,114 @@
 					)
 				)
 				(number "44"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 16.51 -2.54 180)
+				(length 3.81)
+				(name "~{CSn}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at 16.51 -6.35 180)
+				(length 3.81)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -12.7 180)
+				(length 3.81)
+				(name "QD_{0}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -15.24 180)
+				(length 3.81)
+				(name "QD_{1}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -17.78 180)
+				(length 3.81)
+				(name "QD_{2}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -20.32 180)
+				(length 3.81)
+				(name "QD_{3}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "35"
 					(effects
 						(font
 							(size 0.889 0.889)

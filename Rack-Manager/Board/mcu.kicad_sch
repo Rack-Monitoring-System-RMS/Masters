@@ -1121,19 +1121,1389 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "WIZnet:W6100Q"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "W6100Q"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "WIZnet:QFN-48 (Thermal Pad)"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://docs.wiznet.io/assets/files/w6100_ds_v105e-80d78a133f56617f0fde12b69b1f4ca9.pdf"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "W6100 is a hardwired Internet controller chip supporting IPv4/IPv6 dual stack by adding IPv6 functions on the basis of WIZnet’s patented hardwired TCP/IP core technology."
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "WIZnet"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Link" "https://www.mouser.it/ProductDetail/950-W6100Q"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB #" "~"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "WIZ net WIZnet W6 W6100 W6100Q Ethernet controller Chip IC 10 100 IPv4 IPv6 SPI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "W6100Q_1_1"
+				(rectangle
+					(start -12.7 0)
+					(end 12.7 -38.1)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -7.62) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -15.24) (xy 0 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -20.32) (xy 0 -20.32)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -33.02) (xy 0 -33.02)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -38.1)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -13.97) (xy 12.7 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -29.21) (xy 12.7 -29.21)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -2.54 0)
+					(length 3.81)
+					(name "3V3A_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -5.08 0)
+					(length 3.81)
+					(name "3V3A_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -10.16 0)
+					(length 3.81)
+					(name "3V3D_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -12.7 0)
+					(length 3.81)
+					(name "3V3D_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -17.78 0)
+					(length 3.81)
+					(name "1V2A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -22.86 0)
+					(length 3.81)
+					(name "1V2D_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -25.4 0)
+					(length 3.81)
+					(name "1V2D_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -27.94 0)
+					(length 3.81)
+					(name "1V2D_{[3]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -30.48 0)
+					(length 3.81)
+					(name "1V2D_{[4]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -35.56 0)
+					(length 3.81)
+					(name "1V2O"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -2.54 180)
+					(length 3.81)
+					(name "GNDA_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -5.08 180)
+					(length 3.81)
+					(name "GNDA_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -7.62 180)
+					(length 3.81)
+					(name "GNDA_{[3]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -20.32 180)
+					(length 3.81)
+					(name "GND_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -22.86 180)
+					(length 3.81)
+					(name "GND_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -35.56 180)
+					(length 3.81)
+					(name "THERMAL_PAD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(symbol "W6100Q_2_1"
+				(rectangle
+					(start -12.7 0)
+					(end 12.7 -20.32)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -20.32)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -13.97) (xy -12.7 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -16.51 -2.54 0)
+					(length 3.81)
+					(name "MODE_{[0]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -5.08 0)
+					(length 3.81)
+					(name "MODE_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -7.62 0)
+					(length 3.81)
+					(name "MODE_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -10.16 0)
+					(length 3.81)
+					(name "MODE_{[3]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -17.78 0)
+					(length 3.81)
+					(name "RSET_BG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 16.51 -2.54 180)
+					(length 3.81)
+					(name "XSCO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 16.51 -17.78 180)
+					(length 3.81)
+					(name "XSCI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(symbol "W6100Q_3_1"
+				(rectangle
+					(start -12.7 0)
+					(end 12.7 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -16.51 -2.54 0)
+					(length 3.81)
+					(name "~{RSTn}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -2.54 180)
+					(length 3.81)
+					(name "~{INTn}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(symbol "W6100Q_4_1"
+				(rectangle
+					(start -12.7 0)
+					(end 12.7 -33.02)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -33.02)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -12.7 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy -12.7 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -16.51 -2.54 0)
+					(length 3.81)
+					(name "~{RDn}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -7.62 0)
+					(length 3.81)
+					(name "~{WRn}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -12.7 0)
+					(length 3.81)
+					(name "DATA_{[0]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -15.24 0)
+					(length 3.81)
+					(name "DATA_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -17.78 0)
+					(length 3.81)
+					(name "DATA_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -20.32 0)
+					(length 3.81)
+					(name "DATA_{[3]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -22.86 0)
+					(length 3.81)
+					(name "DATA_{[4]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -25.4 0)
+					(length 3.81)
+					(name "DATA_{[5]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -27.94 0)
+					(length 3.81)
+					(name "DATA_{[6]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -30.48 0)
+					(length 3.81)
+					(name "DATA_{[7]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -2.54 180)
+					(length 3.81)
+					(name "~{CSn}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 16.51 -6.35 180)
+					(length 3.81)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -10.16 180)
+					(length 3.81)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -13.97 180)
+					(length 3.81)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(symbol "W6100Q_5_1"
+				(rectangle
+					(start -12.7 0)
+					(end 12.7 -8.89)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -16.51 -2.54 0)
+					(length 3.81)
+					(name "RXI+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -6.35 0)
+					(length 3.81)
+					(name "RXI-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -2.54 180)
+					(length 3.81)
+					(name "TXO+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -6.35 180)
+					(length 3.81)
+					(name "TXO-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(symbol "W6100Q_6_1"
+				(rectangle
+					(start -12.7 0)
+					(end 12.7 -34.29)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy -12.7 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -12.7) (xy -12.7 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -20.32) (xy -12.7 -20.32)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -27.94) (xy -12.7 -27.94)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 16.51 -2.54 180)
+					(length 3.81)
+					(name "~{LINKn}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -8.89 180)
+					(length 3.81)
+					(name "~{SPEEDn}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -16.51 180)
+					(length 3.81)
+					(name "~{DUPLEXn}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -24.13 180)
+					(length 3.81)
+					(name "~{ACTIVEn}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -31.75 180)
+					(length 3.81)
+					(name "~{COLn}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 34.29 76.2)
+		(uuid "04b27cc6-efb8-4d46-8168-b6f69370a316")
+	)
+	(no_connect
+		(at 34.29 63.5)
+		(uuid "22b83cb5-999b-4694-961d-2a639fe8ca74")
+	)
+	(no_connect
+		(at 34.29 68.58)
+		(uuid "3abe223e-4718-4b4a-abfd-6a8451a4d7ac")
+	)
+	(no_connect
+		(at 34.29 66.04)
+		(uuid "7709173a-dc59-4018-bf78-88a5ce1ad8be")
+	)
+	(no_connect
+		(at 34.29 58.42)
+		(uuid "9ee88ded-7647-4797-b3a8-3f393c770aae")
+	)
+	(no_connect
+		(at 34.29 73.66)
+		(uuid "a39737eb-0f92-4517-bba8-257e12a9c399")
+	)
+	(no_connect
+		(at 34.29 71.12)
+		(uuid "ac9f8408-cf84-4457-b659-11182a5a290e")
+	)
+	(no_connect
+		(at 34.29 53.34)
+		(uuid "b95eb899-03d9-49b9-8c8c-ab639cba9b13")
+	)
+	(no_connect
+		(at 34.29 81.28)
+		(uuid "d9e2c08f-1721-42b7-8ee6-47c05fc11b3c")
+	)
+	(no_connect
+		(at 34.29 78.74)
+		(uuid "e5d14c6b-d3a5-4677-bba7-938da83dba1b")
+	)
+	(wire
+		(pts
+			(xy 67.31 60.96) (xy 80.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b9a158-4e19-47ad-be66-5bfb4090746e")
+	)
+	(wire
+		(pts
+			(xy 67.31 57.15) (xy 80.01 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "142a44e0-5af5-4c22-931d-b9bd1a2b4ca7")
+	)
+	(wire
+		(pts
+			(xy 67.31 64.77) (xy 80.01 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8594e899-16a7-42ae-8a29-5dde1d94f44c")
+	)
+	(wire
+		(pts
+			(xy 67.31 53.34) (xy 80.01 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c8930f-c23f-409d-a515-fc48b937494a")
+	)
+	(label "ETH_MOSI"
+		(at 80.01 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aafdd320-5997-4922-ac57-016caf9311ae")
+	)
+	(label "ETH_MISO"
+		(at 80.01 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb6a12eb-9079-4225-bb84-4a7c71d81eda")
+	)
+	(label "ETH_SCLK"
+		(at 80.01 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de845542-4658-4a35-9aee-cd0f4155fc51")
+	)
+	(label "ETH_CS"
+		(at 80.01 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea0fb9f5-80f9-42cc-be8b-13f55ba13163")
 	)
 	(symbol
 		(lib_id "STMicroelectronics:STM32G0B1KCUx")
-		(at 139.7 170.18 0)
+		(at 165.1 114.3 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0b6b9a68-9a50-4c2d-a405-296b066bfb21")
 		(property "Reference" "U6"
-			(at 139.7 165.1 0)
+			(at 161.925 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1142,16 +2512,17 @@
 				)
 			)
 		)
-		(property "Value" "STM32G0B1KCUx"
-			(at 139.7 167.64 0)
+		(property "Value" "STM32G0B1KCU7"
+			(at 161.29 118.11 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
-			(at 139.7 161.29 0)
+			(at 165.1 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1160,7 +2531,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1cc.pdf"
-			(at 139.7 158.75 0)
+			(at 165.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1169,7 +2540,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 256KB flash, 144KB RAM, 64 MHz, 1.7-3.6V, 30 GPIO, UFQFPN32"
-			(at 139.7 156.21 0)
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +2549,7 @@
 			)
 		)
 		(property "Manufacturer" "STMicroelectronics"
-			(at 139.7 153.67 0)
+			(at 165.1 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,8 +2557,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Link" "~"
-			(at 139.7 151.13 0)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/511-STM32G0B1KCU7"
+			(at 165.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,8 +2566,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "~"
-			(at 139.7 148.59 0)
+		(property "JLCPCB #" "C5270235"
+			(at 165.1 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1313,17 +2684,17 @@
 		)
 	)
 	(symbol
-		(lib_id "STMicroelectronics:STM32G0B1KCUx")
-		(at 139.7 58.42 0)
-		(unit 2)
+		(lib_id "WIZnet:W6100Q")
+		(at 50.8 50.8 0)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aaeb3788-e274-4c82-a1f4-1518990965b7")
-		(property "Reference" "U6"
-			(at 139.7 53.34 0)
+		(uuid "2e81f3b7-d0ef-415b-b69d-7ee2c8c836a8")
+		(property "Reference" "U7"
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,16 +2703,16 @@
 				)
 			)
 		)
-		(property "Value" "STM32G0B1KCUx"
-			(at 139.7 55.88 0)
+		(property "Value" "W6100Q"
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
-			(at 139.7 49.53 0)
+		(property "Footprint" "WIZnet:QFN-48 (Thermal Pad)"
+			(at 50.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,8 +2720,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1cc.pdf"
-			(at 139.7 46.99 0)
+		(property "Datasheet" "https://docs.wiznet.io/assets/files/w6100_ds_v105e-80d78a133f56617f0fde12b69b1f4ca9.pdf"
+			(at 50.8 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,8 +2729,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 256KB flash, 144KB RAM, 64 MHz, 1.7-3.6V, 30 GPIO, UFQFPN32"
-			(at 139.7 44.45 0)
+		(property "Description" "W6100 is a hardwired Internet controller chip supporting IPv4/IPv6 dual stack by adding IPv6 functions on the basis of WIZnet’s patented hardwired TCP/IP core technology."
+			(at 50.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,8 +2738,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 139.7 41.91 0)
+		(property "Manufacturer" "WIZnet"
+			(at 50.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,8 +2747,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Link" "~"
-			(at 139.7 39.37 0)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/950-W6100Q"
+			(at 50.8 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1386,7 +2757,477 @@
 			)
 		)
 		(property "JLCPCB #" "~"
-			(at 139.7 36.83 0)
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d45d5321-520a-4242-b6f0-22d59a8aa5a4")
+		)
+		(pin "33"
+			(uuid "fb258c79-b1a7-45f8-b514-f7206823233a")
+		)
+		(pin "32"
+			(uuid "9a390443-90a2-4d02-8eb5-e1910a6657e6")
+		)
+		(pin "17"
+			(uuid "3a6c4156-41b5-4873-948b-d0a4b2bbf6c4")
+		)
+		(pin "19"
+			(uuid "e5fe74ba-80be-4b14-8921-e9c246967856")
+		)
+		(pin "21"
+			(uuid "984cdd32-1486-4b23-9786-5237b065c0f2")
+		)
+		(pin "39"
+			(uuid "497e1006-ef69-4b3e-9bcb-7cfc3333c4f9")
+		)
+		(pin "22"
+			(uuid "45050794-4ef3-4683-8491-50ec50ee3d51")
+		)
+		(pin "30"
+			(uuid "9652f904-7e94-4224-b3df-930d21bde2a6")
+		)
+		(pin "5"
+			(uuid "3a8694eb-bffd-4a3a-af94-29397550c783")
+		)
+		(pin "48"
+			(uuid "3740a4f5-9dee-4e46-89a2-826eeff2d181")
+		)
+		(pin "49"
+			(uuid "4de22522-468e-42da-ab7a-58ae29644dbd")
+		)
+		(pin "47"
+			(uuid "02aafab6-f198-42bc-bfaf-edaca221d7b3")
+		)
+		(pin "28"
+			(uuid "392089b4-6541-4797-81ff-6dabadc4df16")
+		)
+		(pin "7"
+			(uuid "f4e3b135-238b-48a0-9211-c6e30beb81aa")
+		)
+		(pin "25"
+			(uuid "18e761c0-237e-405b-bc45-187858db08c4")
+		)
+		(pin "34"
+			(uuid "5f5b6771-8fa4-4841-b03e-cf887b0608b3")
+		)
+		(pin "35"
+			(uuid "8648dfa6-f3db-45ba-ba3c-f3b61f7b04ba")
+		)
+		(pin "36"
+			(uuid "32c2a751-d3c6-4bde-bee5-146f581e1f77")
+		)
+		(pin "37"
+			(uuid "30e45a48-0abd-4303-a269-60d70bd0d63e")
+		)
+		(pin "43"
+			(uuid "a709c209-6b49-4926-8074-3e3c06991cc7")
+		)
+		(pin "6"
+			(uuid "a89cdec4-117a-43ed-b558-883d3ad95f54")
+		)
+		(pin "16"
+			(uuid "1ab06a9a-9009-47ea-95b8-2d82af704190")
+		)
+		(pin "3"
+			(uuid "962a07e0-26a5-4b1e-8cc8-1fa4146ea2e1")
+		)
+		(pin "2"
+			(uuid "21349c92-ce82-48e5-a0ce-667cb574786c")
+		)
+		(pin "13"
+			(uuid "633c3d71-792a-4d73-ac97-4c9a66ca92fd")
+		)
+		(pin "24"
+			(uuid "4a66531f-146f-4c0c-bc9e-6a40feef95af")
+		)
+		(pin "8"
+			(uuid "b1225626-a280-434a-b7ad-a657d9dc01a9")
+		)
+		(pin "1"
+			(uuid "01108086-c454-4106-832b-bf664af163fb")
+		)
+		(pin "26"
+			(uuid "1b5989fa-911e-437b-a690-9935055d8e13")
+		)
+		(pin "27"
+			(uuid "230d9b3a-6903-418d-a4f6-75e0f2575aff")
+		)
+		(pin "9"
+			(uuid "19c4597a-52f4-4c49-8e8d-5801f55cb415")
+		)
+		(pin "11"
+			(uuid "51a79e0c-3c57-4f05-945a-e5c93ef7103a")
+		)
+		(pin "45"
+			(uuid "1acd88c2-6033-44b8-9ae2-404ad4ae92b8")
+		)
+		(pin "12"
+			(uuid "22e72cf5-6c45-41ef-812d-acb4c573be93")
+		)
+		(pin "31"
+			(uuid "4b7d1755-a28c-4696-914d-6d8edbf8f7be")
+		)
+		(pin "10"
+			(uuid "edfc06e9-d94d-4bf7-a90b-041951fa6e6f")
+		)
+		(pin "29"
+			(uuid "7fd82dcc-898e-4788-a7dc-04c95b49b07e")
+		)
+		(pin "38"
+			(uuid "f5e03c2a-eedb-4418-82ef-75c7cb3e4a43")
+		)
+		(pin "15"
+			(uuid "acb8f0a4-d039-4472-8048-4dbc0382b864")
+		)
+		(pin "41"
+			(uuid "4a3c0056-85e9-4455-be52-807686af18a0")
+		)
+		(pin "14"
+			(uuid "39a34717-2b10-4bb3-b6d8-ad78d9cbf2ef")
+		)
+		(pin "46"
+			(uuid "c2beeae5-2e14-4bf2-bcaa-0fa4182d05ee")
+		)
+		(pin "40"
+			(uuid "9abea07d-80d6-4b52-b6b9-206e6527968c")
+		)
+		(pin "42"
+			(uuid "c32057d4-538a-4a14-8824-83d74337e596")
+		)
+		(pin "44"
+			(uuid "132620ca-006f-48f7-a4cf-efa2d0a62e29")
+		)
+		(pin "18"
+			(uuid "aaad9cd4-3a66-4c2b-94a3-85ba9798bcc4")
+		)
+		(pin "20"
+			(uuid "0015fcd6-9efd-4d51-9d1f-dbf28e9fd14a")
+		)
+		(instances
+			(project "Rack-Manager"
+				(path "/5d42174d-da49-4bca-870b-353868af7168/7157e7ec-3c45-4678-ad37-9c4958bff2d2"
+					(reference "U7")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WIZnet:W6100Q")
+		(at 50.8 101.6 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e49832b-431b-4023-abc0-d0e3d7e1c4cb")
+		(property "Reference" "U7"
+			(at 50.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "W6100Q"
+			(at 50.8 99.06 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "WIZnet:QFN-48 (Thermal Pad)"
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.wiznet.io/assets/files/w6100_ds_v105e-80d78a133f56617f0fde12b69b1f4ca9.pdf"
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "W6100 is a hardwired Internet controller chip supporting IPv4/IPv6 dual stack by adding IPv6 functions on the basis of WIZnet’s patented hardwired TCP/IP core technology."
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WIZnet"
+			(at 50.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/950-W6100Q"
+			(at 50.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "~"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d45d5321-520a-4242-b6f0-22d59a8aa5a2")
+		)
+		(pin "33"
+			(uuid "76c88a3a-89fb-4a74-8d16-5064d621c177")
+		)
+		(pin "32"
+			(uuid "cc526c35-2156-447f-9c76-abb1c1ea4100")
+		)
+		(pin "17"
+			(uuid "3a6c4156-41b5-4873-948b-d0a4b2bbf6c2")
+		)
+		(pin "19"
+			(uuid "e5fe74ba-80be-4b14-8921-e9c246967854")
+		)
+		(pin "21"
+			(uuid "984cdd32-1486-4b23-9786-5237b065c0f0")
+		)
+		(pin "39"
+			(uuid "1e7e03ac-832a-4232-896b-cc671224115f")
+		)
+		(pin "22"
+			(uuid "45050794-4ef3-4683-8491-50ec50ee3d4f")
+		)
+		(pin "30"
+			(uuid "e19fa957-c8bb-4185-a035-0442410f7862")
+		)
+		(pin "5"
+			(uuid "3a8694eb-bffd-4a3a-af94-29397550c781")
+		)
+		(pin "48"
+			(uuid "434a5672-13eb-43a3-956a-9d2491ba8db0")
+		)
+		(pin "49"
+			(uuid "4de22522-468e-42da-ab7a-58ae29644dbb")
+		)
+		(pin "47"
+			(uuid "41b9e7db-ea72-444c-93d4-70f9c6b9b6f9")
+		)
+		(pin "28"
+			(uuid "ccfbef12-a562-43d8-a60f-a7f20a698b7e")
+		)
+		(pin "7"
+			(uuid "f4e3b135-238b-48a0-9211-c6e30beb81a8")
+		)
+		(pin "25"
+			(uuid "b4c8b6a0-dffc-445e-a9eb-f0774edf1392")
+		)
+		(pin "34"
+			(uuid "5e690cbf-4079-4245-9a34-89a5a0adb54c")
+		)
+		(pin "35"
+			(uuid "70b516c1-277c-4f28-9122-47feb766fa1c")
+		)
+		(pin "36"
+			(uuid "32c2a751-d3c6-4bde-bee5-146f581e1f75")
+		)
+		(pin "37"
+			(uuid "12108538-a969-48a6-8855-71cc0f6e1f63")
+		)
+		(pin "43"
+			(uuid "d81de072-9dd2-4fa3-8f6a-a14ae8435f07")
+		)
+		(pin "6"
+			(uuid "a89cdec4-117a-43ed-b558-883d3ad95f52")
+		)
+		(pin "16"
+			(uuid "1ab06a9a-9009-47ea-95b8-2d82af70418e")
+		)
+		(pin "3"
+			(uuid "962a07e0-26a5-4b1e-8cc8-1fa4146ea2df")
+		)
+		(pin "2"
+			(uuid "21349c92-ce82-48e5-a0ce-667cb574786a")
+		)
+		(pin "13"
+			(uuid "633c3d71-792a-4d73-ac97-4c9a66ca92fb")
+		)
+		(pin "24"
+			(uuid "4a66531f-146f-4c0c-bc9e-6a40feef95ad")
+		)
+		(pin "8"
+			(uuid "b1225626-a280-434a-b7ad-a657d9dc01a7")
+		)
+		(pin "1"
+			(uuid "01108086-c454-4106-832b-bf664af163f9")
+		)
+		(pin "26"
+			(uuid "e377339e-c6c4-41a6-85a7-392dd5b66475")
+		)
+		(pin "27"
+			(uuid "0b983cbb-c552-47c9-94c6-812e7a07240a")
+		)
+		(pin "9"
+			(uuid "092b526e-dacc-4c65-b025-af2c2a19901c")
+		)
+		(pin "11"
+			(uuid "e351fa05-3b95-4240-8a67-41a24d6fd2cc")
+		)
+		(pin "45"
+			(uuid "1acd88c2-6033-44b8-9ae2-404ad4ae92b6")
+		)
+		(pin "12"
+			(uuid "bfca5baa-d207-4e72-be43-3c4247ac5348")
+		)
+		(pin "31"
+			(uuid "4b7d1755-a28c-4696-914d-6d8edbf8f7bc")
+		)
+		(pin "10"
+			(uuid "edfc06e9-d94d-4bf7-a90b-041951fa6e6d")
+		)
+		(pin "29"
+			(uuid "a4bad247-39cd-4145-9c95-687b6dcd9c07")
+		)
+		(pin "38"
+			(uuid "4b9afc46-2d32-4d90-a1aa-572c673dc42c")
+		)
+		(pin "15"
+			(uuid "acb8f0a4-d039-4472-8048-4dbc0382b862")
+		)
+		(pin "41"
+			(uuid "820ce621-061a-4239-a65c-6bf5ed158dcd")
+		)
+		(pin "14"
+			(uuid "39a34717-2b10-4bb3-b6d8-ad78d9cbf2ed")
+		)
+		(pin "46"
+			(uuid "c2beeae5-2e14-4bf2-bcaa-0fa4182d05ec")
+		)
+		(pin "40"
+			(uuid "aabd2b32-e5a9-4eeb-93e5-e35eb2b8fcf9")
+		)
+		(pin "42"
+			(uuid "b96e2eba-bc3f-4615-bd99-a54fdbf91ba4")
+		)
+		(pin "44"
+			(uuid "3f8b565f-7586-4a14-a617-3cc41e1fb75f")
+		)
+		(pin "18"
+			(uuid "aaad9cd4-3a66-4c2b-94a3-85ba9798bcc2")
+		)
+		(pin "20"
+			(uuid "0015fcd6-9efd-4d51-9d1f-dbf28e9fd148")
+		)
+		(instances
+			(project "Rack-Manager"
+				(path "/5d42174d-da49-4bca-870b-353868af7168/7157e7ec-3c45-4678-ad37-9c4958bff2d2"
+					(reference "U7")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STMicroelectronics:STM32G0B1KCUx")
+		(at 139.7 76.2 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aaeb3788-e274-4c82-a1f4-1518990965b7")
+		(property "Reference" "U6"
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "STM32G0B1KCU7"
+			(at 142.24 92.075 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1cc.pdf"
+			(at 139.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 256KB flash, 144KB RAM, 64 MHz, 1.7-3.6V, 30 GPIO, UFQFPN32"
+			(at 139.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/511-STM32G0B1KCU7"
+			(at 139.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C5270235"
+			(at 139.7 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,16 +3345,15 @@
 	)
 	(symbol
 		(lib_id "STMicroelectronics:STM32G0B1KCUx")
-		(at 139.7 149.86 0)
+		(at 165.1 104.14 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dcebfcd9-360a-4d89-abdf-31699eba404e")
 		(property "Reference" "U6"
-			(at 139.7 144.78 0)
+			(at 161.925 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,16 +3362,17 @@
 				)
 			)
 		)
-		(property "Value" "STM32G0B1KCUx"
-			(at 139.7 147.32 0)
+		(property "Value" "STM32G0B1KCU7"
+			(at 161.925 111.125 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
-			(at 139.7 140.97 0)
+			(at 165.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +3381,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1cc.pdf"
-			(at 139.7 138.43 0)
+			(at 165.1 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,7 +3390,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 256KB flash, 144KB RAM, 64 MHz, 1.7-3.6V, 30 GPIO, UFQFPN32"
-			(at 139.7 135.89 0)
+			(at 165.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,7 +3399,7 @@
 			)
 		)
 		(property "Manufacturer" "STMicroelectronics"
-			(at 139.7 133.35 0)
+			(at 165.1 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,8 +3407,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Link" "~"
-			(at 139.7 130.81 0)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/511-STM32G0B1KCU7"
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,8 +3416,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "~"
-			(at 139.7 128.27 0)
+		(property "JLCPCB #" "C5270235"
+			(at 165.1 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,16 +3535,15 @@
 	)
 	(symbol
 		(lib_id "STMicroelectronics:STM32G0B1KCUx")
-		(at 139.7 111.76 0)
+		(at 165.1 76.2 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fb1230a9-cfde-4037-a5c2-8415655ecce1")
 		(property "Reference" "U6"
-			(at 139.7 106.68 0)
+			(at 161.925 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,16 +3552,17 @@
 				)
 			)
 		)
-		(property "Value" "STM32G0B1KCUx"
-			(at 139.7 109.22 0)
+		(property "Value" "STM32G0B1KCU7"
+			(at 161.925 89.535 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
-			(at 139.7 102.87 0)
+			(at 165.1 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +3571,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1cc.pdf"
-			(at 139.7 100.33 0)
+			(at 165.1 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +3580,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 256KB flash, 144KB RAM, 64 MHz, 1.7-3.6V, 30 GPIO, UFQFPN32"
-			(at 139.7 97.79 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +3589,7 @@
 			)
 		)
 		(property "Manufacturer" "STMicroelectronics"
-			(at 139.7 95.25 0)
+			(at 165.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,8 +3597,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Link" "~"
-			(at 139.7 92.71 0)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/511-STM32G0B1KCU7"
+			(at 165.1 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,8 +3606,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "~"
-			(at 139.7 90.17 0)
+		(property "JLCPCB #" "C5270235"
+			(at 165.1 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +3725,7 @@
 	)
 	(symbol
 		(lib_id "STMicroelectronics:STM32G0B1KCUx")
-		(at 139.7 38.1 0)
+		(at 152.4 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1893,7 +3734,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff63478b-756c-4098-988a-aa77f39bbfac")
 		(property "Reference" "U6"
-			(at 139.7 33.02 0)
+			(at 152.4 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1902,8 +3743,8 @@
 				)
 			)
 		)
-		(property "Value" "STM32G0B1KCUx"
-			(at 139.7 35.56 0)
+		(property "Value" "STM32G0B1KCU7"
+			(at 152.4 48.26 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -1911,7 +3752,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
-			(at 139.7 29.21 0)
+			(at 152.4 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,7 +3761,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1cc.pdf"
-			(at 139.7 26.67 0)
+			(at 152.4 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,7 +3770,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 256KB flash, 144KB RAM, 64 MHz, 1.7-3.6V, 30 GPIO, UFQFPN32"
-			(at 139.7 24.13 0)
+			(at 152.4 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +3779,7 @@
 			)
 		)
 		(property "Manufacturer" "STMicroelectronics"
-			(at 139.7 21.59 0)
+			(at 152.4 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,8 +3787,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Link" "~"
-			(at 139.7 19.05 0)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/511-STM32G0B1KCU7"
+			(at 152.4 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1955,8 +3796,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB #" "~"
-			(at 139.7 16.51 0)
+		(property "JLCPCB #" "C5270235"
+			(at 152.4 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)

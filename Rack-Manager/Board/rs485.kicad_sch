@@ -9,5 +9,1032 @@
 		(rev "v0.1")
 		(comment 1 "Rack-Manager")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Texas Instruments:THVD1450DRBR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "THVD1450DRBR"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Texas Instruments:DRB0008F"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/thvd1450.pdf"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "THVD14xx is a family of noise-immune RS-485/RS422 transceivers designed to operate in rugged industrial environments"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Link" "https://www.mouser.it/ProductDetail/595-THVD1450DRBR"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB #" "C1850226"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Txas Instruments THV THVD THVD14 THVD1450 THVD1450DR THVD1450DRBR RS-485 RS-422 Transreceiver"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "THVD1450DRBR_1_1"
+				(rectangle
+					(start -12.7 0)
+					(end 12.7 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -2.54 0)
+					(length 3.81)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -2.54 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(symbol "THVD1450DRBR_2_1"
+				(rectangle
+					(start -12.7 0)
+					(end 12.7 -15.24)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -10.16) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -15.24) (xy 0 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -16.51 -2.54 0)
+					(length 3.81)
+					(name "~{RE}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -7.62 0)
+					(length 3.81)
+					(name "~{DE}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -12.7 0)
+					(length 3.81)
+					(name "R"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -12.7 180)
+					(length 3.81)
+					(name "D"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(symbol "THVD1450DRBR_3_1"
+				(rectangle
+					(start -12.7 0)
+					(end 12.7 -12.7)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -6.35) (xy -12.7 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -2.54 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -10.16 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Texas Instruments:THVD1450DRBR")
+		(at 101.6 91.44 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74b452f3-3582-419a-998e-50db92572946")
+		(property "Reference" "U8"
+			(at 101.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "THVD1450DRBR"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Texas Instruments:DRB0008F"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/thvd1450.pdf"
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "THVD14xx is a family of noise-immune RS-485/RS422 transceivers designed to operate in rugged industrial environments"
+			(at 101.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/595-THVD1450DRBR"
+			(at 101.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C1850226"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "95e654e2-d09e-42b6-b59b-d20fddce4659")
+		)
+		(pin "1"
+			(uuid "8cc35573-fdae-4dd8-9449-748f0218cc7b")
+		)
+		(pin "2"
+			(uuid "6d6f3119-4b86-4e46-9451-e7e5e2a34db4")
+		)
+		(pin "6"
+			(uuid "60b78fdd-b220-4405-9ffa-b60de51f9ffd")
+		)
+		(pin "5"
+			(uuid "92453f9e-bbec-4bf4-9364-6cfe8753412c")
+		)
+		(pin "7"
+			(uuid "74a9ac69-45a2-4f30-8cc7-4189860bc0c1")
+		)
+		(pin "8"
+			(uuid "96cab307-a846-42f2-a446-f70929a43eae")
+		)
+		(pin "4"
+			(uuid "c66ec68b-a890-4926-a2af-40ce8ba3db1b")
+		)
+		(instances
+			(project ""
+				(path "/5d42174d-da49-4bca-870b-353868af7168/9f35d409-1fd7-4241-ba93-dffedac70e6f"
+					(reference "U8")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Texas Instruments:THVD1450DRBR")
+		(at 177.8 66.04 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c2d0b9f-7c04-49f2-90b2-38d1d469df94")
+		(property "Reference" "U9"
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "THVD1450DRBR"
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Texas Instruments:DRB0008F"
+			(at 177.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/thvd1450.pdf"
+			(at 177.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "THVD14xx is a family of noise-immune RS-485/RS422 transceivers designed to operate in rugged industrial environments"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 177.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/595-THVD1450DRBR"
+			(at 177.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C1850226"
+			(at 177.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0bcdb78d-9225-4774-a587-b356c0fbab71")
+		)
+		(pin "1"
+			(uuid "2fc0bd12-e6ec-4b52-b6d5-8797dbc992ce")
+		)
+		(pin "2"
+			(uuid "03d7623b-38ed-4981-a8ca-17cbda36853d")
+		)
+		(pin "6"
+			(uuid "60b78fdd-b220-4405-9ffa-b60de51f9ffe")
+		)
+		(pin "5"
+			(uuid "92453f9e-bbec-4bf4-9364-6cfe8753412d")
+		)
+		(pin "7"
+			(uuid "74a9ac69-45a2-4f30-8cc7-4189860bc0c2")
+		)
+		(pin "8"
+			(uuid "96cab307-a846-42f2-a446-f70929a43eaf")
+		)
+		(pin "4"
+			(uuid "c9abd6a4-3a06-4e8a-a2dd-0cd8cbc2dfd5")
+		)
+		(instances
+			(project "Rack-Manager"
+				(path "/5d42174d-da49-4bca-870b-353868af7168/9f35d409-1fd7-4241-ba93-dffedac70e6f"
+					(reference "U9")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Texas Instruments:THVD1450DRBR")
+		(at 177.8 91.44 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b34dcc33-03da-470e-a5b1-ecf4930024f0")
+		(property "Reference" "U9"
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "THVD1450DRBR"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Texas Instruments:DRB0008F"
+			(at 177.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/thvd1450.pdf"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "THVD14xx is a family of noise-immune RS-485/RS422 transceivers designed to operate in rugged industrial environments"
+			(at 177.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/595-THVD1450DRBR"
+			(at 177.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C1850226"
+			(at 177.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "95e654e2-d09e-42b6-b59b-d20fddce465b")
+		)
+		(pin "1"
+			(uuid "8cc35573-fdae-4dd8-9449-748f0218cc7d")
+		)
+		(pin "2"
+			(uuid "6d6f3119-4b86-4e46-9451-e7e5e2a34db6")
+		)
+		(pin "6"
+			(uuid "4f98ab81-baef-493a-822b-af8a6b29ac3b")
+		)
+		(pin "5"
+			(uuid "92453f9e-bbec-4bf4-9364-6cfe8753412e")
+		)
+		(pin "7"
+			(uuid "5514d377-2759-4ed1-95f1-d41c7e0871f9")
+		)
+		(pin "8"
+			(uuid "96cab307-a846-42f2-a446-f70929a43eb0")
+		)
+		(pin "4"
+			(uuid "c66ec68b-a890-4926-a2af-40ce8ba3db1d")
+		)
+		(instances
+			(project "Rack-Manager"
+				(path "/5d42174d-da49-4bca-870b-353868af7168/9f35d409-1fd7-4241-ba93-dffedac70e6f"
+					(reference "U9")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Texas Instruments:THVD1450DRBR")
+		(at 101.6 66.04 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd6dc03e-aa1b-4ccb-92f9-f17cf01f2963")
+		(property "Reference" "U8"
+			(at 101.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "THVD1450DRBR"
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Texas Instruments:DRB0008F"
+			(at 101.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/thvd1450.pdf"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "THVD14xx is a family of noise-immune RS-485/RS422 transceivers designed to operate in rugged industrial environments"
+			(at 101.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 101.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/595-THVD1450DRBR"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C1850226"
+			(at 101.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "95e654e2-d09e-42b6-b59b-d20fddce4659")
+		)
+		(pin "1"
+			(uuid "8cc35573-fdae-4dd8-9449-748f0218cc7b")
+		)
+		(pin "2"
+			(uuid "6d6f3119-4b86-4e46-9451-e7e5e2a34db4")
+		)
+		(pin "6"
+			(uuid "60b78fdd-b220-4405-9ffa-b60de51f9ffd")
+		)
+		(pin "5"
+			(uuid "92453f9e-bbec-4bf4-9364-6cfe8753412c")
+		)
+		(pin "7"
+			(uuid "74a9ac69-45a2-4f30-8cc7-4189860bc0c1")
+		)
+		(pin "8"
+			(uuid "96cab307-a846-42f2-a446-f70929a43eae")
+		)
+		(pin "4"
+			(uuid "c66ec68b-a890-4926-a2af-40ce8ba3db1b")
+		)
+		(instances
+			(project ""
+				(path "/5d42174d-da49-4bca-870b-353868af7168/9f35d409-1fd7-4241-ba93-dffedac70e6f"
+					(reference "U8")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Texas Instruments:THVD1450DRBR")
+		(at 177.8 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c21b564e-cc57-4a04-98f6-4405ca731b54")
+		(property "Reference" "U9"
+			(at 177.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "THVD1450DRBR"
+			(at 177.8 48.26 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Texas Instruments:DRB0008F"
+			(at 177.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/thvd1450.pdf"
+			(at 177.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "THVD14xx is a family of noise-immune RS-485/RS422 transceivers designed to operate in rugged industrial environments"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 177.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/595-THVD1450DRBR"
+			(at 177.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C1850226"
+			(at 177.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "95e654e2-d09e-42b6-b59b-d20fddce4659")
+		)
+		(pin "1"
+			(uuid "8cc35573-fdae-4dd8-9449-748f0218cc7b")
+		)
+		(pin "2"
+			(uuid "6d6f3119-4b86-4e46-9451-e7e5e2a34db4")
+		)
+		(pin "6"
+			(uuid "60b78fdd-b220-4405-9ffa-b60de51f9ffd")
+		)
+		(pin "5"
+			(uuid "932af094-da3f-4f1e-9694-9a0d9731d521")
+		)
+		(pin "7"
+			(uuid "74a9ac69-45a2-4f30-8cc7-4189860bc0c1")
+		)
+		(pin "8"
+			(uuid "5a0ac394-453c-429a-b63c-ac404e834b96")
+		)
+		(pin "4"
+			(uuid "c66ec68b-a890-4926-a2af-40ce8ba3db1b")
+		)
+		(instances
+			(project "Rack-Manager"
+				(path "/5d42174d-da49-4bca-870b-353868af7168/9f35d409-1fd7-4241-ba93-dffedac70e6f"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Texas Instruments:THVD1450DRBR")
+		(at 101.6 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8f6de4a-9899-422a-9f8b-1cb47661d08e")
+		(property "Reference" "U8"
+			(at 101.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "THVD1450DRBR"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Texas Instruments:DRB0008F"
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/thvd1450.pdf"
+			(at 101.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "THVD14xx is a family of noise-immune RS-485/RS422 transceivers designed to operate in rugged industrial environments"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 101.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/595-THVD1450DRBR"
+			(at 101.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C1850226"
+			(at 101.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "95e654e2-d09e-42b6-b59b-d20fddce4659")
+		)
+		(pin "1"
+			(uuid "8cc35573-fdae-4dd8-9449-748f0218cc7b")
+		)
+		(pin "2"
+			(uuid "6d6f3119-4b86-4e46-9451-e7e5e2a34db4")
+		)
+		(pin "6"
+			(uuid "60b78fdd-b220-4405-9ffa-b60de51f9ffd")
+		)
+		(pin "5"
+			(uuid "92453f9e-bbec-4bf4-9364-6cfe8753412c")
+		)
+		(pin "7"
+			(uuid "74a9ac69-45a2-4f30-8cc7-4189860bc0c1")
+		)
+		(pin "8"
+			(uuid "96cab307-a846-42f2-a446-f70929a43eae")
+		)
+		(pin "4"
+			(uuid "c66ec68b-a890-4926-a2af-40ce8ba3db1b")
+		)
+		(instances
+			(project ""
+				(path "/5d42174d-da49-4bca-870b-353868af7168/9f35d409-1fd7-4241-ba93-dffedac70e6f"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

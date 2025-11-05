@@ -1703,23 +1703,23 @@
 		(dnp no)
 		(uuid "4cd4d7fd-768c-47af-90db-4914d7c9913c")
 		(property "Reference" "C11"
-			(at 86.36 43.18 0)
+			(at 79.375 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 86.868 45.72 0)
+			(at 78.74 45.72 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -1774,7 +1774,7 @@
 		(dnp no)
 		(uuid "4e592ad3-7ca0-4988-bc5b-d97c3af84714")
 		(property "Reference" "C9"
-			(at 207.01 43.18 0)
+			(at 206.375 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +1785,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 207.264 45.72 0)
+			(at 206.629 45.72 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -2283,23 +2283,23 @@
 		(dnp no)
 		(uuid "7b5f6a37-b626-4334-8a6e-633afeea2ed7")
 		(property "Reference" "C10"
-			(at 99.06 43.18 0)
+			(at 92.075 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1uF"
-			(at 99.568 45.72 0)
+			(at 91.44 45.72 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -3252,7 +3252,7 @@
 		(dnp no)
 		(uuid "cbf08761-c8dd-4b57-9b0e-968bd235ab33")
 		(property "Reference" "C8"
-			(at 194.31 43.18 0)
+			(at 193.675 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3263,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 194.564 45.72 0)
+			(at 193.929 45.72 0)
 			(effects
 				(font
 					(size 0.889 0.889)
