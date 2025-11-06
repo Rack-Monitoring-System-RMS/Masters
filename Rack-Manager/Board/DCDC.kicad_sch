@@ -1248,6 +1248,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 68.58 25.4)
+		(end 215.9 96.52)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6852a2f4-33e9-45b3-b9dc-6142111c98cd)
+	)
+	(text "DC-DC Buck Converter\n12V/15V -->  3.3V"
+		(exclude_from_sim no)
+		(at 95.25 88.9 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "e93ddfc2-9196-4e61-b1d3-c04ae2c02632")
+	)
 	(text_box "FB=3.4V"
 		(exclude_from_sim no)
 		(at 165.1 64.77 0)

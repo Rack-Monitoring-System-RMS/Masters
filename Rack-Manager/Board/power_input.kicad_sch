@@ -3249,6 +3249,32 @@
 		)
 		(uuid 51590154-60fd-4969-a4c8-450bb10b6737)
 	)
+	(text "Note"
+		(exclude_from_sim no)
+		(at 234.95 200.66 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "07d6d5d9-4089-4b02-a083-5fc771b5a9bb")
+	)
+	(text "Note"
+		(exclude_from_sim no)
+		(at 234.95 226.06 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "1311bd6e-a9ec-4eb4-be3e-1ae111530e51")
+	)
 	(text "Power Bus Capacitance"
 		(exclude_from_sim no)
 		(at 137.16 200.66 0)
@@ -3293,6 +3319,27 @@
 		)
 		(uuid "144ed290-1b16-438f-bd62-bacdbf6e0f64")
 	)
+	(text_box "Need to add kV capacitor from Earth to Ground"
+		(exclude_from_sim no)
+		(at 215.9 203.2 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b729437-7684-45de-9f09-a07304bf1336")
+	)
 	(text_box "OVLO = 17V\nUVLO = 4V\n"
 		(exclude_from_sim no)
 		(at 125.73 83.82 0)
@@ -3332,6 +3379,27 @@
 			)
 		)
 		(uuid "8e95d47e-2c90-440b-859d-1d9959ad0c4b")
+	)
+	(text_box "Split all domains with 0R resistors and add testpoints"
+		(exclude_from_sim no)
+		(at 215.9 228.6 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a98fc0dc-28a1-4e90-93e9-4129329b38b2")
 	)
 	(text_box "100ms 4A"
 		(exclude_from_sim no)

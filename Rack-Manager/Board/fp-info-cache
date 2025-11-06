@@ -1,4 +1,4 @@
-26527151182017434
+26530676034854325
 Abracon
 ARJM11 - Package C
 RJ45 Connector
@@ -103670,6 +103670,13 @@ Texas Instruments SON VSON DR DRB DRB00 DRB0008 DRB0008F
 13
 10
 Texas Instruments
+DRC0010J
+Texas Instruments VSON 10 pads with thermal pad, 1.0mm max height.
+Texas Instruments VSON 10 DR DRC DRC00 DRC0010 DRC0010J
+0
+15
+11
+Texas Instruments
 DRY0006A
 Texas Instruments USON-6, 0.6mm max height
 Texas Instruments USON 6 DR DRY DRY00 DRY0006A
@@ -103809,6 +103816,13 @@ Texas Instruments BGA DSBGA YF YFP YFP00 YFP0020
 0
 20
 20
+Texas Instruments
+YWP0012A
+Texas Instruments PowerWCSP 12 pads, 0.376mm max height.
+Texas Instruments YW YWP YWP00 YWP0012 YWP0012A WCSP PowerWCSP 12
+0
+12
+12
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)

@@ -2425,6 +2425,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 78.74) (xy 101.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09aae0f7-cacc-4553-aec8-e31b98162f42")
+	)
+	(wire
+		(pts
 			(xy 67.31 57.15) (xy 80.01 57.15)
 		)
 		(stroke
@@ -2432,6 +2442,46 @@
 			(type default)
 		)
 		(uuid "142a44e0-5af5-4c22-931d-b9bd1a2b4ca7")
+	)
+	(wire
+		(pts
+			(xy 114.3 86.36) (xy 101.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d44018-ff47-4faf-9572-655252a85880")
+	)
+	(wire
+		(pts
+			(xy 114.3 82.55) (xy 101.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4a6dd4-581d-4ef0-abcc-2d7bbfa3a3e5")
+	)
+	(wire
+		(pts
+			(xy 34.29 104.14) (xy 21.59 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3914d69d-1fed-4528-8df4-661d89caab15")
+	)
+	(wire
+		(pts
+			(xy 67.31 104.14) (xy 80.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ec2b94-36aa-4a05-968b-98565a638d7a")
 	)
 	(wire
 		(pts
@@ -2453,21 +2503,81 @@
 		)
 		(uuid "94c8930f-c23f-409d-a515-fc48b937494a")
 	)
+	(wire
+		(pts
+			(xy 114.3 90.17) (xy 101.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b165a8a7-0b06-4d00-99db-d14ba85a152f")
+	)
+	(label "~{ETH_INT}"
+		(at 80.01 104.14 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e7b2072-9670-4699-8ba3-4c72917be651")
+	)
+	(label "~{ETH_RST}"
+		(at 21.59 104.14 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "7524d1c7-bd34-4e8e-a94c-32806795ffc3")
+	)
+	(label "ETH_SCLK"
+		(at 101.6 82.55 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a868c7e-a104-417b-a1d4-99db8a95485d")
+	)
 	(label "ETH_MOSI"
 		(at 80.01 60.96 180)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
 		(uuid "aafdd320-5997-4922-ac57-016caf9311ae")
 	)
+	(label "ETH_MOSI"
+		(at 101.6 86.36 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1f21dd4-47b7-4e7a-b6b7-de602ec3068f")
+	)
+	(label "ETH_CS"
+		(at 101.6 78.74 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8d1c708-53a0-48c7-9453-7350531e0677")
+	)
 	(label "ETH_MISO"
 		(at 80.01 64.77 180)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
@@ -2477,7 +2587,7 @@
 		(at 80.01 57.15 180)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
@@ -2487,11 +2597,21 @@
 		(at 80.01 53.34 180)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
 		(uuid "ea0fb9f5-80f9-42cc-be8b-13f55ba13163")
+	)
+	(label "ETH_MISO"
+		(at 101.6 90.17 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9c21201-7a7e-4dc1-9a00-c1b70e02b7cc")
 	)
 	(symbol
 		(lib_id "STMicroelectronics:STM32G0B1KCUx")
