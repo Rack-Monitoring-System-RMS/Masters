@@ -3127,7 +3127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b7d455d-a8fd-4fea-be04-073851b458a7")
-		(property "Reference" "C28"
+		(property "Reference" "C31"
 			(at 78.74 125.73 0)
 			(effects
 				(font
@@ -3183,7 +3183,7 @@
 		(instances
 			(project "Rack-Manager"
 				(path "/5d42174d-da49-4bca-870b-353868af7168/9f35d409-1fd7-4241-ba93-dffedac70e6f"
-					(reference "C28")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -3911,7 +3911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0c9e55c-d041-4003-8483-24ab9fa2507f")
-		(property "Reference" "C29"
+		(property "Reference" "C30"
 			(at 78.74 53.34 0)
 			(effects
 				(font
@@ -3967,7 +3967,7 @@
 		(instances
 			(project "Rack-Manager"
 				(path "/5d42174d-da49-4bca-870b-353868af7168/9f35d409-1fd7-4241-ba93-dffedac70e6f"
-					(reference "C29")
+					(reference "C30")
 					(unit 1)
 				)
 			)
