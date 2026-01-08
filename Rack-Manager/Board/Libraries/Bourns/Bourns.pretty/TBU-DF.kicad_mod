@@ -1,0 +1,266 @@
+(footprint "TBU-DF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Bourns 6 pad TBU footprint")
+	(tags "Bourns TBU DF TBU-DF")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7aba36d7-a99b-4ccb-89b3-98746efaae3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TBU-DF"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f56545da-b9a6-4dd5-976b-66c9f49d1d06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/TBU-DF.pdf"
+		(at -2.1 -9.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc2830ae-a4e1-4921-b02e-f5525c060d33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Bourns 6 pad TBU footprint"
+		(at -2.1 -9.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85610c7f-4bef-47b9-aa38-25455d966cea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.07)
+	(attr smd)
+	(fp_line
+		(start -3.55 -3.05)
+		(end -3.55 2.1)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6cbce85a-7e29-4c11-b48f-2cb387e9453d")
+	)
+	(fp_line
+		(start -3.55 -3.05)
+		(end 3.55 -3.05)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "343e83d4-2cf4-4f7f-891c-393f5896226c")
+	)
+	(fp_line
+		(start -2.6 3.05)
+		(end 3.55 3.05)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "43838198-3457-4f8a-adc5-9dbe7a441c84")
+	)
+	(fp_line
+		(start 3.55 -3.05)
+		(end 3.55 3.05)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0d9c887a-905e-4073-b5f4-954033a9f692")
+	)
+	(fp_poly
+		(pts
+			(xy -3.55 3.05) (xy -3.55 3.65) (xy -4.15 3.05)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2f8dd72f-6c33-46bb-ac65-4eaef47ecc4f")
+	)
+	(fp_rect
+		(start -3.9 -3.4)
+		(end 3.9 3.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "875f69c4-1bd8-4640-9f5e-6977d92ab909")
+	)
+	(fp_poly
+		(pts
+			(xy -3.25 1.85) (xy -3.25 -2.75) (xy 3.25 -2.75) (xy 3.25 2.75) (xy -2.35 2.75)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "50ab46b2-d607-425f-a9a4-aeb555092d8e")
+	)
+	(fp_rect
+		(start -2.925 -2.4)
+		(end -1.075 -0.4)
+		(stroke
+			(width 0.001)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "2ef06dd1-7acd-499e-987a-27533b43d523")
+	)
+	(fp_rect
+		(start -2.925 0.4)
+		(end -1.075 2.4)
+		(stroke
+			(width 0.001)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "3e0bad55-0379-49be-b4b9-48346093e8f1")
+	)
+	(fp_rect
+		(start -0.375 -2.4)
+		(end 0.425 -0.4)
+		(stroke
+			(width 0.001)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "faba1a68-43d5-40b1-9e39-0a20afe4dfaf")
+	)
+	(fp_rect
+		(start -0.375 0.4)
+		(end 0.425 2.4)
+		(stroke
+			(width 0.001)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "da02f337-5312-4dc9-8cd3-37635abdd1c0")
+	)
+	(fp_rect
+		(start 1.125 -2.4)
+		(end 2.975 -0.4)
+		(stroke
+			(width 0.001)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "6476b3b4-3bad-441e-854a-fb7dc81a6054")
+	)
+	(fp_rect
+		(start 1.125 0.4)
+		(end 2.975 2.4)
+		(stroke
+			(width 0.001)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "5680edfa-743d-49a2-9c74-59764d19e207")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4a66dec3-44cf-43ee-8815-22d240f48540")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2 1.4)
+		(size 2.05 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.0243902439)
+		(uuid "ddb24e26-1d4c-4204-94a2-cadb57fb5145")
+	)
+	(pad "2" smd roundrect
+		(at 0.025 1.4)
+		(size 1 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "a04f7c77-d8a7-4cd1-8c2f-0cc021f19678")
+	)
+	(pad "3" smd roundrect
+		(at 2.05 1.4)
+		(size 2.05 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.0243902439)
+		(uuid "22d0f62b-588f-4dce-aa32-f62694a0c4f5")
+	)
+	(pad "4" smd roundrect
+		(at 2.05 -1.4)
+		(size 2.05 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.0243902439)
+		(uuid "51cf172a-a448-4578-be16-2528d0853cb9")
+	)
+	(pad "5" smd roundrect
+		(at 0.025 -1.4)
+		(size 1 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "d7f12fec-0819-4be9-9ca2-0c0a1445e9cc")
+	)
+	(pad "6" smd roundrect
+		(at -2 -1.4)
+		(size 2.05 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.0243902439)
+		(uuid "2030cbd2-beea-4070-ab9d-09e0108ca4bc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Bourns/3D models/TBU-DF.step"
+		(offset
+			(xyz -3.3 -2.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -6,4 +6,5 @@
   (lib (name "STMicroelectronics")(type "KiCad")(uri "${KIPRJMOD}/Libraries/STMicroelectronics/STMicroelectronics.kicad_sym")(options "")(descr ""))
   (lib (name "Silvertel")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Silvertel/Silvertel.kicad_sym")(options "")(descr ""))
   (lib (name "Abracon")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Abracon/Abracon.kicad_sym")(options "")(descr ""))
+  (lib (name "Bourns")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Bourns/Bourns.kicad_sym")(options "")(descr ""))
 )

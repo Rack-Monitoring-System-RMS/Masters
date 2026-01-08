@@ -5,11 +5,216 @@
 	(uuid "5d42174d-da49-4bca-870b-353868af7168")
 	(paper "A4")
 	(title_block
+		(title "Index")
 		(date "2025-10-30")
 		(rev "v0.1")
 		(comment 1 "Rack-Manager")
 	)
 	(lib_symbols)
+	(text "Note"
+		(exclude_from_sim no)
+		(at 387.35 73.66 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "5453b055-8a27-455d-b4d9-a5426ec2d7ee")
+	)
+	(text "Note"
+		(exclude_from_sim no)
+		(at 336.55 48.26 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "6d66c634-3ea7-439b-aa7c-a5eafdd24476")
+	)
+	(text "Note"
+		(exclude_from_sim no)
+		(at 387.35 21.59 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "a0c8c4f9-214a-48d1-bc7e-0b5667ad8561")
+	)
+	(text "Note"
+		(exclude_from_sim no)
+		(at 336.55 22.86 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "bc9d5a63-0f17-4b25-b71b-bb0052e63c30")
+	)
+	(text "Note"
+		(exclude_from_sim no)
+		(at 336.55 73.66 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "cbeff8dc-3aab-49c2-afd9-d250776c1ebc")
+	)
+	(text "Note"
+		(exclude_from_sim no)
+		(at 386.08 48.26 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "e0381e74-737a-40ef-a133-87858b4ed1f8")
+	)
+	(text_box "Need to add dV/dT capacitor\nfor TPS259470A\nto limit in-rush current"
+		(exclude_from_sim no)
+		(at 317.5 76.2 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "34a54a3a-8d77-49a0-a18d-7faf5da062b3")
+	)
+	(text_box "Change MCU to STM32U073KCU6"
+		(exclude_from_sim no)
+		(at 368.3 50.8 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "41e57653-17c0-4318-ae0c-a678380f819a")
+	)
+	(text_box "Split all domains with 0R resistors and add testpoints"
+		(exclude_from_sim no)
+		(at 317.5 50.8 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e41c99c-59c8-40c4-a503-663ea7381204")
+	)
+	(text_box "TBU and MOV data missing"
+		(exclude_from_sim no)
+		(at 368.3 25.4 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "597c7440-7895-45aa-b622-910b60480433")
+	)
+	(text_box "Need to add kV capacitor from Earth to Ground"
+		(exclude_from_sim no)
+		(at 317.5 25.4 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "879b9528-828f-48f4-b02a-b1f966c3f9b4")
+	)
+	(text_box "Add PD-USB controller TPS25730S\n(That's it! No changes!!!)"
+		(exclude_from_sim no)
+		(at 368.3 76.2 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c79fd613-9d7e-48dc-8479-9b315d841beb")
+	)
 	(sheet
 		(at 101.6 38.1)
 		(size 38.1 38.1)
@@ -50,6 +255,94 @@
 			(project "Rack-Manager"
 				(path "/5d42174d-da49-4bca-870b-353868af7168"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 38.1)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "139dd100-f6f7-49af-8e8c-889ed243578c")
+		(property "Sheetname" "USB-PD Controller"
+			(at 228.6 37.3884 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_pd.kicad_sch"
+			(at 228.6 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Rack-Manager"
+				(path "/5d42174d-da49-4bca-870b-353868af7168"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 114.3)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "4b878221-dd75-4cc2-a95e-e57da58c1819")
+		(property "Sheetname" "Bus output"
+			(at 165.1 113.5884 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bus_output.kicad_sch"
+			(at 165.1 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Rack-Manager"
+				(path "/5d42174d-da49-4bca-870b-353868af7168"
+					(page "7")
 				)
 			)
 		)

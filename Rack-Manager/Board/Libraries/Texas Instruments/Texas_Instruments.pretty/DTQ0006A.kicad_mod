@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "DTQ0006A"
-		(at 0 1.4 0)
+		(at 0 1.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ba324828-52ff-4dc3-82bc-314dfb3ec1e8")
@@ -56,7 +56,6 @@
 		)
 	)
 	(solder_mask_margin 0.07)
-	(clearance 0.1)
 	(attr smd)
 	(fp_line
 		(start -0.55 -0.35)
@@ -151,7 +150,7 @@
 		(uuid "1ad7f3c3-8eaa-411e-b038-09403741b5cf")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -1.4 0)
+		(at 0 -1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "fc325015-f90d-489d-b400-22b52573490e")

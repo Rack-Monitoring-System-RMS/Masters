@@ -1,0 +1,2399 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "07da8436-fb74-4156-99fe-eba41d48318a")
+	(paper "A4")
+	(title_block
+		(title "USB-PD Controller")
+		(date "2025-10-30")
+		(rev "v0.1")
+		(comment 1 "Rack-Manager")
+	)
+	(lib_symbols
+		(symbol "TPS25730D_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 12.7 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TPS25730D"
+				(at 12.7 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Texas Instruments:REF0038A"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps25730.pdf"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "The TPS25730 is a highly integrated stand-alone USB Type-C and Power Delivery (PD) controller optimized for sink only applications supporting USB-C PD Power."
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instrumets"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Link" "https://www.mouser.it/ProductDetail/595-TPS25730DREFR"
+				(at 0 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB #" "C22438973"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Texa Instruments TPS TPS25 TPS257 TPS2573 TPS25730 TPS2573D internal FET USB PD USB-PD controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS25730D_1_1_1"
+				(rectangle
+					(start -12.7 0)
+					(end 12.7 -53.34)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -16.51) (xy 0 -16.51)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -24.13) (xy 0 -24.13)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -34.29) (xy 0 -34.29)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -44.45)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -17.78) (xy 12.7 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -38.1) (xy 12.7 -38.1)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -44.45) (xy -12.7 -44.45)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -2.54 0)
+					(length 3.81)
+					(name "VBUS_IN_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -5.08 0)
+					(length 3.81)
+					(name "VBUS_IN_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -7.62 0)
+					(length 3.81)
+					(name "VBUS_IN_{[3]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -11.43 0)
+					(length 3.81)
+					(name "VBUS_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -13.97 0)
+					(length 3.81)
+					(name "VBUS_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -19.05 0)
+					(length 3.81)
+					(name "CC_{1}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -21.59 0)
+					(length 3.81)
+					(name "CC_{2}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -16.51 -26.67 0)
+					(length 3.81)
+					(name "RESERVED_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -16.51 -29.21 0)
+					(length 3.81)
+					(name "RESERVED_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -16.51 -31.75 0)
+					(length 3.81)
+					(name "RESERVED_{[3]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -36.83 0)
+					(length 3.81)
+					(name "DRAIN_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -39.37 0)
+					(length 3.81)
+					(name "DRAIN_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -41.91 0)
+					(length 3.81)
+					(name "DRAIN_PAD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -57.15 90)
+					(length 3.81)
+					(name "GND_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -57.15 90)
+					(length 3.81)
+					(name "GND_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -57.15 90)
+					(length 3.81)
+					(name "GND_{[3]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -57.15 90)
+					(length 3.81)
+					(name "GND_{[4]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -57.15 90)
+					(length 3.81)
+					(name "GND_{[5]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -57.15 90)
+					(length 3.81)
+					(name "GND_{[6]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -57.15 90)
+					(length 3.81)
+					(name "GND_{[7]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -57.15 90)
+					(length 3.81)
+					(name "GND_{[8]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -57.15 90)
+					(length 3.81)
+					(name "GND_{[9]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -2.54 180)
+					(length 3.81)
+					(name "PPHV_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -5.08 180)
+					(length 3.81)
+					(name "PPHV_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -7.62 180)
+					(length 3.81)
+					(name "PPHV_{[3]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 16.51 -12.7 180)
+					(length 3.81)
+					(name "LDO_3V3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -15.24 180)
+					(length 3.81)
+					(name "VIN_3V3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -24.13 180)
+					(length 3.81)
+					(name "ADC_IN_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -26.67 180)
+					(length 3.81)
+					(name "ADC_IN_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -29.21 180)
+					(length 3.81)
+					(name "ADC_IN_{[3]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -31.75 180)
+					(length 3.81)
+					(name "ADC_IN_{[4]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 16.51 -41.91 180)
+					(length 3.81)
+					(name "LDO_1V5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPS25730D_1_2_1"
+				(rectangle
+					(start -12.7 0)
+					(end 12.7 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -12.7) (xy 12.7 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at -16.51 -2.54 0)
+					(length 3.81)
+					(name "CAP_MIS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -5.08 0)
+					(length 3.81)
+					(name "DBG_ACC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -7.62 0)
+					(length 3.81)
+					(name "PLUG_FLIP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -10.16 0)
+					(length 3.81)
+					(name "PLUG_EVENT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -15.24 0)
+					(length 3.81)
+					(name "~{SINK_EN}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -3.81 180)
+					(length 3.81)
+					(name "I2Ct_SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -8.89 180)
+					(length 3.81)
+					(name "I2Ct_SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -15.24 180)
+					(length 3.81)
+					(name "~{FAULT_IN}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Texas Instruments:TPS25730D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 12.7 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TPS25730D"
+				(at 12.7 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Texas Instruments:REF0038A"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps25730.pdf"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "The TPS25730 is a highly integrated stand-alone USB Type-C and Power Delivery (PD) controller optimized for sink only applications supporting USB-C PD Power."
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instrumets"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Link" "https://www.mouser.it/ProductDetail/595-TPS25730DREFR"
+				(at 0 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB #" "C22438973"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Texa Instruments TPS TPS25 TPS257 TPS2573 TPS25730 TPS2573D internal FET USB PD USB-PD controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS25730D_1_1"
+				(rectangle
+					(start -12.7 0)
+					(end 12.7 -53.34)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -16.51) (xy 0 -16.51)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -24.13) (xy 0 -24.13)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -34.29) (xy 0 -34.29)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -44.45)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -17.78) (xy 12.7 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -38.1) (xy 12.7 -38.1)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -44.45) (xy -12.7 -44.45)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -2.54 0)
+					(length 3.81)
+					(name "VBUS_IN_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -5.08 0)
+					(length 3.81)
+					(name "VBUS_IN_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -7.62 0)
+					(length 3.81)
+					(name "VBUS_IN_{[3]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -11.43 0)
+					(length 3.81)
+					(name "VBUS_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -13.97 0)
+					(length 3.81)
+					(name "VBUS_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -19.05 0)
+					(length 3.81)
+					(name "CC_{1}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -21.59 0)
+					(length 3.81)
+					(name "CC_{2}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -16.51 -26.67 0)
+					(length 3.81)
+					(name "RESERVED_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -16.51 -29.21 0)
+					(length 3.81)
+					(name "RESERVED_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -16.51 -31.75 0)
+					(length 3.81)
+					(name "RESERVED_{[3]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -36.83 0)
+					(length 3.81)
+					(name "DRAIN_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -39.37 0)
+					(length 3.81)
+					(name "DRAIN_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -41.91 0)
+					(length 3.81)
+					(name "DRAIN_PAD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -57.15 90)
+					(length 3.81)
+					(name "GND_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -57.15 90)
+					(length 3.81)
+					(name "GND_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -57.15 90)
+					(length 3.81)
+					(name "GND_{[3]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -57.15 90)
+					(length 3.81)
+					(name "GND_{[4]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -57.15 90)
+					(length 3.81)
+					(name "GND_{[5]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -57.15 90)
+					(length 3.81)
+					(name "GND_{[6]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -57.15 90)
+					(length 3.81)
+					(name "GND_{[7]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -57.15 90)
+					(length 3.81)
+					(name "GND_{[8]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -57.15 90)
+					(length 3.81)
+					(name "GND_{[9]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -2.54 180)
+					(length 3.81)
+					(name "PPHV_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -5.08 180)
+					(length 3.81)
+					(name "PPHV_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -7.62 180)
+					(length 3.81)
+					(name "PPHV_{[3]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 16.51 -12.7 180)
+					(length 3.81)
+					(name "LDO_3V3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -15.24 180)
+					(length 3.81)
+					(name "VIN_3V3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -24.13 180)
+					(length 3.81)
+					(name "ADC_IN_{[1]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -26.67 180)
+					(length 3.81)
+					(name "ADC_IN_{[2]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -29.21 180)
+					(length 3.81)
+					(name "ADC_IN_{[3]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -31.75 180)
+					(length 3.81)
+					(name "ADC_IN_{[4]}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 16.51 -41.91 180)
+					(length 3.81)
+					(name "LDO_1V5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPS25730D_2_1"
+				(rectangle
+					(start -12.7 0)
+					(end 12.7 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -12.7) (xy 12.7 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at -16.51 -2.54 0)
+					(length 3.81)
+					(name "CAP_MIS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -5.08 0)
+					(length 3.81)
+					(name "DBG_ACC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -7.62 0)
+					(length 3.81)
+					(name "PLUG_FLIP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -10.16 0)
+					(length 3.81)
+					(name "PLUG_EVENT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -16.51 -15.24 0)
+					(length 3.81)
+					(name "~{SINK_EN}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -3.81 180)
+					(length 3.81)
+					(name "I2Ct_SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -8.89 180)
+					(length 3.81)
+					(name "I2Ct_SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -15.24 180)
+					(length 3.81)
+					(name "~{FAULT_IN}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(global_label "CC2"
+		(shape output)
+		(at 76.2 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "7357516c-1467-4732-818c-acdf5e7a9a36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.4653 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC1"
+		(shape output)
+		(at 76.2 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "e0e818ff-9be0-4e7b-a9f3-5cbc0fe636c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.4653 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Texas Instruments:TPS25730D")
+		(at 101.6 139.7 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "369d4c02-9c3a-45ab-8ca4-94e56b4ed2f1")
+		(property "Reference" "U11"
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS25730D"
+			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Texas Instruments:REF0038A"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps25730.pdf"
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "The TPS25730 is a highly integrated stand-alone USB Type-C and Power Delivery (PD) controller optimized for sink only applications supporting USB-C PD Power."
+			(at 101.6 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instrumets"
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/595-TPS25730DREFR"
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C22438973"
+			(at 101.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "22"
+			(uuid "eda3eda5-c1dd-43b9-942d-d6a2bdf3750a")
+		)
+		(pin "23"
+			(uuid "abafaa82-86d9-4766-ae33-568229fa801b")
+		)
+		(pin "39"
+			(uuid "97fb1ffd-a0be-486a-89ab-a28f0952c49b")
+		)
+		(pin "15"
+			(uuid "05bdb7e7-0965-4f55-92f6-829101ceddc7")
+		)
+		(pin "30"
+			(uuid "7811224f-d9cb-463b-9e89-a898b218bce1")
+		)
+		(pin "21"
+			(uuid "018b8b5f-3f9e-4a0b-a732-2f255d5eeeec")
+		)
+		(pin "14"
+			(uuid "b024636d-aaec-4bad-a85f-a285075e2160")
+		)
+		(pin "27"
+			(uuid "b1d0cabb-caf7-4034-9b0c-68f6f9ec657a")
+		)
+		(pin "31"
+			(uuid "6d0aaa24-3f3f-443e-aa8e-6deff5885ff6")
+		)
+		(pin "20"
+			(uuid "bbe03c9d-ce8d-4c49-848f-fd9a41694709")
+		)
+		(pin "18"
+			(uuid "35c17a62-6137-49c9-83a1-27b16695fb8e")
+		)
+		(pin "17"
+			(uuid "eec7f8db-5c80-4949-94d4-e1176989a37a")
+		)
+		(pin "6"
+			(uuid "95d04251-5fa2-4474-89a6-336f21bd711d")
+		)
+		(pin "26"
+			(uuid "5e2d05f5-70dc-4198-a352-e75cead90370")
+		)
+		(pin "10"
+			(uuid "c79b5021-75a8-4d44-a536-e99d7ff251da")
+		)
+		(pin "28"
+			(uuid "3390505d-a075-4302-84be-a87a6e93e634")
+		)
+		(pin "2"
+			(uuid "8901524d-1f1c-446e-8411-ac8af4e91f70")
+		)
+		(pin "7"
+			(uuid "f0aafe6f-5061-4a54-8a02-d9a1c3021a19")
+		)
+		(pin "16"
+			(uuid "f196e045-2e74-4573-91c7-a7023a6275d9")
+		)
+		(pin "12"
+			(uuid "4ee883d3-e840-43bf-9d1c-214eb3da5c6b")
+		)
+		(pin "25"
+			(uuid "173f00ed-1bd0-4187-82ac-5c8c55e8c395")
+		)
+		(pin "23"
+			(uuid "9c5420d0-d135-4dc4-b8b2-2abc55124c19")
+		)
+		(pin "3"
+			(uuid "18bca45c-bdde-4f2f-b489-201c4516a6e7")
+		)
+		(pin "35"
+			(uuid "090b8c9c-9c52-402a-b2a0-4bee3e3113d6")
+		)
+		(pin "5"
+			(uuid "f3a51872-68d7-4a42-9cb7-b44af1382c64")
+		)
+		(pin "4"
+			(uuid "e0934eb5-f532-436f-a995-58b5341fbf46")
+		)
+		(pin "29"
+			(uuid "78a93996-e06b-4e71-9854-5eaef931de18")
+		)
+		(pin "22"
+			(uuid "004b01a5-72e5-4082-9c89-3d05c86551d1")
+		)
+		(pin "13"
+			(uuid "f086f287-1762-4e9d-9ffa-32721bffa87b")
+		)
+		(pin "13"
+			(uuid "9701ad75-68a3-4d80-afdd-e01609c2b2f6")
+		)
+		(pin "19"
+			(uuid "23d36f32-217a-485b-a35b-7bf9a77b48ca")
+		)
+		(pin "34"
+			(uuid "c8a3fa73-4310-4b48-8ef9-b365306089e1")
+		)
+		(pin "30"
+			(uuid "698c58a6-bbdb-4a83-a1c4-d9ce86e21bea")
+		)
+		(pin "9"
+			(uuid "d3c41263-78ed-4b28-947c-972d9c49ca7f")
+		)
+		(pin "24"
+			(uuid "2116f44b-a99d-4e1e-8e32-c8a5f3bb84bf")
+		)
+		(pin "40"
+			(uuid "d26e158b-8d34-49fd-9d1a-38f7f5f135c7")
+		)
+		(pin "11"
+			(uuid "b67ff4fa-6eb6-4f82-b595-a81e09b9fb20")
+		)
+		(pin "8"
+			(uuid "c3d51620-a9fd-4c64-b1ef-f563efcdcb30")
+		)
+		(pin "32"
+			(uuid "f5e67441-4a22-4e29-9b18-ee82db54c4d2")
+		)
+		(pin "1"
+			(uuid "9d5e169b-8364-4f20-96f4-da32f1fa41ab")
+		)
+		(instances
+			(project ""
+				(path "/5d42174d-da49-4bca-870b-353868af7168/139dd100-f6f7-49af-8e8c-889ed243578c"
+					(reference "U11")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TPS25730D_1")
+		(lib_id "Texas Instruments:TPS25730D")
+		(at 101.6 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bb00f20-72e6-4fce-8da5-6c80d22db27a")
+		(property "Reference" "U11"
+			(at 101.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS25730D"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Texas Instruments:REF0038A"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps25730.pdf"
+			(at 101.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "The TPS25730 is a highly integrated stand-alone USB Type-C and Power Delivery (PD) controller optimized for sink only applications supporting USB-C PD Power."
+			(at 101.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instrumets"
+			(at 101.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.it/ProductDetail/595-TPS25730DREFR"
+			(at 101.6 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C22438973"
+			(at 101.6 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "22"
+			(uuid "eda3eda5-c1dd-43b9-942d-d6a2bdf3750b")
+		)
+		(pin "23"
+			(uuid "abafaa82-86d9-4766-ae33-568229fa801c")
+		)
+		(pin "39"
+			(uuid "97fb1ffd-a0be-486a-89ab-a28f0952c49c")
+		)
+		(pin "15"
+			(uuid "05bdb7e7-0965-4f55-92f6-829101ceddc8")
+		)
+		(pin "30"
+			(uuid "7811224f-d9cb-463b-9e89-a898b218bce2")
+		)
+		(pin "21"
+			(uuid "018b8b5f-3f9e-4a0b-a732-2f255d5eeeed")
+		)
+		(pin "14"
+			(uuid "b024636d-aaec-4bad-a85f-a285075e2161")
+		)
+		(pin "27"
+			(uuid "b1d0cabb-caf7-4034-9b0c-68f6f9ec657b")
+		)
+		(pin "31"
+			(uuid "6d0aaa24-3f3f-443e-aa8e-6deff5885ff7")
+		)
+		(pin "20"
+			(uuid "bbe03c9d-ce8d-4c49-848f-fd9a4169470a")
+		)
+		(pin "18"
+			(uuid "35c17a62-6137-49c9-83a1-27b16695fb8f")
+		)
+		(pin "17"
+			(uuid "eec7f8db-5c80-4949-94d4-e1176989a37b")
+		)
+		(pin "6"
+			(uuid "95d04251-5fa2-4474-89a6-336f21bd711e")
+		)
+		(pin "26"
+			(uuid "5e2d05f5-70dc-4198-a352-e75cead90371")
+		)
+		(pin "10"
+			(uuid "c79b5021-75a8-4d44-a536-e99d7ff251db")
+		)
+		(pin "28"
+			(uuid "3390505d-a075-4302-84be-a87a6e93e635")
+		)
+		(pin "2"
+			(uuid "8901524d-1f1c-446e-8411-ac8af4e91f71")
+		)
+		(pin "7"
+			(uuid "f0aafe6f-5061-4a54-8a02-d9a1c3021a1a")
+		)
+		(pin "16"
+			(uuid "f196e045-2e74-4573-91c7-a7023a6275da")
+		)
+		(pin "12"
+			(uuid "4ee883d3-e840-43bf-9d1c-214eb3da5c6c")
+		)
+		(pin "25"
+			(uuid "173f00ed-1bd0-4187-82ac-5c8c55e8c396")
+		)
+		(pin "23"
+			(uuid "9c5420d0-d135-4dc4-b8b2-2abc55124c1a")
+		)
+		(pin "3"
+			(uuid "18bca45c-bdde-4f2f-b489-201c4516a6e8")
+		)
+		(pin "35"
+			(uuid "090b8c9c-9c52-402a-b2a0-4bee3e3113d7")
+		)
+		(pin "5"
+			(uuid "f3a51872-68d7-4a42-9cb7-b44af1382c65")
+		)
+		(pin "4"
+			(uuid "e0934eb5-f532-436f-a995-58b5341fbf47")
+		)
+		(pin "29"
+			(uuid "78a93996-e06b-4e71-9854-5eaef931de19")
+		)
+		(pin "22"
+			(uuid "004b01a5-72e5-4082-9c89-3d05c86551d2")
+		)
+		(pin "13"
+			(uuid "f086f287-1762-4e9d-9ffa-32721bffa87c")
+		)
+		(pin "13"
+			(uuid "9701ad75-68a3-4d80-afdd-e01609c2b2f7")
+		)
+		(pin "19"
+			(uuid "23d36f32-217a-485b-a35b-7bf9a77b48cb")
+		)
+		(pin "34"
+			(uuid "c8a3fa73-4310-4b48-8ef9-b365306089e2")
+		)
+		(pin "30"
+			(uuid "698c58a6-bbdb-4a83-a1c4-d9ce86e21beb")
+		)
+		(pin "9"
+			(uuid "d3c41263-78ed-4b28-947c-972d9c49ca80")
+		)
+		(pin "24"
+			(uuid "2116f44b-a99d-4e1e-8e32-c8a5f3bb84c0")
+		)
+		(pin "40"
+			(uuid "d26e158b-8d34-49fd-9d1a-38f7f5f135c8")
+		)
+		(pin "11"
+			(uuid "b67ff4fa-6eb6-4f82-b595-a81e09b9fb21")
+		)
+		(pin "8"
+			(uuid "c3d51620-a9fd-4c64-b1ef-f563efcdcb31")
+		)
+		(pin "32"
+			(uuid "f5e67441-4a22-4e29-9b18-ee82db54c4d3")
+		)
+		(pin "1"
+			(uuid "9d5e169b-8364-4f20-96f4-da32f1fa41ac")
+		)
+		(instances
+			(project ""
+				(path "/5d42174d-da49-4bca-870b-353868af7168/139dd100-f6f7-49af-8e8c-889ed243578c"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

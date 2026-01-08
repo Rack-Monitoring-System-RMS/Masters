@@ -1,0 +1,432 @@
+(footprint "TBU-RS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Bourns 7 pad TBU footprint")
+	(tags "Bourns TBU RS TBU-RS")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7aba36d7-a99b-4ccb-89b3-98746efaae3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TBU-RS"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f56545da-b9a6-4dd5-976b-66c9f49d1d06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/TBU-RS.pdf"
+		(at -0.1 -8.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc2830ae-a4e1-4921-b02e-f5525c060d33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Bourns 7 pad TBU footprint"
+		(at -0.1 -8.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85610c7f-4bef-47b9-aa38-25455d966cea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.07)
+	(attr smd)
+	(fp_line
+		(start -4.3 -3.05)
+		(end -4.3 2.1)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "297f84ef-9e56-4ae1-be07-500ad286f326")
+	)
+	(fp_line
+		(start -4.3 -3.05)
+		(end 4.25 -3.05)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2c9a1075-2b44-4ab0-9c91-a7b5b71e9735")
+	)
+	(fp_line
+		(start -3.3 3.05)
+		(end 4.25 3.05)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a293af7b-144f-4d70-ad10-fcc2c23bba4d")
+	)
+	(fp_line
+		(start 4.25 -3.05)
+		(end 4.25 3.05)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "08c96e5d-84dd-4256-9573-52bd4dfa1dd6")
+	)
+	(fp_poly
+		(pts
+			(xy -4.3 3.05) (xy -4.3 3.65) (xy -4.9 3.05)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c90dc63f-d324-430b-81ab-e6f30f59ff91")
+	)
+	(fp_rect
+		(start -4.65 -3.4)
+		(end 4.6 3.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "48bcb978-d4c1-4526-bf49-0264738ac63e")
+	)
+	(fp_poly
+		(pts
+			(xy -3.25 2.75) (xy 4 2.75) (xy 4 -2.75) (xy -4 -2.75) (xy -4 2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "07b3bf23-e4a7-4938-a47c-00b403f77635")
+	)
+	(fp_rect
+		(start -3.65 -2.45)
+		(end -1.55 -0.25)
+		(stroke
+			(width 0.001)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "83cbc3f0-29d3-456a-9d15-200a09abbb57")
+	)
+	(fp_rect
+		(start -3.65 0.25)
+		(end -1.55 2.45)
+		(stroke
+			(width 0.001)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "acd78f73-3884-42cc-975f-e2fe06b075b0")
+	)
+	(fp_rect
+		(start -1.05 -2.45)
+		(end -0.25 -0.25)
+		(stroke
+			(width 0.001)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "ee99114c-c17b-4054-a88d-b189a7627dbd")
+	)
+	(fp_rect
+		(start -1.05 0.25)
+		(end -0.25 2.45)
+		(stroke
+			(width 0.001)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "4f9737ca-c718-4986-ab04-e8b5631946b1")
+	)
+	(fp_rect
+		(start 2.85 -0.75)
+		(end 3.75 0.75)
+		(stroke
+			(width 0.001)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "87f45730-dce4-4174-860f-cb00e8487329")
+	)
+	(fp_poly
+		(pts
+			(xy 0.25 -2.45) (xy 3.75 -2.45) (xy 3.75 -1.25) (xy 2.35 -1.25) (xy 2.35 -0.25) (xy 0.25 -0.25)
+		)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "a2f246ba-fda0-4d04-8ed2-2982b1c650d9")
+	)
+	(fp_poly
+		(pts
+			(xy 0.25 2.45) (xy 3.75 2.45) (xy 3.75 1.25) (xy 2.35 1.25) (xy 2.35 0.25) (xy 0.25 0.25)
+		)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.2")
+		(uuid "baeb4315-4f5a-45a1-a97b-852f8598f923")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4a66dec3-44cf-43ee-8815-22d240f48540")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.6 1.35)
+		(size 2.2 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.02272727273)
+		(uuid "c0858f64-a60a-4dbd-8f2a-c79529e13f75")
+	)
+	(pad "2" smd roundrect
+		(at -0.65 1.35)
+		(size 0.9 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05555555556)
+		(uuid "5dccc33d-2071-4ea1-8787-aeced3268c22")
+	)
+	(pad "3" smd custom
+		(at 1.275 1.325)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -1.025 -1.075)
+				(end 1.075 1.175)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 1.075 -0.175) (xy 1.325 -0.175) (xy 1.225 -0.195) (xy 1.175 -0.215) (xy 1.14 -0.24) (xy 1.115 -0.275)
+					(xy 1.095 -0.325) (xy 1.075 -0.425)
+				)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_rect
+				(start 1.075 -0.175)
+				(end 2.475 1.175)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_circle
+				(center 2.475 -0.125)
+				(end 2.525 -0.125)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_circle
+				(center 2.475 1.125)
+				(end 2.525 1.125)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_rect
+				(start 2.475 -0.125)
+				(end 2.525 1.125)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_circle
+				(center -1.025 1.125)
+				(end -0.975 1.125)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_circle
+				(center -1.025 -1.075)
+				(end -0.975 -1.075)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_rect
+				(start -1.075 -1.075)
+				(end -1.025 1.125)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_circle
+				(center 1.025 -1.075)
+				(end 1.075 -1.075)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_rect
+				(start -1.025 -1.125)
+				(end 1.025 -1.075)
+				(width 0.0001)
+				(fill yes)
+			)
+		)
+		(uuid "da1c4ef8-6ac0-4c80-af9c-da414ba84230")
+	)
+	(pad "4" smd roundrect
+		(at 3.3 0)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "3de743b1-782a-42bd-b5a4-60337a64193d")
+	)
+	(pad "5" smd custom
+		(at 1.275 -1.375)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -1.025 -1.175)
+				(end 1.075 1.075)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 1.075 0.175) (xy 1.325 0.175) (xy 1.225 0.195) (xy 1.175 0.215) (xy 1.14 0.24) (xy 1.115 0.275)
+					(xy 1.095 0.325) (xy 1.075 0.425)
+				)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_rect
+				(start 1.075 -1.175)
+				(end 2.475 0.175)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_circle
+				(center 2.475 0.125)
+				(end 2.525 0.125)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_circle
+				(center 2.475 -1.125)
+				(end 2.525 -1.125)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_rect
+				(start 2.475 -1.125)
+				(end 2.525 0.125)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_circle
+				(center -1.025 -1.125)
+				(end -0.975 -1.125)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_circle
+				(center -1.025 1.075)
+				(end -0.975 1.075)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_rect
+				(start -1.075 -1.125)
+				(end -1.025 1.075)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_circle
+				(center 1.025 1.075)
+				(end 1.075 1.075)
+				(width 0.0001)
+				(fill yes)
+			)
+			(gr_rect
+				(start -1.025 1.075)
+				(end 1.025 1.125)
+				(width 0.0001)
+				(fill yes)
+			)
+		)
+		(uuid "9f7822df-6b9d-4bce-b903-161922fba180")
+	)
+	(pad "6" smd roundrect
+		(at -0.65 -1.35)
+		(size 0.9 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05555555556)
+		(uuid "57fc4091-978d-482b-99f7-02681746883e")
+	)
+	(pad "7" smd roundrect
+		(at -2.6 -1.35)
+		(size 2.2 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.02272727273)
+		(uuid "55511302-315c-40cb-a921-f5e68b72c1ce")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Bourns/3D models/TBU-RS.step"
+		(offset
+			(xyz 0 0 0.15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

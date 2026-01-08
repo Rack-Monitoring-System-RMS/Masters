@@ -6,4 +6,5 @@
   (lib (name "Silvertel")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Silvertel/Silvertel.pretty")(options "")(descr ""))
   (lib (name "Abracon")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Abracon/Abracon.pretty")(options "")(descr ""))
   (lib (name "Same Sky")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Same Sky/Same Sky.pretty")(options "")(descr ""))
+  (lib (name "Bourns")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Bourns/Bourns.pretty")(options "")(descr ""))
 )

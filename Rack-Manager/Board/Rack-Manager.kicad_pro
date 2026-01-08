@@ -452,13 +452,15 @@
       "WIZnet",
       "Silvertel",
       "Abracon",
-      "Same Sky"
+      "Same Sky",
+      "Bourns"
     ],
     "pinned_symbol_libs": [
       "WIZnet",
       "STMicroelectronics",
       "Silvertel",
-      "Abracon"
+      "Abracon",
+      "Bourns"
     ]
   },
   "meta": {
@@ -680,6 +682,14 @@
     [
       "9f35d409-1fd7-4241-ba93-dffedac70e6f",
       "RS-485"
+    ],
+    [
+      "4b878221-dd75-4cc2-a95e-e57da58c1819",
+      "Bus output"
+    ],
+    [
+      "139dd100-f6f7-49af-8e8c-889ed243578c",
+      "USB-PD Controller"
     ]
   ],
   "text_variables": {}
