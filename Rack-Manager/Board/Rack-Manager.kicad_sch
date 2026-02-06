@@ -13,33 +13,153 @@
 	(lib_symbols)
 	(text "Note"
 		(exclude_from_sim no)
+		(at 336.55 86.36 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "2fd73b18-c3f7-457b-a146-56fe7ab7e44d")
+	)
+	(text "EMI ESD protection and logic"
+		(exclude_from_sim no)
+		(at 317.5 114.3 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "39741c5e-4dd5-4531-85cc-e1878dd4d51b")
+	)
+	(text "Note"
+		(exclude_from_sim no)
+		(at 436.88 48.26 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "547d9b69-ae9b-4bfd-8dd2-fb2c28fa9840")
+	)
+	(text "Note"
+		(exclude_from_sim no)
+		(at 387.35 124.46 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "56fd90fd-8447-4a35-9892-eed683412911")
+	)
+	(text "Debug/Programming stuff"
+		(exclude_from_sim no)
+		(at 317.5 76.2 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d5efe34-55c4-4493-9726-c721e632cd0e")
+	)
+	(text "Note"
+		(exclude_from_sim no)
+		(at 488.95 48.26 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "77afc9ca-c439-46a9-8139-dea56db96134")
+	)
+	(text "Note"
+		(exclude_from_sim no)
+		(at 336.55 124.46 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "8abb5a27-5005-4ad6-8bee-d3d77f0affe0")
+	)
+	(text "Note"
+		(exclude_from_sim no)
+		(at 463.296 124.46 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "944a1f0f-136e-42c3-9d0c-75b60814b5c3")
+	)
+	(text "Footprints or parts missing"
+		(exclude_from_sim no)
+		(at 317.5 38.1 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "98f797f0-c4a6-4ba3-8552-9f61ae096614")
+	)
+	(text "Note"
+		(exclude_from_sim no)
+		(at 539.75 48.26 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "b028f25f-a184-464b-9f9f-7fa3ffd7eef5")
+	)
+	(text "Note"
+		(exclude_from_sim no)
+		(at 438.15 86.36 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "b9355ffc-bad1-4687-89df-00ad36002c5e")
+	)
+	(text "Note"
+		(exclude_from_sim no)
 		(at 336.55 48.26 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 194 0 0 1)
-			)
-		)
-		(uuid "6d66c634-3ea7-439b-aa7c-a5eafdd24476")
-	)
-	(text "Note"
-		(exclude_from_sim no)
-		(at 387.35 21.59 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 194 0 0 1)
-			)
-		)
-		(uuid "a0c8c4f9-214a-48d1-bc7e-0b5667ad8561")
-	)
-	(text "Note"
-		(exclude_from_sim no)
-		(at 336.55 22.86 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -52,7 +172,7 @@
 	)
 	(text "Note"
 		(exclude_from_sim no)
-		(at 386.08 48.26 0)
+		(at 387.35 48.26 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -62,6 +182,82 @@
 			)
 		)
 		(uuid "e0381e74-737a-40ef-a133-87858b4ed1f8")
+	)
+	(text "Note"
+		(exclude_from_sim no)
+		(at 387.35 86.36 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "fab1fb4a-6d89-417c-8eed-f98c71302c31")
+	)
+	(text_box "Need to add kV capacitor from Earth to Ground of the connectors/chassis"
+		(exclude_from_sim no)
+		(at 368.3 127 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "052d44f6-b899-41e0-a185-8968054c2df5")
+	)
+	(text_box "Add jumper in parallel of the RS485 protection like TBUs"
+		(exclude_from_sim no)
+		(at 520.7 50.8 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "339072a4-e045-4d8c-9b28-7e3c9d488599")
+	)
+	(text_box "Split all domains with 0R resistors"
+		(exclude_from_sim no)
+		(at 317.5 88.9 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "41337f2c-7a2d-4d19-b51f-5103582a632a")
 	)
 	(text_box "Change MCU to STM32U073KCU6"
 		(exclude_from_sim no)
@@ -84,7 +280,70 @@
 		)
 		(uuid "41e57653-17c0-4318-ae0c-a678380f819a")
 	)
-	(text_box "Split all domains with 0R resistors and add testpoints"
+	(text_box "TBU and MOV path to discharge"
+		(exclude_from_sim no)
+		(at 317.5 127 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "563fa946-c9b0-40b1-a59b-f9255b827b3e")
+	)
+	(text_box "TBU and MOV data missing"
+		(exclude_from_sim no)
+		(at 469.9 50.8 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6cc83e6b-9b31-4996-bac4-2684cc19e667")
+	)
+	(text_box "Add RTC OSC"
+		(exclude_from_sim no)
+		(at 419.1 50.8 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "758106e7-b629-4382-830c-21d8607164c5")
+	)
+	(text_box "Add AP33771C PD Controller"
 		(exclude_from_sim no)
 		(at 317.5 50.8 0)
 		(size 38.1 12.7)
@@ -103,49 +362,70 @@
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "4e41c99c-59c8-40c4-a503-663ea7381204")
-	)
-	(text_box "TBU and MOV data missing"
-		(exclude_from_sim no)
-		(at 368.3 25.4 0)
-		(size 38.1 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.508)
-			(type dot)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 165 169 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "597c7440-7895-45aa-b622-910b60480433")
-	)
-	(text_box "Need to add kV capacitor from Earth to Ground"
-		(exclude_from_sim no)
-		(at 317.5 25.4 0)
-		(size 38.1 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.508)
-			(type dot)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 165 169 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
 		(uuid "879b9528-828f-48f4-b02a-b1f966c3f9b4")
+	)
+	(text_box "Use STLink standard debug/program connector"
+		(exclude_from_sim no)
+		(at 419.1 88.9 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ee9a45e-e590-4e82-9f66-77ed1e746a08")
+	)
+	(text_box "Add testpoints"
+		(exclude_from_sim no)
+		(at 368.3 88.9 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bbd3e144-6197-4706-80ec-d434cb77a7fa")
+	)
+	(text_box "Correct placing of the earth chassis point of connection:\nhttps://www.youtube.com/watch?v=F9tB6JtG7oQ\nhttps://www.youtube.com/watch?v=yHn-XOcvJOY"
+		(exclude_from_sim no)
+		(at 419.1 127 0)
+		(size 88.9 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8fd9cbe-3c52-4846-829c-44c5f0797f7a")
 	)
 	(sheet
 		(at 101.6 38.1)
