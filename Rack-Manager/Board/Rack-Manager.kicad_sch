@@ -13,19 +13,6 @@
 	(lib_symbols)
 	(text "Note"
 		(exclude_from_sim no)
-		(at 387.35 73.66 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 194 0 0 1)
-			)
-		)
-		(uuid "5453b055-8a27-455d-b4d9-a5426ec2d7ee")
-	)
-	(text "Note"
-		(exclude_from_sim no)
 		(at 336.55 48.26 0)
 		(effects
 			(font
@@ -65,19 +52,6 @@
 	)
 	(text "Note"
 		(exclude_from_sim no)
-		(at 336.55 73.66 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 194 0 0 1)
-			)
-		)
-		(uuid "cbeff8dc-3aab-49c2-afd9-d250776c1ebc")
-	)
-	(text "Note"
-		(exclude_from_sim no)
 		(at 386.08 48.26 0)
 		(effects
 			(font
@@ -88,27 +62,6 @@
 			)
 		)
 		(uuid "e0381e74-737a-40ef-a133-87858b4ed1f8")
-	)
-	(text_box "Need to add dV/dT capacitor\nfor TPS259470A\nto limit in-rush current"
-		(exclude_from_sim no)
-		(at 317.5 76.2 0)
-		(size 38.1 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.508)
-			(type dot)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 165 169 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "34a54a3a-8d77-49a0-a18d-7faf5da062b3")
 	)
 	(text_box "Change MCU to STM32U073KCU6"
 		(exclude_from_sim no)
@@ -193,27 +146,6 @@
 			)
 		)
 		(uuid "879b9528-828f-48f4-b02a-b1f966c3f9b4")
-	)
-	(text_box "Add PD-USB controller TPS25730S\n(That's it! No changes!!!)"
-		(exclude_from_sim no)
-		(at 368.3 76.2 0)
-		(size 38.1 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.508)
-			(type dot)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 165 169 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c79fd613-9d7e-48dc-8479-9b315d841beb")
 	)
 	(sheet
 		(at 101.6 38.1)
