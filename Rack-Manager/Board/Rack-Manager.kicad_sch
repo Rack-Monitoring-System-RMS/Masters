@@ -406,7 +406,7 @@
 		)
 		(uuid "bbd3e144-6197-4706-80ec-d434cb77a7fa")
 	)
-	(text_box "Correct placing of the earth chassis point of connection:\nhttps://www.youtube.com/watch?v=F9tB6JtG7oQ\nhttps://www.youtube.com/watch?v=yHn-XOcvJOY"
+	(text_box "Correct placing of the earth chassis point of connection:\nhttps://www.youtube.com/watch?v=F9tB6JtG7oQ\nhttps://www.youtube.com/watch?v=yHn-XOcvJOY\nhttps://www.youtube.com/watch?v=gHF5JyJF-N4"
 		(exclude_from_sim no)
 		(at 419.1 127 0)
 		(size 88.9 12.7)
