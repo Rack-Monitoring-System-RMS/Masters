@@ -40,7 +40,7 @@
 	)
 	(text "Note"
 		(exclude_from_sim no)
-		(at 436.88 48.26 0)
+		(at 386.08 48.26 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -53,7 +53,7 @@
 	)
 	(text "Note"
 		(exclude_from_sim no)
-		(at 387.35 124.46 0)
+		(at 336.55 124.46 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -80,7 +80,7 @@
 	)
 	(text "Note"
 		(exclude_from_sim no)
-		(at 488.95 48.26 0)
+		(at 438.15 48.26 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -93,20 +93,7 @@
 	)
 	(text "Note"
 		(exclude_from_sim no)
-		(at 336.55 124.46 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 194 0 0 1)
-			)
-		)
-		(uuid "8abb5a27-5005-4ad6-8bee-d3d77f0affe0")
-	)
-	(text "Note"
-		(exclude_from_sim no)
-		(at 463.296 124.46 0)
+		(at 412.496 124.46 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -133,19 +120,6 @@
 	)
 	(text "Note"
 		(exclude_from_sim no)
-		(at 539.75 48.26 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 194 0 0 1)
-			)
-		)
-		(uuid "b028f25f-a184-464b-9f9f-7fa3ffd7eef5")
-	)
-	(text "Note"
-		(exclude_from_sim no)
 		(at 438.15 86.36 0)
 		(effects
 			(font
@@ -160,19 +134,6 @@
 	(text "Note"
 		(exclude_from_sim no)
 		(at 336.55 48.26 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 194 0 0 1)
-			)
-		)
-		(uuid "bc9d5a63-0f17-4b25-b71b-bb0052e63c30")
-	)
-	(text "Note"
-		(exclude_from_sim no)
-		(at 387.35 48.26 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -198,7 +159,7 @@
 	)
 	(text_box "Need to add kV capacitor from Earth to Ground of the connectors/chassis"
 		(exclude_from_sim no)
-		(at 368.3 127 0)
+		(at 317.5 127 0)
 		(size 38.1 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -216,27 +177,6 @@
 			)
 		)
 		(uuid "052d44f6-b899-41e0-a185-8968054c2df5")
-	)
-	(text_box "Add jumper in parallel of the RS485 protection like TBUs"
-		(exclude_from_sim no)
-		(at 520.7 50.8 0)
-		(size 38.1 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.508)
-			(type dot)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 165 169 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "339072a4-e045-4d8c-9b28-7e3c9d488599")
 	)
 	(text_box "Split all domains with 0R resistors"
 		(exclude_from_sim no)
@@ -261,7 +201,7 @@
 	)
 	(text_box "Change MCU to STM32U073KCU6"
 		(exclude_from_sim no)
-		(at 368.3 50.8 0)
+		(at 317.5 50.8 0)
 		(size 38.1 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -280,30 +220,9 @@
 		)
 		(uuid "41e57653-17c0-4318-ae0c-a678380f819a")
 	)
-	(text_box "TBU and MOV path to discharge"
+	(text_box "Varistors and MOV data missing"
 		(exclude_from_sim no)
-		(at 317.5 127 0)
-		(size 38.1 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.508)
-			(type dot)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 165 169 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "563fa946-c9b0-40b1-a59b-f9255b827b3e")
-	)
-	(text_box "TBU and MOV data missing"
-		(exclude_from_sim no)
-		(at 469.9 50.8 0)
+		(at 419.1 50.8 0)
 		(size 38.1 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -324,7 +243,7 @@
 	)
 	(text_box "Add RTC OSC"
 		(exclude_from_sim no)
-		(at 419.1 50.8 0)
+		(at 368.3 50.8 0)
 		(size 38.1 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -342,27 +261,6 @@
 			)
 		)
 		(uuid "758106e7-b629-4382-830c-21d8607164c5")
-	)
-	(text_box "Add AP33771C PD Controller"
-		(exclude_from_sim no)
-		(at 317.5 50.8 0)
-		(size 38.1 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.508)
-			(type dot)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 165 169 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "879b9528-828f-48f4-b02a-b1f966c3f9b4")
 	)
 	(text_box "Use STLink standard debug/program connector"
 		(exclude_from_sim no)
@@ -408,7 +306,7 @@
 	)
 	(text_box "Correct placing of the earth chassis point of connection:\nhttps://www.youtube.com/watch?v=F9tB6JtG7oQ\nhttps://www.youtube.com/watch?v=yHn-XOcvJOY\nhttps://www.youtube.com/watch?v=gHF5JyJF-N4"
 		(exclude_from_sim no)
-		(at 419.1 127 0)
+		(at 368.3 127 0)
 		(size 88.9 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
