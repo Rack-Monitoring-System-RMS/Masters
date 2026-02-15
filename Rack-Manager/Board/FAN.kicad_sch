@@ -1949,7 +1949,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Designed to guarantee 1mA on D5.\nR49 must be >= 20mW."
+	(text_box "Designed to guarantee 1mA on D5.\nR54 must be >= 20mW."
 		(exclude_from_sim no)
 		(at 161.29 123.19 0)
 		(size 38.1 7.62)

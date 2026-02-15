@@ -429,7 +429,7 @@
 			(color 255 255 194 1.0000)
 		)
 		(uuid "1b9f7dd4-ae5e-45dc-a50d-45dc35720c47")
-		(property "Sheetname" "Fan control"
+		(property "Sheetname" "FAN"
 			(at 228.6 112.9534 0)
 			(effects
 				(font
