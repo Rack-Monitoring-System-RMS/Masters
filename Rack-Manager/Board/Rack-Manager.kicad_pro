@@ -694,8 +694,8 @@
       "USB-PD Controller"
     ],
     [
-      "4dd051b5-c891-4642-b98d-610993990f22",
-      "FAN"
+      "1b9f7dd4-ae5e-45dc-a50d-45dc35720c47",
+      "Fan control"
     ]
   ],
   "text_variables": {}

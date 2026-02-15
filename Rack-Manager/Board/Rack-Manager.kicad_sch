@@ -414,6 +414,50 @@
 		)
 	)
 	(sheet
+		(at 228.6 114.3)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "1b9f7dd4-ae5e-45dc-a50d-45dc35720c47")
+		(property "Sheetname" "Fan control"
+			(at 228.6 112.9534 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FAN.kicad_sch"
+			(at 228.6 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Rack-Manager"
+				(path "/5d42174d-da49-4bca-870b-353868af7168"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 165.1 114.3)
 		(size 38.1 38.1)
 		(exclude_from_sim no)
@@ -430,7 +474,7 @@
 		)
 		(uuid "4b878221-dd75-4cc2-a95e-e57da58c1819")
 		(property "Sheetname" "Bus output"
-			(at 165.1 113.5884 0)
+			(at 165.1 112.9534 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -453,50 +497,6 @@
 			(project "Rack-Manager"
 				(path "/5d42174d-da49-4bca-870b-353868af7168"
 					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 229.87 113.03)
-		(size 38.1 38.1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 255 194 1.0000)
-		)
-		(uuid "4dd051b5-c891-4642-b98d-610993990f22")
-		(property "Sheetname" "FAN"
-			(at 229.87 112.3184 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-					(thickness 0.508)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "bus_output.kicad_sch"
-			(at 229.87 151.7146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Rack-Manager"
-				(path "/5d42174d-da49-4bca-870b-353868af7168"
-					(page "9")
 				)
 			)
 		)
