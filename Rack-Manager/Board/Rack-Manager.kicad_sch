@@ -80,19 +80,6 @@
 	)
 	(text "Note"
 		(exclude_from_sim no)
-		(at 438.15 48.26 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 194 0 0 1)
-			)
-		)
-		(uuid "77afc9ca-c439-46a9-8139-dea56db96134")
-	)
-	(text "Note"
-		(exclude_from_sim no)
 		(at 412.496 124.46 0)
 		(effects
 			(font
@@ -219,27 +206,6 @@
 			)
 		)
 		(uuid "41e57653-17c0-4318-ae0c-a678380f819a")
-	)
-	(text_box "Varistors and MOV data missing"
-		(exclude_from_sim no)
-		(at 419.1 50.8 0)
-		(size 38.1 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.508)
-			(type dot)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 165 169 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6cc83e6b-9b31-4996-bac4-2684cc19e667")
 	)
 	(text_box "Add RTC OSC"
 		(exclude_from_sim no)
@@ -385,7 +351,7 @@
 			(color 255 255 194 1.0000)
 		)
 		(uuid "139dd100-f6f7-49af-8e8c-889ed243578c")
-		(property "Sheetname" "USB-PD Controller"
+		(property "Sheetname" "USB-C"
 			(at 228.6 37.3884 0)
 			(effects
 				(font
