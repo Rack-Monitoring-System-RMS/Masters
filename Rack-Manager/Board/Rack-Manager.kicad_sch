@@ -80,6 +80,19 @@
 	)
 	(text "Note"
 		(exclude_from_sim no)
+		(at 551.18 48.26 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "80fd416c-0c82-4401-bb81-6d1ae85b0479")
+	)
+	(text "Note"
+		(exclude_from_sim no)
 		(at 412.496 124.46 0)
 		(effects
 			(font
@@ -107,6 +120,19 @@
 	)
 	(text "Note"
 		(exclude_from_sim no)
+		(at 487.68 48.26 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "a605abe8-a0c4-4502-a22e-a98205d6ec7f")
+	)
+	(text "Note"
+		(exclude_from_sim no)
 		(at 438.15 86.36 0)
 		(effects
 			(font
@@ -130,6 +156,19 @@
 			)
 		)
 		(uuid "e0381e74-737a-40ef-a133-87858b4ed1f8")
+	)
+	(text "Note"
+		(exclude_from_sim no)
+		(at 436.88 48.26 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "eca11083-3c9f-4f09-ba4e-aba7c7c8ea9b")
 	)
 	(text "Note"
 		(exclude_from_sim no)
@@ -165,6 +204,27 @@
 		)
 		(uuid "052d44f6-b899-41e0-a185-8968054c2df5")
 	)
+	(text_box "Check compatibility between\nPoE Inhibit and auxoff"
+		(exclude_from_sim no)
+		(at 533.4 50.8 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3fbb0465-440e-467e-8fe5-754f4b864304")
+	)
 	(text_box "Split all domains with 0R resistors"
 		(exclude_from_sim no)
 		(at 317.5 88.9 0)
@@ -186,7 +246,7 @@
 		)
 		(uuid "41337f2c-7a2d-4d19-b51f-5103582a632a")
 	)
-	(text_box "Change MCU to STM32U073KCU6"
+	(text_box "Select MCU and add it"
 		(exclude_from_sim no)
 		(at 317.5 50.8 0)
 		(size 38.1 12.7)
@@ -228,6 +288,27 @@
 		)
 		(uuid "758106e7-b629-4382-830c-21d8607164c5")
 	)
+	(text_box "Fix mismatch usb-c and ideal diode uvlo.\n5v will trigger PoE ideal diode inhibit"
+		(exclude_from_sim no)
+		(at 469.9 50.8 0)
+		(size 50.8 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8165e323-c085-4ba3-89da-9dd722113e47")
+	)
 	(text_box "Use STLink standard debug/program connector"
 		(exclude_from_sim no)
 		(at 419.1 88.9 0)
@@ -248,6 +329,27 @@
 			)
 		)
 		(uuid "8ee9a45e-e590-4e82-9f66-77ed1e746a08")
+	)
+	(text_box "Add ethernet schematics footprints"
+		(exclude_from_sim no)
+		(at 419.1 50.8 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 165 169 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b1a2fd4b-788e-42a0-868e-1cb3e680742c")
 	)
 	(text_box "Add testpoints"
 		(exclude_from_sim no)
