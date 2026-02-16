@@ -2613,6 +2613,358 @@
 		)
 		(uuid "f9c21201-7a7e-4dc1-9a00-c1b70e02b7cc")
 	)
+	(global_label "BUS1_{TX}"
+		(shape output)
+		(at 50.8 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f85d973-d6cd-4797-8c82-221f7f192f44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.0028 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_{PWM}"
+		(shape input)
+		(at 50.8 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ec16e5c-98c6-4178-b3d1-7253c5759593")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.9181 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN_BUS_2"
+		(shape input)
+		(at 50.8 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5672f8e2-d342-41e8-be55-ec1fb56df093")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.3806 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_{USB-C_OK}"
+		(shape output)
+		(at 39.37 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67a92660-ff87-4b68-89ce-eeb95b503f28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.671 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUS2_{DE{slash}~{RE}}"
+		(shape input)
+		(at 50.8 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fa61858-5d58-427a-b893-223eb387bdd6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.8097 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN_BUS_1"
+		(shape input)
+		(at 50.8 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72a83a2a-fd33-42f9-9401-d6b96e14ef1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.2693 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUS2_{RX}"
+		(shape input)
+		(at 50.8 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74ac09f8-183f-4c05-9e3c-2a58d743a8d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.7609 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUS1_{DE{slash}~{RE}}"
+		(shape input)
+		(at 50.8 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "853e8d65-e16f-4a11-9745-e84a0ecd00d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.8097 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{PoE_FLT}"
+		(shape output)
+		(at 50.8 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e408da1-dc54-44b3-b3cb-c6252d828a25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.1949 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{PD_FLT}"
+		(shape output)
+		(at 50.8 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5792e93-e182-44dd-b91d-7b1374135e07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.2229 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_{SENSE}"
+		(shape output)
+		(at 50.8 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8c2d66a-c86b-4c3d-8b93-0d34ffff42ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.4183 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUS1_{RX}"
+		(shape input)
+		(at 50.8 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8ee47ba-f0e9-485e-9700-5d436e4a86ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.7609 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUS2_{TX}"
+		(shape output)
+		(at 50.8 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca50ae5e-15de-4359-a72a-4854085c6f8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.0028 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PoE_Inhibit"
+		(shape output)
+		(at 50.8 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2214758-c2ca-4af6-addb-6ce27b253cf5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.2921 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INA_{SDA}"
+		(shape input)
+		(at 50.8 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "ef2946fd-5c9e-4b40-a748-87a4653ae86b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.8856 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INA_{SCL}"
+		(shape bidirectional)
+		(at 50.8 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "fa5bfb9c-6388-41db-99da-3e16edd941ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.8227 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "STMicroelectronics:STM32G0B1KCUx")
 		(at 165.1 114.3 0)

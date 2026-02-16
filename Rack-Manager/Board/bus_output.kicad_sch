@@ -3658,7 +3658,7 @@
 			)
 		)
 	)
-	(global_label "EN_BUS_1"
+	(global_label "EN_BUS_2"
 		(shape input)
 		(at 237.49 144.78 180)
 		(fields_autoplaced yes)
@@ -3670,7 +3670,7 @@
 		)
 		(uuid "806998a6-e026-458b-8625-9f85cb2680b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.9593 144.78 0)
+			(at 225.0706 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +4045,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 245.11 133.35 0)
 			(effects
 				(font
@@ -6451,7 +6451,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 245.11 57.15 0)
 			(effects
 				(font
