@@ -2596,10 +2596,10 @@
 		)
 		(uuid "144ed290-1b16-438f-bd62-bacdbf6e0f64")
 	)
-	(text_box "OVLO = 17V\nUVLO = 4V\n"
+	(text_box "OVLO = 17.9V\nUVLO = 10.2V\n"
 		(exclude_from_sim no)
-		(at 87.63 85.09 0)
-		(size 15.24 6.35)
+		(at 86.36 85.09 0)
+		(size 17.78 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3956,7 +3956,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "91k"
 			(at 92.71 58.42 0)
 			(effects
 				(font
@@ -5046,7 +5046,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "6k2"
 			(at 92.71 73.66 0)
 			(effects
 				(font
@@ -5792,7 +5792,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "4k7"
 			(at 92.71 66.04 0)
 			(effects
 				(font
