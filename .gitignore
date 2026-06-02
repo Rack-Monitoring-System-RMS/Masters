@@ -8,3 +8,5 @@ Debug-Dongle/Board/Libraries/**/*.bak
 
 # Avoid locked KiCAD files
 *.lck
+
+Rack-Manager/Board/.history/
